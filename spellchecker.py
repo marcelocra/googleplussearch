@@ -2,6 +2,23 @@
 spelling check based on Ethan Lib
 date : 02 Oct 2013
 author : J Samuel
+
+example :
+>>> from wir_spellcheck import spellCheck
+>>> t1 = spellCheck()
+>>> t1.doCheck("{\"posts\":[{\"post\" :{\"value\":\"Languages are identigied by sfandard strng tags such as\"}},{\"post\" :{\"value\":\"A finer degree of control over the dibtionaries an how they are created can be ovtained using one or more\"}}]}")
+err :  identigied
+identified
+err :  sfandard
+standard
+err :  strng
+string
+ Languages are identified by standard string tags such as
+err :  dibtionaries
+dictionaries
+err :  ovtained
+obtained
+ A finer degree of control over the dictionaries an how they are created can be obtained using one or more
 """
 import json
 import enchant
