@@ -1,8 +1,10 @@
+#!/usr/bin/python
+
 from LanguageCheck import Trigram
 
 def test():
     y = 0
-    f = open('FinnishTest.txt')
+    f = open('EnglishText.txt')
     for z, line in enumerate(f):        
         unknown = Trigram(line)
         value = unknown.isEnglish()
