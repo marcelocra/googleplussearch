@@ -125,6 +125,7 @@ class Trigram:
         return float(total) / (self.length * other.length)
     def isSameLanguage(self, other):
         similar = self.similarity(other)
+        print similar
         if similar > self.simThreshold:
             return True
         else:
