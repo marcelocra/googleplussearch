@@ -27,15 +27,15 @@ class Post:
         print self.keywords
 
     def scanContent(self, o):
-        self.content = nltk.util.clean_html(o.object.content)
+        self.content = nltk.util.clean_html(o["content"])
         self.tokens = nltk.tokenize.word_tokenize(self.content)
         #print self.content
         #print self.tokens
 
     def scanMetadata(self, o):
-        self.id = o.id
-        self.authorId = o.actor.id
-        self.authorName = o.actor.displayName
+        self.id = o["postID"]
+        #self.authorId = o["actor"]["id"]
+        #self.authorName = o["actor"]["displayName"]
 
     def scanForHashtags(self):
         rawHashtags = re.findall(r"#([^ 0-9<>]+)", self.content)

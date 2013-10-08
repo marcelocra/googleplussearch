@@ -11,9 +11,15 @@ import dao
 
 
 # fetching the posts
-with codecs.open("data.json", "r", "utf-8") as data_file:
-    data = json.load(data_file, object_hook=lambda d: namedtuple('X', d.keys())(*d.values()))
-    posts = data.items
+#with codecs.open("data.json", "r", "utf-8") as data_file:
+    #data = json.load(data_file, object_hook=lambda d: namedtuple('X', d.keys())(*d.values()))
+    #posts = data.items
+
+#dao.buildPosts(posts)
+with codecs.open("output.txt", "r", "utf-8") as data_file:
+    lines = data_file.readlines()
+    data_file.close()
+    posts = map(lambda x: json.loads(x), lines)
 
 dao.buildPosts(posts)
 

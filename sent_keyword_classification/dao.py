@@ -2,7 +2,7 @@
 from models import Post
 
 def buildPost(post):
-    print "-------------------------"
+    print "-------------------------HASHTAGS--"
     output = Post(post)
     print output.hashtags
     return output

@@ -8,6 +8,7 @@ class Hashtags:
     def __init__(self):
         self.HT = {}
 
+
     def add(self, newHashtagName, newHashtag):
         if not self.has(newHashtagName):
             self.HT[newHashtagName] = []
@@ -18,4 +19,5 @@ class Hashtags:
 
     def get(self, hashtagName):
         return self.HT(hashtagName)
+
 
