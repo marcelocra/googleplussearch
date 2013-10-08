@@ -1,0 +1,1336 @@
+
+{
+ "kind": "plus#activityFeed",
+ "etag": "\"FS8hSDZUt39rsvp2gH0cFIHdkm8/3CpzMgFY9ypYaPbM2lS-_KVEY5Y\"",
+ "nextPageToken": "CAIQt7Gj6KGyuAIgFCgB",
+ "title": "Google+ List of Activities for Collection PUBLIC",
+ "updated": "2013-09-20T19:14:55.447Z",
+ "items": [
+  {
+   "kind": "plus#activity",
+   "etag": "\"FS8hSDZUt39rsvp2gH0cFIHdkm8/kelxHI8P-7tcnLbUgoJH_Eu9iMQ\"",
+   "title": "Does anyone know how I can change the little arrows from plasma quick launch widget? http://i.imgur.com...",
+   "published": "2013-09-20T19:14:55.447Z",
+   "updated": "2013-09-20T19:14:55.447Z",
+   "id": "z13stzig1yicdhgmy232vva4hwevxn4za04",
+   "url": "https://plus.google.com/104799357160267039133/posts/GninSorz6yN",
+   "actor": {
+    "id": "104799357160267039133",
+    "displayName": "Youcef Mammar",
+    "url": "https://plus.google.com/104799357160267039133",
+    "image": {
+     "url": "https://lh6.googleusercontent.com/-rWp5hucx2o8/AAAAAAAAAAI/AAAAAAAAFOc/kYVH9750xKY/photo.jpg?sz=50"
+    }
+   },
+   "verb": "post",
+   "object": {
+    "objectType": "note",
+    "content": "Does anyone know how I can change the little arrows from plasma quick launch widget? \u003ca href=\"http://i.imgur.com/PAnleak.png\" class=\"ot-anchor\" rel=\"nofollow\"\u003ehttp://i.imgur.com/PAnleak.png\u003c/a\u003e",
+    "url": "https://plus.google.com/104799357160267039133/posts/GninSorz6yN",
+    "replies": {
+     "totalItems": 3,
+     "selfLink": "https://www.googleapis.com/plus/v1/activities/z13stzig1yicdhgmy232vva4hwevxn4za04/comments"
+    },
+    "plusoners": {
+     "totalItems": 1,
+     "selfLink": "https://www.googleapis.com/plus/v1/activities/z13stzig1yicdhgmy232vva4hwevxn4za04/people/plusoners"
+    },
+    "resharers": {
+     "totalItems": 0,
+     "selfLink": "https://www.googleapis.com/plus/v1/activities/z13stzig1yicdhgmy232vva4hwevxn4za04/people/resharers"
+    },
+    "attachments": [
+     {
+      "objectType": "article",
+      "displayName": "i.imgur.com/PAnleak.png",
+      "url": "http://i.imgur.com/PAnleak.png",
+      "image": {
+       "url": "https://lh3.googleusercontent.com/proxy/mMBLHw7URR-nYEQO1hmOL-76Aj7BV5SAZ2fr-fG2klA6UjW26sYwjo58wtjSPw=w120-h120",
+       "type": "image/jpeg",
+       "height": 120,
+       "width": 120
+      },
+      "fullImage": {
+       "url": "http://i.imgur.com/PAnleak.png",
+       "type": "image/jpeg"
+      }
+     }
+    ]
+   },
+   "provider": {
+    "title": "Community"
+   },
+   "access": {
+    "kind": "plus#acl",
+    "description": "KDE (Support)",
+    "items": [
+     {
+      "type": "public"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "plus#activity",
+   "etag": "\"FS8hSDZUt39rsvp2gH0cFIHdkm8/w-1l72rGd2ap1dYo1UKz-fpgLuA\"",
+   "title": "Front-end testing is a \"thing\" http://buff.ly/17E9tAo #javascript #html5",
+   "published": "2013-09-16T18:32:05.563Z",
+   "updated": "2013-09-16T18:32:05.563Z",
+   "id": "z12tv1twvuftgh0jn04cgfjgslrlfjqgnws0k",
+   "url": "https://plus.google.com/104799357160267039133/posts/heXHZR2DxaE",
+   "actor": {
+    "id": "104799357160267039133",
+    "displayName": "Youcef Mammar",
+    "url": "https://plus.google.com/104799357160267039133",
+    "image": {
+     "url": "https://lh6.googleusercontent.com/-rWp5hucx2o8/AAAAAAAAAAI/AAAAAAAAFOc/kYVH9750xKY/photo.jpg?sz=50"
+    }
+   },
+   "verb": "post",
+   "object": {
+    "objectType": "note",
+    "content": "Front-end :) testing is a &quot;thing&quot; \u003ca href=\"http://buff.ly/17E9tAo\" class=\"ot-anchor\" rel=\"nofollow\"\u003ehttp://buff.ly/17E9tAo\u003c/a\u003e \u003ca class=\"ot-hashtag\" href=\"https://plus.google.com/s/%23javascript\"\u003e#javascript\u003c/a\u003e \u003ca class=\"ot-hashtag\" href=\"https://plus.google.com/s/%23html5\"\u003e#html5\u003c/a\u003e",
+    "url": "https://plus.google.com/104799357160267039133/posts/heXHZR2DxaE",
+    "replies": {
+     "totalItems": 0,
+     "selfLink": "https://www.googleapis.com/plus/v1/activities/z12tv1twvuftgh0jn04cgfjgslrlfjqgnws0k/comments"
+    },
+    "plusoners": {
+     "totalItems": 0,
+     "selfLink": "https://www.googleapis.com/plus/v1/activities/z12tv1twvuftgh0jn04cgfjgslrlfjqgnws0k/people/plusoners"
+    },
+    "resharers": {
+     "totalItems": 0,
+     "selfLink": "https://www.googleapis.com/plus/v1/activities/z12tv1twvuftgh0jn04cgfjgslrlfjqgnws0k/people/resharers"
+    },
+    "attachments": [
+     {
+      "objectType": "article",
+      "displayName": "Front-end testing  - Learnable",
+      "content": "Learnable: Learn web development and design from the masters.",
+      "url": "http://buff.ly/17E9tAo"
+     }
+    ]
+   },
+   "provider": {
+    "title": "Community"
+   },
+   "access": {
+    "kind": "plus#acl",
+    "description": "Web Developers, Web Designers, Web Coding (General Discussion)",
+    "items": [
+     {
+      "type": "public"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "plus#activity",
+   "etag": "\"FS8hSDZUt39rsvp2gH0cFIHdkm8/An5FpmqbnIwS-2OwDqSrtO__0pk\"",
+   "title": "\"Be nicer\". Precious advice not only for designers but also devs. Mailinglists bloodbath were never ...",
+   "published": "2013-09-14T23:07:16.897Z",
+   "updated": "2013-09-14T23:07:16.897Z",
+   "id": "z12rzbozvse2cfvvi232vva4hwevxn4za04",
+   "url": "https://plus.google.com/104799357160267039133/posts/KYZ7EjqhmHY",
+   "actor": {
+    "id": "104799357160267039133",
+    "displayName": "Youcef Mammar",
+    "url": "https://plus.google.com/104799357160267039133",
+    "image": {
+     "url": "https://lh6.googleusercontent.com/-rWp5hucx2o8/AAAAAAAAAAI/AAAAAAAAFOc/kYVH9750xKY/photo.jpg?sz=50"
+    }
+   },
+   "verb": "post",
+   "object": {
+    "objectType": "note",
+    "content": "&quot;Be nicer&quot;. Precious advice not only for designers but also devs. Mailinglists bloodbath were never :) constructive. oO",
+    "url": "https://plus.google.com/104799357160267039133/posts/KYZ7EjqhmHY",
+    "replies": {
+     "totalItems": 0,
+     "selfLink": "https://www.googleapis.com/plus/v1/activities/z12rzbozvse2cfvvi232vva4hwevxn4za04/comments"
+    },
+    "plusoners": {
+     "totalItems": 4,
+     "selfLink": "https://www.googleapis.com/plus/v1/activities/z12rzbozvse2cfvvi232vva4hwevxn4za04/people/plusoners"
+    },
+    "resharers": {
+     "totalItems": 0,
+     "selfLink": "https://www.googleapis.com/plus/v1/activities/z12rzbozvse2cfvvi232vva4hwevxn4za04/people/resharers"
+    },
+    "attachments": [
+     {
+      "objectType": "article",
+      "displayName": "Be nicer",
+      "content": "The above two examples are opinion. Opinion is good. Opinion is encouraged. They get the point across without the hate. A professional designer on the receiving end can take that on the chin. The designers of Facebook, Yahoo, iOS etc. live amongst us. They are on Twitter and they see what we ...",
+      "url": "http://pixxel.co/feed/be-nicer?utm_source=buffer&utm_campaign=Buffer&utm_content=buffer7cbd0&utm_medium=twitter"
+     }
+    ]
+   },
+   "provider": {
+    "title": "Community"
+   },
+   "access": {
+    "kind": "plus#acl",
+    "description": "Web Developers, Web Designers, Web Coding (General Discussion)",
+    "items": [
+     {
+      "type": "public"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "plus#activity",
+   "etag": "\"FS8hSDZUt39rsvp2gH0cFIHdkm8/Aa3t1wLT2eVssMAYhmi4fVGdvN0\"",
+   "title": "Has anyone used this? Are there any other libraries similar to it?",
+   "published": "2013-09-14T14:44:23.389Z",
+   "updated": "2013-09-14T14:44:23.389Z",
+   "id": "z13qz1ybjkntwnzjs04cgfjgslrlfjqgnws0k",
+   "url": "https://plus.google.com/104799357160267039133/posts/ieRqnEu8cSY",
+   "actor": {
+    "id": "104799357160267039133",
+    "displayName": "Youcef Mammar",
+    "url": "https://plus.google.com/104799357160267039133",
+    "image": {
+     "url": "https://lh6.googleusercontent.com/-rWp5hucx2o8/AAAAAAAAAAI/AAAAAAAAFOc/kYVH9750xKY/photo.jpg?sz=50"
+    }
+   },
+   "verb": "share",
+   "object": {
+    "objectType": "activity",
+    "id": "z12fvhpgksaufpdgt04cdtvo0ze1vfmxng4",
+    "actor": {
+     "id": "101152915475621703641",
+     "displayName": "Rudolf Olah",
+     "url": "https://plus.google.com/101152915475621703641",
+     "image": {
+      "url": "https://lh6.googleusercontent.com/-pVh45IGvs6Y/AAAAAAAAAAI/AAAAAAAAIb4/1XPCEPABazk/photo.jpg?sz=50"
+     }
+    },
+    "content": "Has anyone used this? Are there any other libraries similar to it? ",
+    "url": "https://plus.google.com/101152915475621703641/posts/Se8a2ztdXpA",
+    "replies": {
+     "totalItems": 0,
+     "selfLink": "https://www.googleapis.com/plus/v1/activities/z13qz1ybjkntwnzjs04cgfjgslrlfjqgnws0k/comments"
+    },
+    "plusoners": {
+     "totalItems": 0,
+     "selfLink": "https://www.googleapis.com/plus/v1/activities/z13qz1ybjkntwnzjs04cgfjgslrlfjqgnws0k/people/plusoners"
+    },
+    "resharers": {
+     "totalItems": 0,
+     "selfLink": "https://www.googleapis.com/plus/v1/activities/z13qz1ybjkntwnzjs04cgfjgslrlfjqgnws0k/people/resharers"
+    },
+    "attachments": [
+     {
+      "objectType": "article",
+      "displayName": "Introducing MacGyver",
+      "content": "Today we’re happy to announce the release of MacGyver, the duct tape and swiss army knife for AngularJS applications.\nWhat is it?\nMacGyver is an AngularJS module comprised of directives, filters and...",
+      "url": "http://tech.shift.com/post/58726393361/introducing-macgyver",
+      "image": {
+       "url": "https://lh5.googleusercontent.com/proxy/mqhDrY8260taJD1n-apBaeqI7mmbcY7BHNgB9Ef4pfMjexxlGFixlkoyxzpTvP8VDiJnARa26GgGhAsldNag=w120-h120",
+       "type": "image/jpeg",
+       "height": 120,
+       "width": 120
+      },
+      "fullImage": {
+       "url": "http://assets.tumblr.com/images/og/text_200.png",
+       "type": "image/jpeg"
+      }
+     }
+    ]
+   },
+   "provider": {
+    "title": "Reshared Post"
+   },
+   "access": {
+    "kind": "plus#acl",
+    "description": "Public",
+    "items": [
+     {
+      "type": "public"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "plus#activity",
+   "etag": "\"FS8hSDZUt39rsvp2gH0cFIHdkm8/3eS6NQDHNURRiN7DLqlOccynvHw\"",
+   "title": "multiscreens management on #KDE 4.10 suddenly gained some common sens: now it stores your config and...",
+   "published": "2013-09-13T23:11:01.362Z",
+   "updated": "2013-09-13T23:11:01.362Z",
+   "id": "z13cerag1xrfitr5g04cgfjgslrlfjqgnws0k",
+   "url": "https://plus.google.com/104799357160267039133/posts/VterHXno3nP",
+   "actor": {
+    "id": "104799357160267039133",
+    "displayName": "Youcef Mammar",
+    "url": "https://plus.google.com/104799357160267039133",
+    "image": {
+     "url": "https://lh6.googleusercontent.com/-rWp5hucx2o8/AAAAAAAAAAI/AAAAAAAAFOc/kYVH9750xKY/photo.jpg?sz=50"
+    }
+   },
+   "verb": "post",
+   "object": {
+    "objectType": "note",
+    "content": "multiscreens management on \u003ca class=\"ot-hashtag\" href=\"https://plus.google.com/s/%23KDE\"\u003e#KDE\u003c/a\u003e 4.10 suddenly gained some common sens: now it stores your config and detects the suited one all by itself! It was about time!",
+    "url": "https://plus.google.com/104799357160267039133/posts/VterHXno3nP",
+    "replies": {
+     "totalItems": 1,
+     "selfLink": "https://www.googleapis.com/plus/v1/activities/z13cerag1xrfitr5g04cgfjgslrlfjqgnws0k/comments"
+    },
+    "plusoners": {
+     "totalItems": 6,
+     "selfLink": "https://www.googleapis.com/plus/v1/activities/z13cerag1xrfitr5g04cgfjgslrlfjqgnws0k/people/plusoners"
+    },
+    "resharers": {
+     "totalItems": 0,
+     "selfLink": "https://www.googleapis.com/plus/v1/activities/z13cerag1xrfitr5g04cgfjgslrlfjqgnws0k/people/resharers"
+    }
+   },
+   "provider": {
+    "title": "Community"
+   },
+   "access": {
+    "kind": "plus#acl",
+    "description": "KDE (Blogs & News)",
+    "items": [
+     {
+      "type": "public"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "plus#activity",
+   "etag": "\"FS8hSDZUt39rsvp2gH0cFIHdkm8/5ILQYeEz_rb8SLwkkjMsFB9tS2Y\"",
+   "title": "#javascript",
+   "published": "2013-08-24T14:01:52.648Z",
+   "updated": "2013-08-24T14:01:52.648Z",
+   "id": "z13ysxjqtyb2vxgg204cgfjgslrlfjqgnws0k",
+   "url": "https://plus.google.com/104799357160267039133/posts/NouzV89jU4L",
+   "actor": {
+    "id": "104799357160267039133",
+    "displayName": "Youcef Mammar",
+    "url": "https://plus.google.com/104799357160267039133",
+    "image": {
+     "url": "https://lh6.googleusercontent.com/-rWp5hucx2o8/AAAAAAAAAAI/AAAAAAAAFOc/kYVH9750xKY/photo.jpg?sz=50"
+    }
+   },
+   "verb": "share",
+   "object": {
+    "objectType": "activity",
+    "id": "z12gdrfyvlq0hnmdp23wh1vhmvawijcvz",
+    "actor": {
+     "id": "117228097847075704372",
+     "displayName": "Anthony GUEDJ",
+     "url": "https://plus.google.com/117228097847075704372",
+     "image": {
+      "url": "https://lh5.googleusercontent.com/-dN_PnzTixmU/AAAAAAAAAAI/AAAAAAAAEbs/Dm56n9kT2pw/photo.jpg?sz=50"
+     }
+    },
+    "content": "\u003ca class=\"ot-hashtag\" href=\"https://plus.google.com/s/%23javascript\"\u003e#javascript\u003c/a\u003e",
+    "url": "https://plus.google.com/117228097847075704372/posts/9xkcB3uddQs",
+    "replies": {
+     "totalItems": 0,
+     "selfLink": "https://www.googleapis.com/plus/v1/activities/z13ysxjqtyb2vxgg204cgfjgslrlfjqgnws0k/comments"
+    },
+    "plusoners": {
+     "totalItems": 2,
+     "selfLink": "https://www.googleapis.com/plus/v1/activities/z13ysxjqtyb2vxgg204cgfjgslrlfjqgnws0k/people/plusoners"
+    },
+    "resharers": {
+     "totalItems": 0,
+     "selfLink": "https://www.googleapis.com/plus/v1/activities/z13ysxjqtyb2vxgg204cgfjgslrlfjqgnws0k/people/resharers"
+    },
+    "attachments": [
+     {
+      "objectType": "photo",
+      "displayName": "#javascript",
+      "id": "117228097847075704372.5915408212986829906",
+      "content": "23/08/2013 - 1",
+      "url": "https://plus.google.com/photos/117228097847075704372/albums/5915408211066828449/5915408212986829906",
+      "image": {
+       "url": "https://lh3.googleusercontent.com/-w3aiTwCWR7c/UhfAbbSCHFI/AAAAAAAAEOI/WxPq7VhXsxI/w506-h750/photo.jpg",
+       "type": "image/jpeg",
+       "height": 750,
+       "width": 506
+      },
+      "fullImage": {
+       "url": "https://lh3.googleusercontent.com/-w3aiTwCWR7c/UhfAbbSCHFI/AAAAAAAAEOI/WxPq7VhXsxI/s288/photo.jpg",
+       "type": "image/jpeg",
+       "height": 648,
+       "width": 960
+      }
+     }
+    ]
+   },
+   "provider": {
+    "title": "Reshared Post"
+   },
+   "access": {
+    "kind": "plus#acl",
+    "description": "Public",
+    "items": [
+     {
+      "type": "public"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "plus#activity",
+   "etag": "\"FS8hSDZUt39rsvp2gH0cFIHdkm8/TnYr_9WM-iw8Nk1tTsYAAR4vILI\"",
+   "title": "We reckon the ASUS VivoBook X202E Windows 8 touchscreen laptop great budget option for students! We're...",
+   "published": "2013-08-22T18:12:44.180Z",
+   "updated": "2013-08-22T18:12:44.180Z",
+   "id": "z13htfmgctf0z105m04cgfjgslrlfjqgnws0k",
+   "url": "https://plus.google.com/104799357160267039133/posts/Wmtbb9apgeN",
+   "actor": {
+    "id": "104799357160267039133",
+    "displayName": "Youcef Mammar",
+    "url": "https://plus.google.com/104799357160267039133",
+    "image": {
+     "url": "https://lh6.googleusercontent.com/-rWp5hucx2o8/AAAAAAAAAAI/AAAAAAAAFOc/kYVH9750xKY/photo.jpg?sz=50"
+    }
+   },
+   "verb": "share",
+   "object": {
+    "objectType": "activity",
+    "id": "z12ie5syrsqsxpeji04cjj2zkzr5zjih40k",
+    "actor": {
+     "id": "112975774125810216140",
+     "displayName": "MakeUseOf",
+     "url": "https://plus.google.com/112975774125810216140",
+     "image": {
+      "url": "https://lh3.googleusercontent.com/-D1JPDgILgFg/AAAAAAAAAAI/AAAAAAAAUJE/DwpefSAbdsI/photo.jpg?sz=50"
+     }
+    },
+    "content": "We reckon the ASUS VivoBook X202E Windows 8 touchscreen laptop great budget option for students! We&#39;re also giving it away! To win, all you have to do is:\u003cbr /\u003e\u003cbr /\u003e+1 and SHARE this image, then join the competition: \u003ca href=\"http://muo.fm/1arc9VV\" class=\"ot-anchor\" rel=\"nofollow\"\u003ehttp://muo.fm/1arc9VV\u003c/a\u003e",
+    "url": "https://plus.google.com/112975774125810216140/posts/gs4RkqPP6XD",
+    "replies": {
+     "totalItems": 0,
+     "selfLink": "https://www.googleapis.com/plus/v1/activities/z13htfmgctf0z105m04cgfjgslrlfjqgnws0k/comments"
+    },
+    "plusoners": {
+     "totalItems": 0,
+     "selfLink": "https://www.googleapis.com/plus/v1/activities/z13htfmgctf0z105m04cgfjgslrlfjqgnws0k/people/plusoners"
+    },
+    "resharers": {
+     "totalItems": 0,
+     "selfLink": "https://www.googleapis.com/plus/v1/activities/z13htfmgctf0z105m04cgfjgslrlfjqgnws0k/people/resharers"
+    },
+    "attachments": [
+     {
+      "objectType": "photo",
+      "id": "112975774125810216140.5914933893614875986",
+      "content": "",
+      "url": "https://plus.google.com/photos/112975774125810216140/albums/5914933895020320625/5914933893614875986?authkey=CPCk3tC8kNbMXQ",
+      "image": {
+       "url": "https://lh6.googleusercontent.com/-y1I68MmjZ3Y/UhYRCZ7VNVI/AAAAAAAAaNA/QyDaGiWNoG8/w506-h750/asus-vivobook-x202e-laptop-review-4.jpg",
+       "type": "image/jpeg",
+       "height": 750,
+       "width": 506
+      },
+      "fullImage": {
+       "url": "https://lh6.googleusercontent.com/-y1I68MmjZ3Y/UhYRCZ7VNVI/AAAAAAAAaNA/QyDaGiWNoG8/asus-vivobook-x202e-laptop-review-4.jpg",
+       "type": "image/jpeg",
+       "height": 1397,
+       "width": 1680
+      }
+     }
+    ]
+   },
+   "provider": {
+    "title": "Reshared Post"
+   },
+   "access": {
+    "kind": "plus#acl",
+    "description": "Public",
+    "items": [
+     {
+      "type": "public"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "plus#activity",
+   "etag": "\"FS8hSDZUt39rsvp2gH0cFIHdkm8/Rb82sM9RFGbJrv7pyW7rWBn6bBM\"",
+   "title": "Search for what you need\n\nMoving fast and being efficient is an important part of getting work done...",
+   "published": "2013-08-21T08:50:10.408Z",
+   "updated": "2013-08-21T08:50:10.408Z",
+   "id": "z12rybw5lz2fjbz13232vva4hwevxn4za04",
+   "url": "https://plus.google.com/104799357160267039133/posts/721b5fV4Gop",
+   "actor": {
+    "id": "104799357160267039133",
+    "displayName": "Youcef Mammar",
+    "url": "https://plus.google.com/104799357160267039133",
+    "image": {
+     "url": "https://lh6.googleusercontent.com/-rWp5hucx2o8/AAAAAAAAAAI/AAAAAAAAFOc/kYVH9750xKY/photo.jpg?sz=50"
+    }
+   },
+   "verb": "share",
+   "object": {
+    "objectType": "activity",
+    "id": "z13weriwrlaqxbprh04cj5tjsx3sgtvhltc0k",
+    "actor": {
+     "id": "112893701314508522131",
+     "displayName": "Google Drive",
+     "url": "https://plus.google.com/112893701314508522131",
+     "image": {
+      "url": "https://lh3.googleusercontent.com/-SWOcB8HK24k/AAAAAAAAAAI/AAAAAAAAHsU/nLqgO23Q93M/photo.jpg?sz=50"
+     }
+    },
+    "content": "\u003cb\u003eSearch for what you need\u003c/b\u003e\u003cbr /\u003e\u003cbr /\u003eMoving fast and being efficient is an important part of getting work done. Whether you’re trying to change a font size, insert a comment, get to spell check, or align a paragraph -- it’s nice to have technology that can keep up with your train of thought!\u003cbr /\u003e\u003cbr /\u003eThat’s why the search box in Docs lets you take quick actions in just a few keystrokes. Visit the ‘Help’ menu or use \u003cb\u003eAlt /\u003c/b\u003e to get to the search box, then search for what you’d like to do -- all without having to click through the menu bar. \u003cbr /\u003e\u003cbr /\u003eCheck it out -- how’s it working for you?\u003cbr /\u003e\u003cbr /\u003e\u003ca class=\"ot-hashtag\" href=\"https://plus.google.com/s/%23googledriveupdate\"\u003e#googledriveupdate\u003c/a\u003e",
+    "url": "https://plus.google.com/112893701314508522131/posts/gkmKycjuGUX",
+    "replies": {
+     "totalItems": 0,
+     "selfLink": "https://www.googleapis.com/plus/v1/activities/z12rybw5lz2fjbz13232vva4hwevxn4za04/comments"
+    },
+    "plusoners": {
+     "totalItems": 0,
+     "selfLink": "https://www.googleapis.com/plus/v1/activities/z12rybw5lz2fjbz13232vva4hwevxn4za04/people/plusoners"
+    },
+    "resharers": {
+     "totalItems": 0,
+     "selfLink": "https://www.googleapis.com/plus/v1/activities/z12rybw5lz2fjbz13232vva4hwevxn4za04/people/resharers"
+    },
+    "attachments": [
+     {
+      "objectType": "photo",
+      "id": "112893701314508522131.5914264410891831250",
+      "content": "",
+      "url": "https://plus.google.com/photos/112893701314508522131/albums/5914264411424121265/5914264410891831250?authkey=CLyT_rKP_piTnAE",
+      "image": {
+       "url": "https://lh5.googleusercontent.com/-djlTtcxdRFI/UhOwJYbxR9I/AAAAAAAAH9E/osaD0hzGWes/w506-h750/omniF2.gif",
+       "type": "image/jpeg",
+       "height": 750,
+       "width": 506
+      },
+      "fullImage": {
+       "url": "https://lh5.googleusercontent.com/-djlTtcxdRFI/UhOwJYbxR9I/AAAAAAAAH9E/osaD0hzGWes/omniF2.gif",
+       "type": "image/jpeg",
+       "height": 450,
+       "width": 720
+      }
+     }
+    ]
+   },
+   "provider": {
+    "title": "Reshared Post"
+   },
+   "access": {
+    "kind": "plus#acl",
+    "description": "Public",
+    "items": [
+     {
+      "type": "public"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "plus#activity",
+   "etag": "\"FS8hSDZUt39rsvp2gH0cFIHdkm8/DVtgPmzuEj0UH8pfW-Q7XPtu9LQ\"",
+   "title": "Most creative #typography use ever!",
+   "published": "2013-08-20T23:10:15.722Z",
+   "updated": "2013-08-20T23:10:15.722Z",
+   "id": "z13bs3mpvxvnwtpvl232vva4hwevxn4za04",
+   "url": "https://plus.google.com/104799357160267039133/posts/L1t6BcyMEeS",
+   "actor": {
+    "id": "104799357160267039133",
+    "displayName": "Youcef Mammar",
+    "url": "https://plus.google.com/104799357160267039133",
+    "image": {
+     "url": "https://lh6.googleusercontent.com/-rWp5hucx2o8/AAAAAAAAAAI/AAAAAAAAFOc/kYVH9750xKY/photo.jpg?sz=50"
+    }
+   },
+   "verb": "post",
+   "object": {
+    "objectType": "note",
+    "content": "Most creative \u003ca class=\"ot-hashtag\" href=\"https://plus.google.com/s/%23typography\"\u003e#typography\u003c/a\u003e use ever!",
+    "url": "https://plus.google.com/104799357160267039133/posts/L1t6BcyMEeS",
+    "replies": {
+     "totalItems": 0,
+     "selfLink": "https://www.googleapis.com/plus/v1/activities/z13bs3mpvxvnwtpvl232vva4hwevxn4za04/comments"
+    },
+    "plusoners": {
+     "totalItems": 1,
+     "selfLink": "https://www.googleapis.com/plus/v1/activities/z13bs3mpvxvnwtpvl232vva4hwevxn4za04/people/plusoners"
+    },
+    "resharers": {
+     "totalItems": 0,
+     "selfLink": "https://www.googleapis.com/plus/v1/activities/z13bs3mpvxvnwtpvl232vva4hwevxn4za04/people/resharers"
+    },
+    "attachments": [
+     {
+      "objectType": "article",
+      "displayName": "Rome, Italy",
+      "content": "Explore matthewbutterick's photos on Flickr. matthewbutterick has uploaded 12 photos to Flickr.",
+      "url": "http://bit.ly/1f0JfJP",
+      "image": {
+       "url": "https://lh4.googleusercontent.com/proxy/-rwhQD2IQaX337EGlRfMAb04ey6x5r6vQA8IuBmozENpjAdpztgK9XSP9IjpLsfSM3UrxsolcOM4esR0KhqHOwNxS5Ms8ScdFmQo3d2Y=w120-h120",
+       "type": "image/jpeg",
+       "height": 120,
+       "width": 120
+      },
+      "fullImage": {
+       "url": "http://farm9.staticflickr.com/8465/8133679837_908a26347d_z.jpg",
+       "type": "image/jpeg"
+      }
+     }
+    ]
+   },
+   "provider": {
+    "title": "Community"
+   },
+   "access": {
+    "kind": "plus#acl",
+    "description": "Typography (General)",
+    "items": [
+     {
+      "type": "public"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "plus#activity",
+   "etag": "\"FS8hSDZUt39rsvp2gH0cFIHdkm8/AMzTmqa8R_MNN6xR8qKZvoO_-Ds\"",
+   "title": "",
+   "published": "2013-08-14T10:12:33.054Z",
+   "updated": "2013-08-14T10:12:33.054Z",
+   "id": "z13dyjlpktuah33sc232vva4hwevxn4za04",
+   "url": "https://plus.google.com/104799357160267039133/posts/2Mo74pV4pka",
+   "actor": {
+    "id": "104799357160267039133",
+    "displayName": "Youcef Mammar",
+    "url": "https://plus.google.com/104799357160267039133",
+    "image": {
+     "url": "https://lh6.googleusercontent.com/-rWp5hucx2o8/AAAAAAAAAAI/AAAAAAAAFOc/kYVH9750xKY/photo.jpg?sz=50"
+    }
+   },
+   "verb": "post",
+   "object": {
+    "objectType": "note",
+    "content": "",
+    "url": "https://plus.google.com/104799357160267039133/posts/2Mo74pV4pka",
+    "replies": {
+     "totalItems": 1,
+     "selfLink": "https://www.googleapis.com/plus/v1/activities/z13dyjlpktuah33sc232vva4hwevxn4za04/comments"
+    },
+    "plusoners": {
+     "totalItems": 1,
+     "selfLink": "https://www.googleapis.com/plus/v1/activities/z13dyjlpktuah33sc232vva4hwevxn4za04/people/plusoners"
+    },
+    "resharers": {
+     "totalItems": 0,
+     "selfLink": "https://www.googleapis.com/plus/v1/activities/z13dyjlpktuah33sc232vva4hwevxn4za04/people/resharers"
+    },
+    "attachments": [
+     {
+      "objectType": "article",
+      "displayName": "Why You Should Work From A Coffee Shop, Even When You Have An Office",
+      "content": "The experience of working out of coffee shops is so positive that even if you have an office you should shoot for a few coffee shop days each month...",
+      "url": "http://www.fastcompany.com/3005011/why-you-should-work-coffee-shop-even-when-you-have-office",
+      "image": {
+       "url": "https://lh4.googleusercontent.com/proxy/rANovoHWRjRTg_5x564iC73t3TxyYLzd0o6Qgj5YheY3O6eeFAl5ZRj2HrwXysnKChNxiMucgOGKsTPsFTKp4vrmhSZ00WSAL6N71VwuEiIkUbcFwk1heHMx7Ic_pXw4n4JV1VG2rF27Yalx7Loe3Os6K5d09x7WTpddKPpWAWwB7u8h2aZ3WqRgNETdMYKAzie1zeBtaHARlOVFWXmBIE82oA3z_GoLElvrRpoDtunKtcfZm3EnWOu5=w120-h120",
+       "type": "image/jpeg",
+       "height": 120,
+       "width": 120
+      },
+      "fullImage": {
+       "url": "http://b.fastcompany.net/multisite_files/fastcompany/imagecache/620x350/poster/2013/01/3005011-teaser-thumb-why-you-should-work-coffee-shop-even-when-you-have-office.jpg",
+       "type": "image/jpeg"
+      }
+     }
+    ]
+   },
+   "provider": {
+    "title": "Google+"
+   },
+   "access": {
+    "kind": "plus#acl",
+    "description": "Public",
+    "items": [
+     {
+      "type": "public"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "plus#activity",
+   "etag": "\"FS8hSDZUt39rsvp2gH0cFIHdkm8/XlGnqppjF7NZHucV9Jyoce3CpsE\"",
+   "title": "We just released a Linux version of our open source code editor for web development. Please help us ...",
+   "published": "2013-08-11T21:12:22.578Z",
+   "updated": "2013-08-11T21:12:22.578Z",
+   "id": "z13osrsogw2ghx11i232vva4hwevxn4za04",
+   "url": "https://plus.google.com/104799357160267039133/posts/8hcm7BX2oxt",
+   "actor": {
+    "id": "104799357160267039133",
+    "displayName": "Youcef Mammar",
+    "url": "https://plus.google.com/104799357160267039133",
+    "image": {
+     "url": "https://lh6.googleusercontent.com/-rWp5hucx2o8/AAAAAAAAAAI/AAAAAAAAFOc/kYVH9750xKY/photo.jpg?sz=50"
+    }
+   },
+   "verb": "share",
+   "object": {
+    "objectType": "activity",
+    "id": "z12izljb5pzjvnkma23avduy5vjphnuas04",
+    "actor": {
+     "id": "115365194873502050036",
+     "displayName": "Brackets",
+     "url": "https://plus.google.com/115365194873502050036",
+     "image": {
+      "url": "https://lh6.googleusercontent.com/-jSvn11KkEoM/AAAAAAAAAAI/AAAAAAAAAFc/hx6JTSdMCMc/photo.jpg?sz=50"
+     }
+    },
+    "content": "We just released a Linux version of our open source code editor for web development. Please help us test it out.  \u003ca class=\"ot-hashtag\" href=\"https://plus.google.com/s/%23javascript\"\u003e#javascript\u003c/a\u003e   \u003ca class=\"ot-hashtag\" href=\"https://plus.google.com/s/%23html\"\u003e#html\u003c/a\u003e   \u003ca class=\"ot-hashtag\" href=\"https://plus.google.com/s/%23css\"\u003e#css\u003c/a\u003e  ",
+    "url": "https://plus.google.com/115365194873502050036/posts/Co8CRdytuwS",
+    "replies": {
+     "totalItems": 0,
+     "selfLink": "https://www.googleapis.com/plus/v1/activities/z13osrsogw2ghx11i232vva4hwevxn4za04/comments"
+    },
+    "plusoners": {
+     "totalItems": 0,
+     "selfLink": "https://www.googleapis.com/plus/v1/activities/z13osrsogw2ghx11i232vva4hwevxn4za04/people/plusoners"
+    },
+    "resharers": {
+     "totalItems": 0,
+     "selfLink": "https://www.googleapis.com/plus/v1/activities/z13osrsogw2ghx11i232vva4hwevxn4za04/people/resharers"
+    },
+    "attachments": [
+     {
+      "objectType": "article",
+      "displayName": "Preview Brackets on Linux – Brackets Blog",
+      "content": "“Preview”…Okay, What's Missing? We're calling these preview builds because there is still some significant feature work to do before the Linux build is up to par with our Mac and Windows builds. The good news is that the bulk of our headliner features do work: Live Preview with Chrome, ...",
+      "url": "http://blog.brackets.io/2013/08/09/preview-brackets-on-linux/",
+      "image": {
+       "url": "https://lh6.googleusercontent.com/proxy/_3Wo8j2eXetPqp4Lwh052xvpNGivF9M_Dg178fPVj7s0Yk0uDzDgc2XCJWDI-N_3xc-1Ez-qcEY9NIH8RWRRvoWs4gaXx7SYf5_FcygJ-d6NlG9Ct4J283g5=w120-h120",
+       "type": "image/jpeg",
+       "height": 120,
+       "width": 120
+      },
+      "fullImage": {
+       "url": "http://blog.brackets.io/wp-content/uploads/2013/08/brackets-ubuntu-600.png",
+       "type": "image/jpeg"
+      }
+     }
+    ]
+   },
+   "annotation": "Looking forward to try this out. I&#39;m it&#39;ll delight tons of devops out there",
+   "provider": {
+    "title": "Reshared Post"
+   },
+   "access": {
+    "kind": "plus#acl",
+    "description": "Public",
+    "items": [
+     {
+      "type": "public"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "plus#activity",
+   "etag": "\"FS8hSDZUt39rsvp2gH0cFIHdkm8/2mdzKYxRK7-E6bbbYJ1eK0Ut8uc\"",
+   "title": "-----\u003e http://goo.gl/htSgD7 \u003c---------\niLightBox - jQuery lightbox plugin for creative and ambitious...",
+   "published": "2013-08-10T10:06:37.914Z",
+   "updated": "2013-08-10T10:06:37.914Z",
+   "id": "z12byp0h0oe1wlhrp04cgfjgslrlfjqgnws0k",
+   "url": "https://plus.google.com/104799357160267039133/posts/i3wempXZtva",
+   "actor": {
+    "id": "104799357160267039133",
+    "displayName": "Youcef Mammar",
+    "url": "https://plus.google.com/104799357160267039133",
+    "image": {
+     "url": "https://lh6.googleusercontent.com/-rWp5hucx2o8/AAAAAAAAAAI/AAAAAAAAFOc/kYVH9750xKY/photo.jpg?sz=50"
+    }
+   },
+   "verb": "share",
+   "object": {
+    "objectType": "activity",
+    "id": "z12ytpnwvujkcz2fm23istrzuraxczsba04",
+    "actor": {
+     "id": "117060205630052393231",
+     "displayName": "enola chi",
+     "url": "https://plus.google.com/117060205630052393231",
+     "image": {
+      "url": "https://lh3.googleusercontent.com/-PVrb8rc4h00/AAAAAAAAAAI/AAAAAAAAAiM/ECeLvhnRCbg/photo.jpg?sz=50"
+     }
+    },
+    "content": "\u003cs\u003e-----\u003c/s\u003e&gt; \u003ca href=\"http://goo.gl/htSgD7\" class=\"ot-anchor\" rel=\"nofollow\"\u003ehttp://goo.gl/htSgD7\u003c/a\u003e &lt;---------\u003cbr /\u003eiLightBox - jQuery lightbox plugin for creative and ambitious web designers and developers",
+    "url": "https://plus.google.com/117060205630052393231/posts/L5dncrxvDc8",
+    "replies": {
+     "totalItems": 0,
+     "selfLink": "https://www.googleapis.com/plus/v1/activities/z12byp0h0oe1wlhrp04cgfjgslrlfjqgnws0k/comments"
+    },
+    "plusoners": {
+     "totalItems": 0,
+     "selfLink": "https://www.googleapis.com/plus/v1/activities/z12byp0h0oe1wlhrp04cgfjgslrlfjqgnws0k/people/plusoners"
+    },
+    "resharers": {
+     "totalItems": 0,
+     "selfLink": "https://www.googleapis.com/plus/v1/activities/z12byp0h0oe1wlhrp04cgfjgslrlfjqgnws0k/people/resharers"
+    },
+    "attachments": [
+     {
+      "objectType": "photo",
+      "id": "117060205630052393231.5910366222533616242",
+      "content": "",
+      "url": "https://plus.google.com/photos/117060205630052393231/albums/5910366222943724673/5910366222533616242?authkey=CLmBnLOKhvDScw",
+      "image": {
+       "url": "https://lh5.googleusercontent.com/-3rgHTnP0XYg/UgXWw9KVYnI/AAAAAAAABoo/l4gY0FBKf7U/w506-h750/canvas.png",
+       "type": "image/jpeg",
+       "height": 750,
+       "width": 506
+      },
+      "fullImage": {
+       "url": "https://lh5.googleusercontent.com/-3rgHTnP0XYg/UgXWw9KVYnI/AAAAAAAABoo/l4gY0FBKf7U/canvas.png",
+       "type": "image/jpeg",
+       "height": 1450,
+       "width": 1153
+      }
+     }
+    ]
+   },
+   "provider": {
+    "title": "Reshared Post"
+   },
+   "access": {
+    "kind": "plus#acl",
+    "description": "Public",
+    "items": [
+     {
+      "type": "public"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "plus#activity",
+   "etag": "\"FS8hSDZUt39rsvp2gH0cFIHdkm8/Y94pRh--lNVaxglNxUb4t7yMqQc\"",
+   "title": "Browsing man (manual) pages using vim inside a split window. Where have you been all my life?",
+   "published": "2013-08-05T19:11:59.833Z",
+   "updated": "2013-08-05T19:11:59.833Z",
+   "id": "z132c3uhmnjtytqsf232vva4hwevxn4za04",
+   "url": "https://plus.google.com/104799357160267039133/posts/2xgAXRk9VuV",
+   "actor": {
+    "id": "104799357160267039133",
+    "displayName": "Youcef Mammar",
+    "url": "https://plus.google.com/104799357160267039133",
+    "image": {
+     "url": "https://lh6.googleusercontent.com/-rWp5hucx2o8/AAAAAAAAAAI/AAAAAAAAFOc/kYVH9750xKY/photo.jpg?sz=50"
+    }
+   },
+   "verb": "share",
+   "object": {
+    "objectType": "activity",
+    "id": "z13rjli5tum1tjzcy23ve1m5yoezzpxdj",
+    "actor": {
+     "id": "114112334290393746697",
+     "displayName": "Dan Allen",
+     "url": "https://plus.google.com/114112334290393746697",
+     "image": {
+      "url": "https://lh5.googleusercontent.com/-5-bVkJ9qfvU/AAAAAAAAAAI/AAAAAAAADck/YVmU1RX0v-Y/photo.jpg?sz=50"
+     }
+    },
+    "content": "Browsing man (manual) pages using vim inside a split window. Where have you been all my life?",
+    "url": "https://plus.google.com/114112334290393746697/posts/6BXTRH5QKqo",
+    "replies": {
+     "totalItems": 0,
+     "selfLink": "https://www.googleapis.com/plus/v1/activities/z132c3uhmnjtytqsf232vva4hwevxn4za04/comments"
+    },
+    "plusoners": {
+     "totalItems": 0,
+     "selfLink": "https://www.googleapis.com/plus/v1/activities/z132c3uhmnjtytqsf232vva4hwevxn4za04/people/plusoners"
+    },
+    "resharers": {
+     "totalItems": 0,
+     "selfLink": "https://www.googleapis.com/plus/v1/activities/z132c3uhmnjtytqsf232vva4hwevxn4za04/people/resharers"
+    }
+   },
+   "provider": {
+    "title": "Reshared Post"
+   },
+   "access": {
+    "kind": "plus#acl",
+    "description": "Public",
+    "items": [
+     {
+      "type": "public"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "plus#activity",
+   "etag": "\"FS8hSDZUt39rsvp2gH0cFIHdkm8/8wbdI1ioyTHV2qaOVUNRUeY8o4E\"",
+   "title": "I think html5 powered presentation slides are bad, 'cause they can't have sexy ligatures and carry ugly...",
+   "published": "2013-08-04T18:44:49.461Z",
+   "updated": "2013-08-04T18:45:03.000Z",
+   "id": "z13xjdijflbmxtxgh04cgfjgslrlfjqgnws0k",
+   "url": "https://plus.google.com/104799357160267039133/posts/QjoMEPxG2jB",
+   "actor": {
+    "id": "104799357160267039133",
+    "displayName": "Youcef Mammar",
+    "url": "https://plus.google.com/104799357160267039133",
+    "image": {
+     "url": "https://lh6.googleusercontent.com/-rWp5hucx2o8/AAAAAAAAAAI/AAAAAAAAFOc/kYVH9750xKY/photo.jpg?sz=50"
+    }
+   },
+   "verb": "post",
+   "object": {
+    "objectType": "note",
+    "content": "I think html5 powered presentation slides are bad, &#39;cause they can&#39;t have sexy ligatures and carry ugly widows instead  \u003ca class=\"ot-hashtag\" href=\"https://plus.google.com/s/%23typography\"\u003e#typography\u003c/a\u003e  ",
+    "url": "https://plus.google.com/104799357160267039133/posts/QjoMEPxG2jB",
+    "replies": {
+     "totalItems": 2,
+     "selfLink": "https://www.googleapis.com/plus/v1/activities/z13xjdijflbmxtxgh04cgfjgslrlfjqgnws0k/comments"
+    },
+    "plusoners": {
+     "totalItems": 0,
+     "selfLink": "https://www.googleapis.com/plus/v1/activities/z13xjdijflbmxtxgh04cgfjgslrlfjqgnws0k/people/plusoners"
+    },
+    "resharers": {
+     "totalItems": 0,
+     "selfLink": "https://www.googleapis.com/plus/v1/activities/z13xjdijflbmxtxgh04cgfjgslrlfjqgnws0k/people/resharers"
+    }
+   },
+   "provider": {
+    "title": "Community"
+   },
+   "access": {
+    "kind": "plus#acl",
+    "description": "HTML5 (Discuss)",
+    "items": [
+     {
+      "type": "public"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "plus#activity",
+   "etag": "\"FS8hSDZUt39rsvp2gH0cFIHdkm8/piGrKDMwR93XZ40db_YcuJmQSMI\"",
+   "title": "Help us discover how Google rolls out Nexus updates - fill out the survey (http://cl.ly/3309423W281S...",
+   "published": "2013-07-25T08:24:35.656Z",
+   "updated": "2013-07-25T08:24:35.656Z",
+   "id": "z12yfxsrlrnwwv2q504cgfjgslrlfjqgnws0k",
+   "url": "https://plus.google.com/104799357160267039133/posts/Zxx9cpaR44s",
+   "actor": {
+    "id": "104799357160267039133",
+    "displayName": "Youcef Mammar",
+    "url": "https://plus.google.com/104799357160267039133",
+    "image": {
+     "url": "https://lh6.googleusercontent.com/-rWp5hucx2o8/AAAAAAAAAAI/AAAAAAAAFOc/kYVH9750xKY/photo.jpg?sz=50"
+    }
+   },
+   "verb": "share",
+   "object": {
+    "objectType": "activity",
+    "id": "z13zjrxjuzefzzf4v04cgxwzrvi5f1wiliw",
+    "actor": {
+     "id": "109622505015891296317",
+     "displayName": "Techtainian",
+     "url": "https://plus.google.com/109622505015891296317",
+     "image": {
+      "url": "https://lh4.googleusercontent.com/-Kyw3k0RtnCY/AAAAAAAAAAI/AAAAAAAAAJY/9i9YgbJBfu8/photo.jpg?sz=50"
+     }
+    },
+    "content": "Help us discover how Google rolls out Nexus updates - fill out the survey (\u003ca href=\"http://cl.ly/3309423W281S\" class=\"ot-anchor\" rel=\"nofollow\"\u003ehttp://cl.ly/3309423W281S\u003c/a\u003e) and post with the \u003ca class=\"ot-hashtag\" href=\"https://plus.google.com/s/%23SurveyNexus\"\u003e#SurveyNexus\u003c/a\u003e",
+    "url": "https://plus.google.com/109622505015891296317/posts/Sz73nYj1Y77",
+    "replies": {
+     "totalItems": 0,
+     "selfLink": "https://www.googleapis.com/plus/v1/activities/z12yfxsrlrnwwv2q504cgfjgslrlfjqgnws0k/comments"
+    },
+    "plusoners": {
+     "totalItems": 0,
+     "selfLink": "https://www.googleapis.com/plus/v1/activities/z12yfxsrlrnwwv2q504cgfjgslrlfjqgnws0k/people/plusoners"
+    },
+    "resharers": {
+     "totalItems": 0,
+     "selfLink": "https://www.googleapis.com/plus/v1/activities/z12yfxsrlrnwwv2q504cgfjgslrlfjqgnws0k/people/resharers"
+    },
+    "attachments": [
+     {
+      "objectType": "photo",
+      "id": "109622505015891296317.5904418368208861810",
+      "content": "",
+      "url": "https://plus.google.com/photos/109622505015891296317/albums/5904418370183152289/5904418368208861810?authkey=CNDsmbb7gIDbVQ",
+      "image": {
+       "url": "https://lh5.googleusercontent.com/-JmCIg8sU42U/UfC1ORJhenI/AAAAAAAAB2Q/8quiXykWEZs/w506-h750/OTA_1-1.png",
+       "type": "image/jpeg",
+       "height": 750,
+       "width": 506
+      },
+      "fullImage": {
+       "url": "https://lh5.googleusercontent.com/-JmCIg8sU42U/UfC1ORJhenI/AAAAAAAAB2Q/8quiXykWEZs/s0-d/OTA_1-1.png",
+       "type": "image/jpeg",
+       "height": 600,
+       "width": 1000
+      }
+     }
+    ]
+   },
+   "provider": {
+    "title": "Reshared Post"
+   },
+   "access": {
+    "kind": "plus#acl",
+    "description": "Public",
+    "items": [
+     {
+      "type": "public"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "plus#activity",
+   "etag": "\"FS8hSDZUt39rsvp2gH0cFIHdkm8/QmxKiq8uQLLAM88cHiYu7z0paDo\"",
+   "title": "science typography http://thumbnails.visually.netdna-cdn.com/ScienceTypography01_51e2a50e30930.png",
+   "published": "2013-07-19T12:12:53.979Z",
+   "updated": "2013-07-19T12:12:53.979Z",
+   "id": "z13tjfiaurmmvd4ch232vva4hwevxn4za04",
+   "url": "https://plus.google.com/104799357160267039133/posts/3CSGgRqxKRb",
+   "actor": {
+    "id": "104799357160267039133",
+    "displayName": "Youcef Mammar",
+    "url": "https://plus.google.com/104799357160267039133",
+    "image": {
+     "url": "https://lh6.googleusercontent.com/-rWp5hucx2o8/AAAAAAAAAAI/AAAAAAAAFOc/kYVH9750xKY/photo.jpg?sz=50"
+    }
+   },
+   "verb": "post",
+   "object": {
+    "objectType": "note",
+    "content": "science typography \u003ca href=\"http://thumbnails.visually.netdna-cdn.com/ScienceTypography01_51e2a50e30930.png\" class=\"ot-anchor\" rel=\"nofollow\"\u003ehttp://thumbnails.visually.netdna-cdn.com/ScienceTypography01_51e2a50e30930.png\u003c/a\u003e",
+    "url": "https://plus.google.com/104799357160267039133/posts/3CSGgRqxKRb",
+    "replies": {
+     "totalItems": 0,
+     "selfLink": "https://www.googleapis.com/plus/v1/activities/z13tjfiaurmmvd4ch232vva4hwevxn4za04/comments"
+    },
+    "plusoners": {
+     "totalItems": 0,
+     "selfLink": "https://www.googleapis.com/plus/v1/activities/z13tjfiaurmmvd4ch232vva4hwevxn4za04/people/plusoners"
+    },
+    "resharers": {
+     "totalItems": 0,
+     "selfLink": "https://www.googleapis.com/plus/v1/activities/z13tjfiaurmmvd4ch232vva4hwevxn4za04/people/resharers"
+    },
+    "attachments": [
+     {
+      "objectType": "article",
+      "displayName": "thumbnails.visually.netdna-cdn.com/ScienceTypography01_51e2a50e30930.png",
+      "url": "http://thumbnails.visually.netdna-cdn.com/ScienceTypography01_51e2a50e30930.png",
+      "image": {
+       "url": "https://lh6.googleusercontent.com/proxy/I8lNO_oZlHfYS7291m0xHX833A0VU1bTHBhe7AUUMgyAeyM-98G-MhDxzdRXNkYO0jatrmb27_maB81Eg_52YK2AV2bxiGgYMmwpPWcIPasfsyrSG288IdV-6w8k0AY=w120-h120",
+       "type": "image/jpeg",
+       "height": 120,
+       "width": 120
+      },
+      "fullImage": {
+       "url": "http://thumbnails.visually.netdna-cdn.com/ScienceTypography01_51e2a50e30930.png",
+       "type": "image/jpeg"
+      }
+     }
+    ]
+   },
+   "provider": {
+    "title": "Community"
+   },
+   "access": {
+    "kind": "plus#acl",
+    "description": "Typography (Showcase)",
+    "items": [
+     {
+      "type": "public"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "plus#activity",
+   "etag": "\"FS8hSDZUt39rsvp2gH0cFIHdkm8/eP2C0T5tJHlDDTET_FO5CLPJkk4\"",
+   "title": "Hey guys!\n\nI made this little drawing tool to create simple HTML/CSS Shapes for webapps and websites...",
+   "published": "2013-07-17T19:06:59.438Z",
+   "updated": "2013-07-17T19:06:59.438Z",
+   "id": "z13sh5zrjsj0tlazl04cgfjgslrlfjqgnws0k",
+   "url": "https://plus.google.com/104799357160267039133/posts/hM4e8PPNK6X",
+   "actor": {
+    "id": "104799357160267039133",
+    "displayName": "Youcef Mammar",
+    "url": "https://plus.google.com/104799357160267039133",
+    "image": {
+     "url": "https://lh6.googleusercontent.com/-rWp5hucx2o8/AAAAAAAAAAI/AAAAAAAAFOc/kYVH9750xKY/photo.jpg?sz=50"
+    }
+   },
+   "verb": "share",
+   "object": {
+    "objectType": "activity",
+    "id": "z13xhfuotuvgyjkco22turayjsrgi5mym04",
+    "actor": {
+     "id": "109417939627598021548",
+     "displayName": "Samuel Rossille",
+     "url": "https://plus.google.com/109417939627598021548",
+     "image": {
+      "url": "https://lh6.googleusercontent.com/-LgBBf6yZw6w/AAAAAAAAAAI/AAAAAAAAHy8/H-_sQApwTy8/photo.jpg?sz=50"
+     }
+    },
+    "content": "Hey guys!\u003cbr /\u003e\u003cbr /\u003eI made this little drawing tool to create simple HTML/CSS Shapes for webapps and websites.\u003cbr /\u003e\u003cbr /\u003eKey features: \u003cbr /\u003e  - Simple to use.\u003cbr /\u003e  - Everything in URL: use browser bookmarks to save drawings, use url to share, use back button to undo.\u003cbr /\u003e  - Copy / Paste generated code\u003cbr /\u003e\u003cbr /\u003eThis is a beta. Feedback highly appreciated.\u003cbr /\u003e\u003cbr /\u003ePresentation: \u003ca href=\"http://www.samuelrossille.com/home/css-shape-generator.html\" class=\"ot-anchor\" rel=\"nofollow\"\u003ehttp://www.samuelrossille.com/home/css-shape-generator.html\u003c/a\u003e\u003cbr /\u003e\u003cbr /\u003eDemo: \u003ca href=\"http://www.samuelrossille.com/css-shape/\" class=\"ot-anchor\" rel=\"nofollow\"\u003ehttp://www.samuelrossille.com/css-shape/\u003c/a\u003e",
+    "url": "https://plus.google.com/109417939627598021548/posts/4S1kJjfQZxD",
+    "replies": {
+     "totalItems": 0,
+     "selfLink": "https://www.googleapis.com/plus/v1/activities/z13sh5zrjsj0tlazl04cgfjgslrlfjqgnws0k/comments"
+    },
+    "plusoners": {
+     "totalItems": 0,
+     "selfLink": "https://www.googleapis.com/plus/v1/activities/z13sh5zrjsj0tlazl04cgfjgslrlfjqgnws0k/people/plusoners"
+    },
+    "resharers": {
+     "totalItems": 0,
+     "selfLink": "https://www.googleapis.com/plus/v1/activities/z13sh5zrjsj0tlazl04cgfjgslrlfjqgnws0k/people/resharers"
+    },
+    "attachments": [
+     {
+      "objectType": "article",
+      "displayName": "CSS Shape Generator",
+      "content": "Interesting features. Everything in the URL: All the data is stored in the URL, so you can. bookmark you drawing and come back at any time,; use the browsers back / next buttons to undo / redo changes,; send the icon to a co-worker or a friend: copy / paste the URL.",
+      "url": "http://www.samuelrossille.com/home/css-shape-generator.html",
+      "image": {
+       "url": "https://lh5.googleusercontent.com/proxy/7EYy27gp3mu45LQ1ePvVqgF4t9p5TknRZtM5d1IAEAJvsIZpGFpdukgPq0yLV7nwmzU4LR47ZW6URZdeW-15P_YnR2srgQ-hgNI=w120-h120",
+       "type": "image/jpeg",
+       "height": 120,
+       "width": 120
+      },
+      "fullImage": {
+       "url": "http://www.samuelrossille.com/home/css-shape-generator.png",
+       "type": "image/jpeg"
+      }
+     }
+    ]
+   },
+   "provider": {
+    "title": "Reshared Post"
+   },
+   "access": {
+    "kind": "plus#acl",
+    "description": "Public",
+    "items": [
+     {
+      "type": "public"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "plus#activity",
+   "etag": "\"FS8hSDZUt39rsvp2gH0cFIHdkm8/vSJ2vZZxj82LfZVKwlm6kJcc9b0\"",
+   "title": "",
+   "published": "2013-07-15T22:51:10.656Z",
+   "updated": "2013-07-15T22:51:10.656Z",
+   "id": "z123z35wkkmrz1ph104cgfjgslrlfjqgnws0k",
+   "url": "https://plus.google.com/104799357160267039133/posts/U3QokeLJLEr",
+   "actor": {
+    "id": "104799357160267039133",
+    "displayName": "Youcef Mammar",
+    "url": "https://plus.google.com/104799357160267039133",
+    "image": {
+     "url": "https://lh6.googleusercontent.com/-rWp5hucx2o8/AAAAAAAAAAI/AAAAAAAAFOc/kYVH9750xKY/photo.jpg?sz=50"
+    }
+   },
+   "verb": "share",
+   "object": {
+    "objectType": "activity",
+    "id": "z12cepzierq4zvy1n23jdjkzhrqof3pyr04",
+    "actor": {
+     "id": "109756095635651967506",
+     "displayName": "Gabriel C",
+     "url": "https://plus.google.com/109756095635651967506",
+     "image": {
+      "url": "https://lh3.googleusercontent.com/-qGjmmze75eI/AAAAAAAAAAI/AAAAAAAAAmc/J2kfJGhI2Jw/photo.jpg?sz=50"
+     }
+    },
+    "content": "",
+    "url": "https://plus.google.com/109756095635651967506/posts/9gw7Am7HUWK",
+    "replies": {
+     "totalItems": 0,
+     "selfLink": "https://www.googleapis.com/plus/v1/activities/z123z35wkkmrz1ph104cgfjgslrlfjqgnws0k/comments"
+    },
+    "plusoners": {
+     "totalItems": 0,
+     "selfLink": "https://www.googleapis.com/plus/v1/activities/z123z35wkkmrz1ph104cgfjgslrlfjqgnws0k/people/plusoners"
+    },
+    "resharers": {
+     "totalItems": 0,
+     "selfLink": "https://www.googleapis.com/plus/v1/activities/z123z35wkkmrz1ph104cgfjgslrlfjqgnws0k/people/resharers"
+    },
+    "attachments": [
+     {
+      "objectType": "video",
+      "displayName": "Javascript in Light Table 0.4",
+      "content": "Live modifying a 3d cube inside of Light Table 0.4",
+      "url": "http://www.youtube.com/watch?v=gtXpOD6jFls&feature=share",
+      "image": {
+       "url": "https://lh3.googleusercontent.com/proxy/8WxTthwopI9qOjVXslH1MDp6eXvCfoq2dJecuQ0Y67p03q8FIdRGOkfjX4hC-UAJB3W-0r7GDS3jqGv1Uai9My0-g773vsqWzNWjSAC0QQ=w506-h284-n",
+       "type": "image/jpeg",
+       "height": 284,
+       "width": 506
+      },
+      "embed": {
+       "url": "http://www.youtube.com/v/gtXpOD6jFls?version=3&autohide=1",
+       "type": "application/x-shockwave-flash"
+      }
+     }
+    ]
+   },
+   "annotation": "The super powers of a new concept of IDE  \u003ca class='ot-hashtag' href='https://plus.google.com/s/%23javascript'\u003e#javascript\u003c/a\u003e  ",
+   "provider": {
+    "title": "Reshared Post"
+   },
+   "access": {
+    "kind": "plus#acl",
+    "description": "Public",
+    "items": [
+     {
+      "type": "public"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "plus#activity",
+   "etag": "\"FS8hSDZUt39rsvp2gH0cFIHdkm8/RH4a_ET_loebSp_3UA6M5glRtRE\"",
+   "title": "Just tried out @MightyText and I'm loving it alrdy. Thanks for focusing on #Android users first. Tired...",
+   "published": "2013-07-15T22:30:24.297Z",
+   "updated": "2013-07-15T22:30:24.297Z",
+   "id": "z123dfvj4trbjtfab04cgfjgslrlfjqgnws0k",
+   "url": "https://plus.google.com/104799357160267039133/posts/aLxZGoQ9KX3",
+   "actor": {
+    "id": "104799357160267039133",
+    "displayName": "Youcef Mammar",
+    "url": "https://plus.google.com/104799357160267039133",
+    "image": {
+     "url": "https://lh6.googleusercontent.com/-rWp5hucx2o8/AAAAAAAAAAI/AAAAAAAAFOc/kYVH9750xKY/photo.jpg?sz=50"
+    }
+   },
+   "verb": "post",
+   "object": {
+    "objectType": "note",
+    "content": "Just tried out @MightyText and I&#39;m loving it alrdy. Thanks for focusing on \u003ca class=\"ot-hashtag\" href=\"https://plus.google.com/s/%23Android\"\u003e#Android\u003c/a\u003e users first. Tired of waiting for \u003ca class=\"ot-hashtag\" href=\"https://plus.google.com/s/%23iOS\"\u003e#iOS\u003c/a\u003e apps to go android",
+    "url": "https://plus.google.com/104799357160267039133/posts/aLxZGoQ9KX3",
+    "replies": {
+     "totalItems": 8,
+     "selfLink": "https://www.googleapis.com/plus/v1/activities/z123dfvj4trbjtfab04cgfjgslrlfjqgnws0k/comments"
+    },
+    "plusoners": {
+     "totalItems": 13,
+     "selfLink": "https://www.googleapis.com/plus/v1/activities/z123dfvj4trbjtfab04cgfjgslrlfjqgnws0k/people/plusoners"
+    },
+    "resharers": {
+     "totalItems": 0,
+     "selfLink": "https://www.googleapis.com/plus/v1/activities/z123dfvj4trbjtfab04cgfjgslrlfjqgnws0k/people/resharers"
+    },
+    "attachments": [
+     {
+      "objectType": "article",
+      "displayName": "MightyText - SMS from Computer or Tablet, sync'd with Android phone",
+      "url": "http://mightytext.net",
+      "image": {
+       "url": "https://lh4.googleusercontent.com/proxy/RsdpejXhwpZZzSIa3RcK5ndiw90gy9vXoYkiN3nBeCHo5spnnt6NdFbgRF80Somys9GCe9fRWvv0=w120-h120",
+       "type": "image/jpeg",
+       "height": 120,
+       "width": 120
+      },
+      "fullImage": {
+       "url": "http://mightytext.net/NEW-WEBSITE/512.png",
+       "type": "image/jpeg"
+      }
+     }
+    ]
+   },
+   "provider": {
+    "title": "Community"
+   },
+   "access": {
+    "kind": "plus#acl",
+    "description": "Android (Discussion)",
+    "items": [
+     {
+      "type": "public"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "plus#activity",
+   "etag": "\"FS8hSDZUt39rsvp2gH0cFIHdkm8/mwg1dXEYiqco0jFh_1LGyy8n65A\"",
+   "title": "",
+   "published": "2013-07-15T19:46:15.436Z",
+   "updated": "2013-07-15T19:46:15.436Z",
+   "id": "z13vwvz4yxnaet2vr232vva4hwevxn4za04",
+   "url": "https://plus.google.com/104799357160267039133/posts/LvJw4rPGH3k",
+   "actor": {
+    "id": "104799357160267039133",
+    "displayName": "Youcef Mammar",
+    "url": "https://plus.google.com/104799357160267039133",
+    "image": {
+     "url": "https://lh6.googleusercontent.com/-rWp5hucx2o8/AAAAAAAAAAI/AAAAAAAAFOc/kYVH9750xKY/photo.jpg?sz=50"
+    }
+   },
+   "verb": "post",
+   "object": {
+    "objectType": "note",
+    "content": "",
+    "url": "https://plus.google.com/104799357160267039133/posts/LvJw4rPGH3k",
+    "replies": {
+     "totalItems": 0,
+     "selfLink": "https://www.googleapis.com/plus/v1/activities/z13vwvz4yxnaet2vr232vva4hwevxn4za04/comments"
+    },
+    "plusoners": {
+     "totalItems": 5,
+     "selfLink": "https://www.googleapis.com/plus/v1/activities/z13vwvz4yxnaet2vr232vva4hwevxn4za04/people/plusoners"
+    },
+    "resharers": {
+     "totalItems": 1,
+     "selfLink": "https://www.googleapis.com/plus/v1/activities/z13vwvz4yxnaet2vr232vva4hwevxn4za04/people/resharers"
+    },
+    "attachments": [
+     {
+      "objectType": "article",
+      "displayName": "HTML5 Rocks - Chrome DevTools Revolutions 2013",
+      "content": "A host of new DevTools features were introduced at Google I/O 2013. Now they're live in Chrome stable and ready for use! :D",
+      "url": "http://www.html5rocks.com/tutorials/developertools/revolutions2013/",
+      "image": {
+       "url": "https://lh4.googleusercontent.com/proxy/d8I8YP4lhgwv-a1MF9j3QY4cxhfSulFY3zb8RWm5dBufQuwQ6GBGhimTHglTvxmCLxOKapWGQMPgqzm2QHBcJeukowIZ6BtgQA4xTlNXqlOUQ2Vf8nxcGpLciO4Kzd0YS0InddwAQVxgh5XkjqdGOK6vbFQikGRTca97V7mjaGtGL-r5-8eL5_wml3B1WlBMMl0V4k5v28yVqklMykUC9DVjQAZqEuHIJtKsDK2LS8mmmWJYU1bm0gPHBPObOo_JAIw-gy71tnB9jaask7a-8w=w120-h120",
+       "type": "image/jpeg",
+       "height": 120,
+       "width": 120
+      },
+      "fullImage": {
+       "url": "http://1-ps.googleusercontent.com/x/s.html5rocks-hrd.appspot.com/www.html5rocks.com/en/tutorials/developertools/revolutions2013/462x189xmapped-workspace-folder.png.pagespeed.ic.OLo_wG0jM4.png",
+       "type": "image/jpeg"
+      }
+     }
+    ]
+   },
+   "provider": {
+    "title": "Community"
+   },
+   "access": {
+    "kind": "plus#acl",
+    "description": "CSS Community (Tips and Tricks)",
+    "items": [
+     {
+      "type": "public"
+     }
+    ]
+   }
+  }
+ ]
+}
