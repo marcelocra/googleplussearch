@@ -36,7 +36,7 @@ public class JSONConverter {
 			FileWriter writer = new FileWriter("output.csv");
 			
             //Write CSV file header
-            writer.append("User Name,replyCount,postID,userID,content\n");
+            writer.append("UserName,replyCount,postID,userID,content\n");
             FileWriter arff = new FileWriter("output.arff");
             //Write arff file header
             arff.append("@relation output\n");
@@ -65,9 +65,7 @@ public class JSONConverter {
                             writer.append(",");
                             writer.append(userID);
                             writer.append(",");
-                            arff.append(doublequote);
                             writer.append(content);
-                            arff.append(doublequote);
                             writer.append("\n");
                                                         
                             //Write ARFF files
