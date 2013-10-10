@@ -1,0 +1,1018 @@
+@relation 'output-weka.filters.unsupervised.attribute.Remove-R1-4-weka.filters.unsupervised.attribute.AddID-Cfirst-NID-weka.filters.unsupervised.attribute.Remove-R1-weka.filters.unsupervised.attribute.StringToWordVector-R1-W1000-prune-rate-1.0-C-T-I-N0-stemmerweka.core.stemmers.NullStemmer-M1-O-tokenizerweka.core.tokenizers.WordTokenizer -delimiters \" \\r\\n\\t.,;:\\\'\\\"()?!\"'
+
+@attribute #Android numeric
+@attribute #App numeric
+@attribute #Apple numeric
+@attribute #AppleNews numeric
+@attribute #AvatarAvatar numeric
+@attribute #Business numeric
+@attribute #CustomiPhoneApplications numeric
+@attribute #Free numeric
+@attribute #Games numeric
+@attribute #Networking numeric
+@attribute #Playboy numeric
+@attribute #Skype numeric
+@attribute #Social numeric
+@attribute #TheMobiMag numeric
+@attribute #Utilities numeric
+@attribute #Xbox numeric
+@attribute #apple numeric
+@attribute #cerutiphoto numeric
+@attribute #hey numeric
+@attribute #heyyouapp numeric
+@attribute #iOS numeric
+@attribute #iPad numeric
+@attribute #iPhone numeric
+@attribute #iPhone6 numeric
+@attribute #ios7 numeric
+@attribute #iphone numeric
+@attribute #lag numeric
+@attribute #  numeric
+@attribute $ numeric
+@attribute $0 numeric
+@attribute $1 numeric
+@attribute $11 numeric
+@attribute $3 numeric
+@attribute $4 numeric
+@attribute $40M numeric
+@attribute $450 numeric
+@attribute $AAPL numeric
+@attribute &#39 numeric
+@attribute &amp numeric
+@attribute &gt numeric
+@attribute &lt numeric
+@attribute &quot numeric
+@attribute +97430165813 numeric
+@attribute - numeric
+@attribute - Camera+ numeric
+@attribute //active-technologies numeric
+@attribute //bit numeric
+@attribute //buff numeric
+@attribute //en numeric
+@attribute //gadgetsin numeric
+@attribute //myap numeric
+@attribute //ow numeric
+@attribute //ply numeric
+@attribute //thelatestsmartphone numeric
+@attribute //tnw numeric
+@attribute //whatsapp numeric
+@attribute //www numeric
+@attribute 000 numeric
+@attribute 012653002930099 numeric
+@attribute 1 numeric
+@attribute 1-800-694-7466 numeric
+@attribute 10 numeric
+@attribute 14 numeric
+@attribute 16 numeric
+@attribute 18-24 numeric
+@attribute 18ct numeric
+@attribute 1GB numeric
+@attribute 1janyuaary numeric
+@attribute 1year numeric
+@attribute 2 numeric
+@attribute 20 numeric
+@attribute 2014 numeric
+@attribute 28 numeric
+@attribute 2G numeric
+@attribute 360 numeric
+@attribute 3D numeric
+@attribute 3G numeric
+@attribute 3GS numeric
+@attribute 4 numeric
+@attribute 400 numeric
+@attribute 4899 numeric
+@attribute 4G numeric
+@attribute 4Gs numeric
+@attribute 4S numeric
+@attribute 5 numeric
+@attribute '50\%' numeric
+@attribute 5C numeric
+@attribute 5G numeric
+@attribute 5S numeric
+@attribute 5S and numeric
+@attribute 5c numeric
+@attribute 5s numeric
+@attribute 6 numeric
+@attribute 64gb numeric
+@attribute 650 numeric
+@attribute 7 numeric
+@attribute 7-style numeric
+@attribute 75M numeric
+@attribute 8 numeric
+@attribute 8-inch numeric
+@attribute 8-inches numeric
+@attribute 90days numeric
+@attribute 99↓ numeric
+@attribute @heyyouapp numeric
+@attribute @missnov98 numeric
+@attribute APPLE numeric
+@attribute Adjustable numeric
+@attribute Affordable numeric
+@attribute Air numeric
+@attribute All numeric
+@attribute Amigi numeric
+@attribute Analyst numeric
+@attribute And numeric
+@attribute Android numeric
+@attribute Ap numeric
+@attribute App numeric
+@attribute Apple numeric
+@attribute Apple&#39 numeric
+@attribute Application numeric
+@attribute As numeric
+@attribute At&amp numeric
+@attribute Aura numeric
+@attribute Avatar numeric
+@attribute Background numeric
+@attribute Backgrounds numeric
+@attribute Basis numeric
+@attribute Battery numeric
+@attribute Benjiamina numeric
+@attribute Best numeric
+@attribute Bigger numeric
+@attribute Black numeric
+@attribute BlackBerry numeric
+@attribute Build numeric
+@attribute Burst numeric
+@attribute But numeric
+@attribute Call numeric
+@attribute Camera numeric
+@attribute Capturing numeric
+@attribute Care numeric
+@attribute Case numeric
+@attribute Cases numeric
+@attribute Centralpoint numeric
+@attribute Cheapest numeric
+@attribute Check numeric
+@attribute Chile numeric
+@attribute Cinematic numeric
+@attribute Clean| numeric
+@attribute Clear numeric
+@attribute Closeout numeric
+@attribute Collection numeric
+@attribute Come numeric
+@attribute Coolest numeric
+@attribute CrazyMikesapps numeric
+@attribute Creative numeric
+@attribute Customer numeric
+@attribute DHL numeric
+@attribute De numeric
+@attribute Deal numeric
+@attribute Delays numeric
+@attribute Delivery numeric
+@attribute Description numeric
+@attribute Development numeric
+@attribute Discontinued numeric
+@attribute Do numeric
+@attribute Does numeric
+@attribute Doha numeric
+@attribute Down numeric
+@attribute Download numeric
+@attribute Drain numeric
+@attribute E numeric
+@attribute Effects numeric
+@attribute Egypt numeric
+@attribute En numeric
+@attribute Entel numeric
+@attribute Eric numeric
+@attribute Ever numeric
+@attribute Expects numeric
+@attribute Express numeric
+@attribute FIFA numeric
+@attribute Features numeric
+@attribute Ficus numeric
+@attribute Finally numeric
+@attribute Flexible numeric
+@attribute For numeric
+@attribute Forbidden numeric
+@attribute Forget numeric
+@attribute France numeric
+@attribute Free numeric
+@attribute Full numeric
+@attribute Future numeric
+@attribute GB numeric
+@attribute Gadgets&#39 numeric
+@attribute Gamertag numeric
+@attribute Gartner numeric
+@attribute Geographic numeric
+@attribute GizBot numeric
+@attribute Go numeric
+@attribute Gold numeric
+@attribute Good numeric
+@attribute Google&#39 numeric
+@attribute Great numeric
+@attribute Griffin numeric
+@attribute Gry numeric
+@attribute Gsm numeric
+@attribute Guides numeric
+@attribute Gumstick numeric
+@attribute Gun numeric
+@attribute HTC numeric
+@attribute Have numeric
+@attribute He numeric
+@attribute Helicopters numeric
+@attribute Helpline numeric
+@attribute Here numeric
+@attribute Here&#39 numeric
+@attribute Highlands numeric
+@attribute How numeric
+@attribute I numeric
+@attribute ID numeric
+@attribute IMEI numeric
+@attribute IPHONE numeric
+@attribute IPhone numeric
+@attribute If numeric
+@attribute Imei numeric
+@attribute In numeric
+@attribute Included* numeric
+@attribute Incrediball numeric
+@attribute India numeric
+@attribute Indian numeric
+@attribute Inventory numeric
+@attribute Investment numeric
+@attribute Invisible numeric
+@attribute Iphone numeric
+@attribute Is numeric
+@attribute Issues numeric
+@attribute It numeric
+@attribute Jim numeric
+@attribute Job numeric
+@attribute Kleur numeric
+@attribute Know numeric
+@attribute L numeric
+@attribute La numeric
+@attribute Launches numeric
+@attribute Lego numeric
+@attribute Likely numeric
+@attribute Literally numeric
+@attribute Location numeric
+@attribute Lollimobile numeric
+@attribute Love numeric
+@attribute MacBook numeric
+@attribute Messenger numeric
+@attribute Mobile numeric
+@attribute Mobislyder numeric
+@attribute Mode numeric
+@attribute Monday numeric
+@attribute Months numeric
+@attribute More numeric
+@attribute Most numeric
+@attribute Motion numeric
+@attribute Must numeric
+@attribute NDTV numeric
+@attribute National numeric
+@attribute Need numeric
+@attribute New numeric
+@attribute Next numeric
+@attribute Nokia numeric
+@attribute Normal numeric
+@attribute Not numeric
+@attribute Number numeric
+@attribute ON numeric
+@attribute Oct numeric
+@attribute October numeric
+@attribute Off numeric
+@attribute One numeric
+@attribute Openxcell numeric
+@attribute Over numeric
+@attribute PROOF numeric
+@attribute PSD numeric
+@attribute Pack numeric
+@attribute Phone numeric
+@attribute Phones numeric
+@attribute Photographer numeric
+@attribute Plans numeric
+@attribute Play numeric
+@attribute Playmate numeric
+@attribute Please numeric
+@attribute Plusie numeric
+@attribute Position numeric
+@attribute Post numeric
+@attribute Praises numeric
+@attribute Presse numeric
+@attribute Price numeric
+@attribute ProtectCELL numeric
+@attribute Protection numeric
+@attribute Qatar numeric
+@attribute Quick numeric
+@attribute RAM numeric
+@attribute Recouped numeric
+@attribute Redesign numeric
+@attribute Redux numeric
+@attribute Resolution numeric
+@attribute Review numeric
+@attribute Richardson numeric
+@attribute Rockets numeric
+@attribute Roundup numeric
+@attribute Rumors numeric
+@attribute SIM numeric
+@attribute Sale numeric
+@attribute Scaling numeric
+@attribute Schmidt numeric
+@attribute Science numeric
+@attribute Scotland numeric
+@attribute Scottish numeric
+@attribute Sensor numeric
+@attribute September numeric
+@attribute Shoot numeric
+@attribute Shots numeric
+@attribute Simply numeric
+@attribute Size numeric
+@attribute Skype numeric
+@attribute Slate numeric
+@attribute Some numeric
+@attribute Special numeric
+@attribute Stand numeric
+@attribute Stealthy numeric
+@attribute Stop numeric
+@attribute Store numeric
+@attribute Studio numeric
+@attribute Submarines numeric
+@attribute Submission numeric
+@attribute Support numeric
+@attribute Survivor numeric
+@attribute Symposium/ITxpo numeric
+@attribute Talking numeric
+@attribute The numeric
+@attribute Them numeric
+@attribute There numeric
+@attribute This numeric
+@attribute Tips numeric
+@attribute To numeric
+@attribute Today numeric
+@attribute Toll numeric
+@attribute Toolbox numeric
+@attribute Tracking numeric
+@attribute Tricks numeric
+@attribute True  numeric
+@attribute Typing numeric
+@attribute UI numeric
+@attribute Ultra numeric
+@attribute Unlock numeric
+@attribute Updated numeric
+@attribute Users numeric
+@attribute Very numeric
+@attribute Video numeric
+@attribute Virgin numeric
+@attribute Want numeric
+@attribute We numeric
+@attribute Well numeric
+@attribute What numeric
+@attribute WhatsApp numeric
+@attribute WiFi numeric
+@attribute Windows numeric
+@attribute With numeric
+@attribute Woes numeric
+@attribute Working numeric
+@attribute Xbox numeric
+@attribute You numeric
+@attribute Your numeric
+@attribute [US] numeric
+@attribute [watch] numeric
+@attribute a numeric
+@attribute about numeric
+@attribute ac numeric
+@attribute accessibility numeric
+@attribute accessories numeric
+@attribute according numeric
+@attribute accurate numeric
+@attribute across numeric
+@attribute activation numeric
+@attribute actually numeric
+@attribute add numeric
+@attribute additional numeric
+@attribute advantage numeric
+@attribute after numeric
+@attribute all numeric
+@attribute alleen numeric
+@attribute already numeric
+@attribute also numeric
+@attribute am numeric
+@attribute an numeric
+@attribute analysts numeric
+@attribute and numeric
+@attribute android numeric
+@attribute androidauthority numeric
+@attribute another numeric
+@attribute antivirus numeric
+@attribute anymore numeric
+@attribute app numeric
+@attribute app&#39 numeric
+@attribute appear numeric
+@attribute apple numeric
+@attribute application numeric
+@attribute appraised numeric
+@attribute apps numeric
+@attribute are numeric
+@attribute aren’t numeric
+@attribute around numeric
+@attribute as numeric
+@attribute assigned numeric
+@attribute at numeric
+@attribute audience numeric
+@attribute audio numeric
+@attribute avatar numeric
+@attribute back numeric
+@attribute backgrounds* numeric
+@attribute bank numeric
+@attribute barely numeric
+@attribute be numeric
+@attribute because numeric
+@attribute been numeric
+@attribute began numeric
+@attribute behind numeric
+@attribute best numeric
+@attribute bet numeric
+@attribute betting numeric
+@attribute bij numeric
+@attribute bits numeric
+@attribute blog numeric
+@attribute blown numeric
+@attribute bonsai numeric
+@attribute box numeric
+@attribute bragged numeric
+@attribute brand numeric
+@attribute breaking numeric
+@attribute bring numeric
+@attribute brings numeric
+@attribute browsing numeric
+@attribute bubble numeric
+@attribute bull numeric
+@attribute business numeric
+@attribute but numeric
+@attribute buy numeric
+@attribute by numeric
+@attribute by/oA6kmX numeric
+@attribute called numeric
+@attribute calling numeric
+@attribute calls numeric
+@attribute cam numeric
+@attribute camera numeric
+@attribute can numeric
+@attribute can’t numeric
+@attribute capabi numeric
+@attribute capable numeric
+@attribute capable&quot numeric
+@attribute card numeric
+@attribute cards numeric
+@attribute carrier numeric
+@attribute case numeric
+@attribute cases numeric
+@attribute cash numeric
+@attribute cell numeric
+@attribute chairman numeric
+@attribute chart numeric
+@attribute chromatic numeric
+@attribute clips numeric
+@attribute co/1ffnMBg numeric
+@attribute com numeric
+@attribute com/2013/10/7/4814422/eric-schmidt-says-android-is-more-secure-than-iphone numeric
+@attribute com/2013/10/nest-reinvents-the-smoke-detector-makes-it-smart-iphone-connect-able-and-beautiful/ numeric
+@attribute com/android numeric
+@attribute com/android-more-secure-than-iphone-281248/ numeric
+@attribute com/content/iphone-must-have-stealthy-cases-check-it-out numeric
+@attribute com/dl/ numeric
+@attribute com/googles-schmidt-android-more-secure-than-iphone-7000021670/ numeric
+@attribute com/griffin-survivor-clear-iphone-5c-case numeric
+@attribute com/iphone numeric
+@attribute com/iphone-5s-takes-the-moto-x/ numeric
+@attribute come numeric
+@attribute comes numeric
+@attribute comments numeric
+@attribute companies numeric
+@attribute company numeric
+@attribute company&#39 numeric
+@attribute compari numeric
+@attribute compartments numeric
+@attribute complete numeric
+@attribute conceal numeric
+@attribute confines numeric
+@attribute contact numeric
+@attribute convert numeric
+@attribute correction numeric
+@attribute could numeric
+@attribute couple～ numeric
+@attribute covers numeric
+@attribute cunningly numeric
+@attribute currently numeric
+@attribute dan numeric
+@attribute dat numeric
+@attribute data numeric
+@attribute database numeric
+@attribute de numeric
+@attribute decent numeric
+@attribute declared numeric
+@attribute delighted numeric
+@attribute delivers numeric
+@attribute design numeric
+@attribute despite numeric
+@attribute detector numeric
+@attribute developing numeric
+@attribute development numeric
+@attribute device numeric
+@attribute did numeric
+@attribute didn’t numeric
+@attribute different numeric
+@attribute disadvantage numeric
+@attribute disadvantages numeric
+@attribute discovered numeric
+@attribute display numeric
+@attribute diverse numeric
+@attribute do numeric
+@attribute does numeric
+@attribute don&#39 numeric
+@attribute download numeric
+@attribute dramatic numeric
+@attribute during numeric
+@attribute early iPhone numeric
+@attribute earnings numeric
+@attribute easily numeric
+@attribute easy numeric
+@attribute een numeric
+@attribute either numeric
+@attribute elements numeric
+@attribute enough numeric
+@attribute enter numeric
+@attribute episode numeric
+@attribute even numeric
+@attribute existence numeric
+@attribute expected numeric
+@attribute experience numeric
+@attribute eyebrows numeric
+@attribute fact numeric
+@attribute factory numeric
+@attribute famous numeric
+@attribute fast numeric
+@attribute featured numeric
+@attribute features numeric
+@attribute financial numeric
+@attribute fine numeric
+@attribute finish numeric
+@attribute first numeric
+@attribute fixed numeric
+@attribute following numeric
+@attribute fonec numeric
+@attribute for numeric
+@attribute found numeric
+@attribute fourth numeric
+@attribute fourth-quarter numeric
+@attribute free numeric
+@attribute from numeric
+@attribute fun numeric
+@attribute geographer  numeric
+@attribute getting numeric
+@attribute giving numeric
+@attribute glitch numeric
+@attribute gold numeric
+@attribute good numeric
+@attribute grabs numeric
+@attribute great numeric
+@attribute ground numeric
+@attribute gsmegypt numeric
+@attribute had numeric
+@attribute hands-on numeric
+@attribute hardware numeric
+@attribute has numeric
+@attribute hate numeric
+@attribute have numeric
+@attribute having numeric
+@attribute he numeric
+@attribute health numeric
+@attribute help numeric
+@attribute here’s numeric
+@attribute his numeric
+@attribute home numeric
+@attribute hope numeric
+@attribute how numeric
+@attribute htm numeric
+@attribute http numeric
+@attribute hyping numeric
+@attribute i numeric
+@attribute iMessage numeric
+@attribute iOS numeric
+@attribute iOS7 numeric
+@attribute iPad numeric
+@attribute iPad/iPhone numeric
+@attribute iPada numeric
+@attribute iPhone numeric
+@attribute iPhone&#39 numeric
+@attribute iPhone-centric numeric
+@attribute iPhoto-iPhone numeric
+@attribute idea numeric
+@attribute if numeric
+@attribute important numeric
+@attribute improvements numeric
+@attribute in numeric
+@attribute inch numeric
+@attribute incorporated numeric
+@attribute increase numeric
+@attribute indian numeric
+@attribute information numeric
+@attribute ink numeric
+@attribute insert numeric
+@attribute inserted numeric
+@attribute installed numeric
+@attribute interesting numeric
+@attribute interface numeric
+@attribute international numeric
+@attribute internet numeric
+@attribute into numeric
+@attribute invisible numeric
+@attribute iphone numeric
+@attribute is numeric
+@attribute issue numeric
+@attribute issues numeric
+@attribute it numeric
+@attribute it&#39 numeric
+@attribute its numeric
+@attribute itunes numeric
+@attribute it’s numeric
+@attribute jobs numeric
+@attribute just numeric
+@attribute keys numeric
+@attribute killer numeric
+@attribute kindanlove numeric
+@attribute kleuren numeric
+@attribute know numeric
+@attribute laptop numeric
+@attribute later numeric
+@attribute latest numeric
+@attribute launches numeric
+@attribute left numeric
+@attribute let&#39 numeric
+@attribute level numeric
+@attribute like numeric
+@attribute likes numeric
+@attribute line numeric
+@attribute liquid numeric
+@attribute little numeric
+@attribute loading numeric
+@attribute long numeric
+@attribute longer numeric
+@attribute look numeric
+@attribute looks numeric
+@attribute lost numeric
+@attribute ly/15T0o9s numeric
+@attribute ly/19wVkTd numeric
+@attribute ly/2AxFHe numeric
+@attribute ly/2AxFR7 numeric
+@attribute ly/2AxLK9 numeric
+@attribute ly/2AxM2J numeric
+@attribute ly/2AxMYu numeric
+@attribute ly/2AxOPl numeric
+@attribute ly/2AxOi1 numeric
+@attribute ly/2AxSXK numeric
+@attribute ly/2Ay2dB numeric
+@attribute ly/2Ay4dX numeric
+@attribute ly/GJRxfp numeric
+@attribute ly/pz7go numeric
+@attribute m numeric
+@attribute maakt numeric
+@attribute machine numeric
+@attribute make numeric
+@attribute making numeric
+@attribute manufacturer numeric
+@attribute many numeric
+@attribute market numeric
+@attribute marketing numeric
+@attribute me numeric
+@attribute mean numeric
+@attribute meer numeric
+@attribute met numeric
+@attribute metal numeric
+@attribute mobi numeric
+@attribute more numeric
+@attribute most numeric
+@attribute motion numeric
+@attribute much numeric
+@attribute my numeric
+@attribute na numeric
+@attribute national numeric
+@attribute net numeric
+@attribute never numeric
+@attribute new numeric
+@attribute nl numeric
+@attribute no numeric
+@attribute not numeric
+@attribute notes numeric
+@attribute now numeric
+@attribute nu numeric
+@attribute number numeric
+@attribute of numeric
+@attribute offense numeric
+@attribute officially numeric
+@attribute old numeric
+@attribute on numeric
+@attribute one numeric
+@attribute only numeric
+@attribute op numeric
+@attribute opvallende numeric
+@attribute or numeric
+@attribute original numeric
+@attribute out numeric
+@attribute over numeric
+@attribute overhaul numeric
+@attribute parches numeric
+@attribute people numeric
+@attribute perfect numeric
+@attribute phone numeric
+@attribute phones numeric
+@attribute photographer numeric
+@attribute photographs numeric
+@attribute phtographer numeric
+@attribute picture numeric
+@attribute pictures numeric
+@attribute pl/nA numeric
+@attribute place numeric
+@attribute plans numeric
+@attribute please numeric
+@attribute plz numeric
+@attribute policy numeric
+@attribute position numeric
+@attribute post numeric
+@attribute pr0n numeric
+@attribute precies numeric
+@attribute presentation numeric
+@attribute presents numeric
+@attribute previous numeric
+@attribute price numeric
+@attribute private numeric
+@attribute probably numeric
+@attribute problems numeric
+@attribute processing numeric
+@attribute proclamations numeric
+@attribute product numeric
+@attribute providi numeric
+@attribute public numeric
+@attribute published numeric
+@attribute quality numeric
+@attribute quarter numeric
+@attribute quite numeric
+@attribute raises numeric
+@attribute raising numeric
+@attribute ran numeric
+@attribute read numeric
+@attribute real numeric
+@attribute reason numeric
+@attribute rely numeric
+@attribute reporting numeric
+@attribute reputation numeric
+@attribute requset numeric
+@attribute results numeric
+@attribute retina numeric
+@attribute return numeric
+@attribute review numeric
+@attribute right numeric
+@attribute rumors numeric
+@attribute s numeric
+@attribute sahres numeric
+@attribute said numeric
+@attribute sales numeric
+@attribute says numeric
+@attribute screen numeric
+@attribute sealed numeric
+@attribute second numeric
+@attribute secret numeric
+@attribute secure numeric
+@attribute security numeric
+@attribute see numeric
+@attribute select numeric
+@attribute sell numeric
+@attribute sensors numeric
+@attribute server numeric
+@attribute service numeric
+@attribute set numeric
+@attribute settle numeric
+@attribute share numeric
+@attribute should numeric
+@attribute showing numeric
+@attribute sim numeric
+@attribute similar numeric
+@attribute size numeric
+@attribute slimline numeric
+@attribute slot numeric
+@attribute smartphone numeric
+@attribute smoke numeric
+@attribute smooth numeric
+@attribute snapping numeric
+@attribute so numeric
+@attribute software numeric
+@attribute some numeric
+@attribute space numeric
+@attribute spy numeric
+@attribute started numeric
+@attribute starting numeric
+@attribute statement numeric
+@attribute stealthy numeric
+@attribute steve numeric
+@attribute stick numeric
+@attribute still numeric
+@attribute stop numeric
+@attribute storage numeric
+@attribute style numeric
+@attribute subject numeric
+@attribute supported numeric
+@attribute sure numeric
+@attribute surprise numeric
+@attribute t numeric
+@attribute taking numeric
+@attribute talk numeric
+@attribute technology numeric
+@attribute templates numeric
+@attribute tested numeric
+@attribute than numeric
+@attribute that numeric
+@attribute the numeric
+@attribute their numeric
+@attribute these numeric
+@attribute theverge numeric
+@attribute they numeric
+@attribute thilend numeric
+@attribute think numeric
+@attribute this numeric
+@attribute through numeric
+@attribute to numeric
+@attribute today numeric
+@attribute today&#39 numeric
+@attribute todaysiphone numeric
+@attribute too numeric
+@attribute took numeric
+@attribute tops numeric
+@attribute tour numeric
+@attribute to announce its numeric
+@attribute tracker numeric
+@attribute trends numeric
+@attribute turns numeric
+@attribute under numeric
+@attribute unforgivable numeric
+@attribute unlocked numeric
+@attribute up numeric
+@attribute update numeric
+@attribute updated numeric
+@attribute updates numeric
+@attribute upload numeric
+@attribute us numeric
+@attribute use numeric
+@attribute user numeric
+@attribute using numeric
+@attribute valued numeric
+@attribute ve numeric
+@attribute vertical numeric
+@attribute very numeric
+@attribute video numeric
+@attribute voorraad numeric
+@attribute w numeric
+@attribute wannabe numeric
+@attribute want numeric
+@attribute wanted numeric
+@attribute warranty numeric
+@attribute was numeric
+@attribute wat numeric
+@attribute web numeric
+@attribute week numeric
+@attribute what numeric
+@attribute which numeric
+@attribute while numeric
+@attribute who numeric
+@attribute why numeric
+@attribute will numeric
+@attribute with numeric
+@attribute within numeric
+@attribute world numeric
+@attribute would numeric
+@attribute wristwatch numeric
+@attribute written numeric
+@attribute www numeric
+@attribute years numeric
+@attribute yehaaa numeric
+@attribute you numeric
+@attribute you&#39 numeric
+@attribute your numeric
+@attribute z numeric
+@attribute zdnet numeric
+@attribute zijn numeric
+@attribute | numeric
+@attribute   numeric
+@attribute  I numeric
+@attribute  for numeric
+@attribute » numeric
+@attribute มันขึ้นว่า numeric
+@attribute หมายเลข numeric
+@attribute … numeric
+@attribute “Meagre�? numeric
+@attribute – numeric
+@attribute — numeric
+@attribute 　 numeric
+@attribute ～the numeric
+
+@data
+{}
+{70 2.777672,72 6.516249,86 1.816766,89 3.258125,116 1.735125,117 5.164005,253 3.258125,269 3.258125,270 3.258125,313 4.402505,333 2.879505,369 1.336313,408 2.496625,419 3.258125,433 3.258125,481 3.258125,484 2.777672,524 3.258125,525 3.258125,545 3.258125,552 0.948417,554 3.258125,555 5.164005,596 3.258125,649 2.496625,681 1.816766,702 1.59603,724 3.258125,742 3.258125,746 3.258125,750 3.258125,758 5.164005,764 3.470249,767 3.258125,781 3.258125,830 2.777672,839 3.258125,871 2.777672,875 2.297219}
+{}
+{55 2.496625,113 1.735125,131 2.496625,143 2.297219,167 2.496625,249 2.496625,264 2.496625,278 2.142547,358 2.496625,360 2.297219,390 0.973625,471 2.496625,552 0.948417,557 1.735125,585 0.948417,594 0.455695,622 1.909323,709 2.297219,832 2.496625}
+{1 2.016172,5 3.258125,7 2.142547,19 2.297219,22 1.816766,32 3.258125,102 2.142547,103 2.142547,115 2.016172,149 2.777672,187 1.909323,236 3.258125,339 2.016172,367 2.142547,594 0.455695,891 3.195557,895 3.395857}
+{}
+{187 1.909323,200 2.777672,242 3.258125,257 3.258125,324 3.258125,326 3.258125,390 0.973625,396 2.496625,463 3.258125,543 3.258125,552 1.503205,591 2.297219,594 0.455695,670 3.258125,683 3.258125,807 3.258125,829 2.016172,869 3.258125}
+{51 1.59603,175 2.777672,182 3.258125,205 3.258125,232 3.258125,244 3.258125,256 2.496625,322 3.258125,333 1.816766,585 0.948417,594 0.455695,654 3.258125}
+{51 1.59603,61 2.496625,140 2.777672,230 3.258125,366 2.777672,552 0.948417,585 0.948417,594 0.455695,655 3.258125}
+{71 3.258125,86 1.816766,88 1.816766,92 2.016172,220 3.258125,320 3.258125,370 2.142547,385 4.402505,388 2.142547,389 3.258125,390 0.973625,403 4.594437,415 3.258125,423 3.258125,594 0.455695,602 2.264705,605 3.258125,698 1.42887,702 1.59603,763 2.777672,769 3.258125,788 2.777672,800 3.258125,801 3.258125,822 2.260687}
+{}
+{1 2.016172,7 2.142547,8 2.777672,18 3.258125,22 1.816766,30 3.258125,43 2.016172,75 3.258125,102 2.142547,103 2.142547,132 3.258125,187 1.909323,210 3.258125,255 3.258125,282 2.777672,302 3.258125,327 3.258125,339 2.016172,367 2.142547,390 1.543159,891 3.195557,895 2.142547,898 3.258125}
+{46 2.777672,78 1.909323,84 2.297219,92 3.195557,98 3.258125,116 1.735125,150 3.258125,195 3.258125,213 3.258125,243 3.258125,256 2.496625,303 3.258125,304 3.258125,338 2.496625,344 3.258125,369 1.336313,403 2.297219,416 2.016172,418 2.142547,536 3.258125,544 3.258125,550 3.258125,552 0.948417,572 1.909323,585 0.948417,594 0.91139,602 1.42887,603 3.258125,604 3.258125,653 3.258125,695 2.777672,698 1.42887,747 3.258125,763 2.777672,764 1.735125,822 0.973625,831 1.294291,870 3.258125,872 3.258125}
+{}
+{}
+{}
+{16 3.258125,24 3.258125,26 3.258125,66 3.258125,134 3.258125,212 3.258125,266 2.777672,295 3.258125,370 2.142547,430 3.258125,435 3.258125,537 5.164005,539 3.258125,572 1.909323,589 2.297219,590 2.496625,594 0.455695,599 2.777672,619 2.750108,623 3.258125,648 3.258125,682 3.258125,685 2.496625,692 2.496625,698 1.42887,704 3.258125,707 2.496625,713 3.258125,764 1.735125,793 3.258125,812 3.258125,821 2.434057,822 1.947249,868 3.258125,892 3.395857}
+{37 2.297219,113 2.750108,114 2.777672,174 3.395857,193 2.777672,199 2.496625,308 3.395857,331 2.777672,369 2.118005,381 2.777672,406 2.496625,445 2.496625,460 2.777672,476 2.777672,480 2.142547,501 2.777672,523 2.777672,533 2.777672,538 2.777672,552 0.948417,572 3.026205,580 2.142547,595 2.297219,636 2.496625,645 2.777672,681 1.816766,710 2.297219,740 2.777672,743 2.777672,749 2.777672,756 2.777672,764 1.735125,773 2.142547,774 2.496625,784 2.777672,795 2.496625,813 2.777672,820 2.016172,821 1.535719,822 1.947249,829 2.016172,876 1.42887,901 2.297219}
+{}
+{1 2.016172,7 2.142547,8 2.777672,19 2.297219,22 1.816766,29 2.496625,102 2.142547,103 2.142547,115 2.016172,187 1.909323,225 3.258125,339 2.016172,367 2.142547,594 0.455695,891 3.195557,895 3.395857}
+{}
+{}
+{}
+{}
+{55 2.496625,113 1.735125,131 2.496625,143 2.297219,167 2.496625,249 2.496625,264 2.496625,278 2.142547,358 2.496625,360 2.297219,390 0.973625,471 2.496625,552 0.948417,557 1.735125,585 0.948417,594 0.455695,622 1.909323,709 2.297219,832 2.496625}
+{}
+{}
+{33 3.258125,54 3.258125,65 3.258125,79 3.258125,185 2.777672,207 3.258125,272 3.258125,408 2.496625,439 2.777672,440 2.496625,449 3.258125,464 3.258125,563 5.164005,579 3.258125,585 0.948417,594 0.455695,703 2.777672,822 1.543159,855 3.258125,885 1.735125,900 2.777672}
+{47 3.258125,116 1.735125,204 3.258125,241 2.777672,337 2.777672,343 3.258125,390 0.973625,585 0.948417,594 0.455695,664 3.258125}
+{116 1.735125,120 3.258125,222 3.258125,348 3.258125,498 3.258125,618 2.016172,625 3.258125,700 3.258125,814 2.777672,830 2.777672,876 1.42887}
+{}
+{}
+{}
+{}
+{95 2.496625,96 3.258125,318 6.516249,332 3.258125,346 3.258125,370 2.142547,372 3.258125,386 2.777672,390 1.947249,396 2.496625,397 3.258125,402 2.297219,410 3.258125,426 3.258125,434 3.258125,444 3.258125,450 3.258125,504 2.777672,530 3.258125,572 1.909323,589 3.641005,591 3.641005,594 0.72226,601 3.258125,602 1.42887,613 3.258125,624 3.641005,643 3.258125,698 1.42887,702 1.59603,711 3.258125,764 1.735125,768 2.496625,822 2.260687,831 2.051402,847 4.402505,848 3.258125,849 3.258125,853 3.258125,859 3.258125,876 2.264705,892 2.142547}
+{86 1.816766,116 1.735125,189 3.258125,390 0.973625,594 0.455695,698 1.42887}
+{37 2.297219,149 2.777672,151 3.258125,153 3.258125,191 3.258125,256 2.496625,383 2.777672,390 0.973625,557 1.735125,594 0.455695,698 1.42887,710 2.297219,822 0.973625,878 3.258125}
+{}
+{37 2.297219,113 2.750108,114 2.777672,174 3.395857,193 2.777672,199 2.496625,308 3.395857,331 2.777672,369 2.118005,381 2.777672,406 2.496625,445 2.496625,460 2.777672,476 2.777672,480 2.142547,501 2.777672,523 2.777672,533 2.777672,538 2.777672,552 0.948417,572 3.026205,580 2.142547,595 2.297219,636 2.496625,645 2.777672,681 1.816766,710 2.297219,740 2.777672,743 2.777672,749 2.777672,756 2.777672,764 1.735125,773 2.142547,774 2.496625,784 2.777672,795 2.496625,813 2.777672,820 2.016172,821 1.535719,822 1.947249,829 2.016172,876 1.42887,901 2.297219}
+{}
+{58 3.258125,218 3.258125,284 3.258125,305 3.258125,336 2.777672,369 2.672625,377 5.164005,393 3.258125,398 3.258125,399 2.496625,407 3.258125,416 3.195557,441 3.641005,453 5.555343,455 6.516249,487 3.258125,494 5.164005,519 3.258125,552 0.948417,557 2.750108,571 3.258125,574 2.016172,602 2.264705,607 3.258125,609 3.258125,610 3.258125,611 3.258125,618 4.681406,619 4.028835,620 3.258125,681 1.816766,693 4.594437,707 2.496625,725 3.258125,727 2.777672,757 3.258125,779 3.258125,786 4.402505,811 6.516249,821 3.565828,822 2.516783,829 4.032343,831 1.294291,843 2.777672,845 2.777672,876 1.42887,885 1.735125,887 2.297219,896 3.258125,897 3.258125}
+{83 3.258125,86 1.816766,88 1.816766,337 2.777672,350 2.777672,390 0.973625,552 0.948417,594 0.72226}
+{}
+{73 4.402505,76 4.402505,77 4.402505,81 4.402505,82 4.402505,86 2.879505,87 4.402505,88 2.879505,146 5.164005,186 5.164005,265 5.164005,268 5.164005,328 5.164005,353 5.164005,363 5.164005,551 4.402505,568 4.402505,594 0.72226,680 4.402505,688 4.402505,882 6.449554,891 3.195557}
+{}
+{17 3.258125,22 1.816766,127 3.258125,180 3.258125,408 2.496625,428 3.258125,462 3.258125,489 3.258125,581 3.258125,597 3.258125,884 3.258125}
+{11 3.258125,20 2.777672,21 3.258125,22 1.816766,95 2.496625,297 3.258125,349 2.777672,361 2.142547,390 0.973625,552 0.948417}
+{43 4.032343,86 1.816766,136 2.297219,143 4.594437,206 3.258125,425 3.258125,427 3.258125,560 3.258125,594 0.455695,730 5.164005,831 1.294291,892 2.142547}
+{43 2.016172,45 3.258125,61 2.496625,140 2.777672,208 3.258125,217 3.258125,234 3.258125,238 2.496625,258 3.258125,323 3.258125,333 1.816766,354 3.258125,355 3.258125,365 3.957057,369 1.336313,383 2.777672,390 0.973625,414 3.258125,416 2.016172,441 2.297219,454 2.777672,457 3.258125,458 3.258125,470 3.258125,483 3.258125,485 3.258125,486 3.258125,492 3.258125,493 3.258125,502 3.258125,535 3.258125,552 0.948417,553 3.258125,561 3.258125,585 0.948417,594 0.72226,600 3.258125,602 2.264705,608 3.258125,617 3.258125,629 3.258125,694 3.258125,698 1.42887,707 2.496625,723 2.777672,736 3.258125,772 3.258125,789 3.258125,798 3.258125,799 3.258125,803 3.258125,808 3.258125,821 1.535719,822 0.973625,823 3.258125,824 3.258125,851 3.258125,862 3.258125,875 2.297219,876 1.42887,877 3.258125,881 3.258125,885 1.735125}
+{110 3.258125,202 3.258125,369 1.336313,587 2.777672,593 3.258125,595 2.297219,686 3.258125,888 3.258125}
+{51 1.59603,113 1.735125,128 3.258125,278 2.142547,360 2.297219,390 0.973625,402 2.297219,552 0.948417,585 0.948417,591 2.297219,594 0.455695,622 1.909323,635 3.258125,656 3.258125,751 3.258125}
+{43 3.195557,51 1.59603,91 1.662094,259 3.258125,352 2.496625,570 3.258125,585 0.948417,594 0.455695,657 3.258125,761 3.258125}
+{51 1.59603,78 1.909323,92 2.016172,99 3.258125,111 3.258125,177 3.258125,227 3.258125,516 2.777672,574 2.016172,585 0.948417,594 0.455695,658 3.258125,759 3.258125,831 1.294291}
+{1 2.016172,4 3.258125,9 3.258125,12 3.258125,15 3.258125,38 8.333015,43 2.016172,51 1.59603,70 4.402505,74 6.516249,106 5.164005,122 7.565131,123 5.164005,124 3.258125,136 2.297219,179 3.258125,192 5.164005,224 3.258125,263 3.258125,274 3.258125,286 3.258125,294 3.258125,307 3.258125,316 3.258125,317 3.258125,329 3.258125,364 3.258125,390 1.543159,411 5.164005,413 3.258125,420 3.258125,437 9.774374,512 3.258125,521 3.258125,527 3.258125,532 3.258125,542 3.258125,557 2.750108,585 0.948417,615 3.258125,619 3.470249,646 3.258125,660 3.258125,710 2.297219,723 2.777672,776 3.258125,822 0.973625,831 2.051402,852 2.496625,875 2.297219,885 1.735125,887 4.594437}
+{78 1.909323,85 3.258125,109 2.297219,139 2.777672,148 3.258125,162 3.258125,228 3.258125,246 3.258125,271 3.258125,306 3.258125,465 3.258125,594 0.455695}
+{3 3.258125,51 1.59603,145 3.258125,251 3.258125,314 3.258125,315 3.258125,342 3.258125,361 2.142547,366 2.777672,585 0.948417,594 0.455695,659 3.258125}
+{41 2.496625,67 3.258125,84 3.641005,439 2.777672,453 4.402505,557 1.735125,578 3.258125,583 2.777672,587 2.777672,602 2.264705,606 3.258125,618 3.195557,675 2.777672,685 2.496625,693 2.297219,712 3.258125,726 5.164005,786 4.402505,827 3.258125,831 1.294291,838 3.258125,852 3.957057}
+{43 2.016172,92 2.016172,129 3.258125,278 2.142547,594 0.455695}
+{55 2.496625,113 1.735125,131 2.496625,143 2.297219,167 2.496625,249 2.496625,264 2.496625,278 2.142547,358 2.496625,360 2.297219,390 0.973625,471 2.496625,552 0.948417,557 1.735125,585 0.948417,594 0.455695,622 1.909323,709 2.297219,832 2.496625}
+{78 1.909323,92 2.016172,100 3.258125,163 2.777672,369 1.336313,405 3.258125,416 2.016172,516 2.777672,552 0.948417,594 0.455695,698 1.42887,714 3.258125,788 2.777672,822 0.973625,828 3.258125,879 3.258125,885 1.735125}
+{88 1.816766,92 2.016172,185 2.777672,370 2.142547,594 0.72226,639 3.258125,764 1.735125,816 3.258125,822 1.543159}
+{86 2.879505,88 1.816766,108 3.258125,116 2.750108,119 3.258125,216 3.195557,248 3.258125,339 2.016172,371 3.258125,375 3.258125,378 3.258125,379 3.258125,382 2.496625,386 2.777672,390 0.973625,404 3.258125,412 3.258125,436 3.258125,438 3.258125,448 2.297219,454 2.777672,478 3.258125,515 3.258125,529 3.258125,557 1.735125,569 3.258125,594 0.72226,619 2.750108,621 3.258125,626 3.258125,628 2.777672,634 3.258125,638 3.258125,640 5.164005,685 4.993249,692 2.496625,693 2.297219,698 1.42887,701 3.258125,755 3.258125,775 3.258125,778 3.258125,787 3.258125,797 3.258125,819 2.777672,821 1.535719,822 2.260687,831 2.051402,843 2.777672,885 1.735125,901 2.297219}
+{56 2.297219,113 2.750108,174 2.142547,181 3.258125,183 2.777672,221 3.258125,282 2.777672,308 2.142547,325 3.258125,369 1.336313,392 3.258125,394 3.258125,402 3.641005,416 2.016172,418 2.142547,448 2.297219,469 3.258125,479 3.258125,500 3.258125,546 3.258125,552 0.948417,574 2.016172,576 3.258125,585 0.948417,586 3.258125,594 0.455695,619 2.750108,628 2.777672,647 3.258125,681 1.816766,702 1.59603,762 3.258125,768 2.496625,773 2.142547,774 3.957057,777 3.258125,795 2.496625,805 3.258125,810 3.258125,820 2.016172,822 1.947249,826 3.258125,829 2.016172,835 3.258125,846 3.258125,857 3.258125,875 2.297219,876 1.42887,885 2.750108,887 2.297219}
+{113 1.735125,199 2.496625,308 2.142547,594 0.455695,681 1.816766,764 1.735125,768 2.496625,773 2.142547,820 2.016172}
+{6 3.258125,25 3.258125,163 2.777672,356 2.777672,357 2.496625,369 1.336313,388 2.142547,390 0.973625,396 2.496625,400 2.496625,402 2.297219,448 2.297219,456 3.258125,459 5.164005,488 3.258125,507 3.258125,518 4.402505,552 0.948417,574 2.016172,583 2.777672,598 3.258125,599 2.777672,602 1.42887,612 3.258125,616 3.258125,633 3.258125,669 2.777672,674 3.258125,693 2.297219,702 1.59603,715 5.164005,754 3.258125,821 1.535719,831 2.588582,863 3.258125,871 2.777672,885 4.028835,887 2.297219}
+{46 2.777672,90 3.957057,116 1.735125,141 3.258125,156 3.258125,172 3.258125,237 5.164005,384 3.258125,424 3.258125,495 3.258125,496 3.258125,499 3.258125,517 3.258125,528 3.258125,585 0.948417,594 0.72226,602 1.42887,619 4.028835,632 5.164005,650 3.258125,652 3.258125,667 3.258125,677 3.258125,678 3.258125,691 3.258125,696 3.258125,705 3.258125,706 3.258125,731 3.258125,802 3.258125,860 3.258125,867 3.258125,890 3.258125}
+{84 2.297219,200 2.777672,276 3.258125,552 0.948417,556 3.258125,594 0.455695,818 3.258125}
+{91 1.662094,121 3.258125,137 3.258125,214 3.258125,275 3.258125,311 3.258125,361 2.142547,594 0.455695,698 1.42887,822 1.947249,900 2.777672}
+{91 3.324189,194 2.496625,209 3.258125,231 2.777672,235 2.496625,260 2.496625,301 2.496625,333 1.816766,390 1.543159,399 3.957057,401 3.258125,441 2.297219,446 3.258125,447 3.957057,451 3.258125,522 3.258125,531 3.258125,541 5.164005,552 0.948417,559 3.258125,564 3.258125,580 2.142547,618 3.195557,619 3.470249,684 2.777672,687 3.258125,698 1.42887,719 3.258125,720 3.258125,721 2.496625,734 3.258125,745 3.258125,766 3.258125,794 3.258125,819 2.777672,820 2.016172,821 1.535719,822 2.73331,858 2.496625,873 3.258125}
+{53 3.258125,475 3.258125,585 0.948417}
+{1 2.016172,7 2.142547,14 2.777672,19 2.297219,22 1.816766,29 2.496625,59 2.777672,102 2.142547,103 2.142547,109 2.297219,115 2.016172,187 1.909323,339 2.016172,341 2.777672,347 2.777672,367 2.142547,594 0.455695,602 1.42887,891 3.195557,895 3.395857}
+{}
+{}
+{38 5.555343,63 6.516249,80 3.258125,84 5.333977,116 3.470249,130 7.565131,160 3.258125,169 3.258125,171 3.258125,190 6.516249,223 3.258125,239 3.258125,319 7.565131,321 5.164005,333 1.816766,351 5.164005,359 6.516249,390 1.543159,432 3.258125,503 3.258125,547 3.258125,567 2.777672,594 1.058091,602 1.42887,624 2.297219,644 3.258125,679 3.258125,698 1.42887,702 1.59603,735 5.164005,791 3.258125,809 3.258125,841 3.258125,876 1.42887}
+{}
+{}
+{62 2.777672,115 2.016172,152 2.777672,178 2.777672,238 2.496625,261 2.777672,262 2.142547,300 2.777672,338 2.496625,352 2.496625,357 2.496625,365 2.496625,418 2.142547,572 1.909323,594 0.455695,702 1.59603,729 2.777672,744 2.777672}
+{49 3.258125,90 2.496625,139 2.777672,147 3.258125,201 3.258125,330 3.258125,473 3.258125,584 3.258125,585 0.948417,594 0.455695}
+{41 3.957057,57 2.777672,78 1.909323,91 2.634357,136 2.297219,194 3.957057,216 2.016172,235 2.496625,260 3.957057,280 2.777672,288 2.777672,301 2.496625,310 2.777672,369 1.336313,382 2.496625,390 0.973625,417 2.777672,421 2.297219,443 2.777672,447 2.496625,452 2.777672,509 2.777672,511 2.777672,552 0.948417,575 2.777672,580 2.142547,594 0.72226,622 1.909323,641 2.777672,649 2.496625,666 2.777672,702 1.59603,717 2.777672,718 2.777672,721 2.496625,771 2.777672,782 2.777672,815 2.777672,821 1.535719,822 1.543159,831 2.051402,836 2.777672,858 2.496625,866 4.402505,876 1.42887}
+{226 2.496625,273 2.777672,376 2.777672,400 2.496625,421 2.297219,461 2.777672,480 2.142547,508 2.777672,565 2.777672,594 0.455695,728 2.777672,822 1.543159,837 2.777672}
+{61 2.496625,69 3.258125,183 2.777672,216 5.211728,219 3.258125,333 1.816766,335 3.258125,370 2.142547,374 3.258125,387 5.164005,388 2.142547,390 0.973625,399 2.496625,418 2.142547,482 3.258125,513 3.258125,514 3.258125,534 3.258125,566 3.258125,573 3.258125,574 2.016172,594 0.91139,619 2.750108,624 2.297219,630 3.258125,676 2.777672,692 2.496625,698 2.264705,699 3.258125,741 3.258125,753 2.777672,764 1.735125,785 3.258125,806 3.258125,817 3.258125,821 1.535719,822 1.947249,831 2.051402,833 3.258125,852 2.496625,854 6.516249,874 3.258125,883 3.258125}
+{27 3.258125,60 3.258125,109 2.297219,138 3.258125,154 3.258125,187 1.909323,203 3.258125,211 3.258125,226 2.496625,250 3.258125,267 3.258125,279 3.258125,340 3.258125,594 0.72226,780 3.258125}
+{50 3.258125,88 1.816766,285 3.258125,585 0.948417,594 0.455695,722 3.258125,861 3.258125}
+{2 3.258125,23 3.258125}
+{105 3.258125,441 2.297219,548 3.258125,594 0.455695,627 3.258125,732 3.258125,804 3.258125}
+{91 1.662094,197 3.258125,215 2.777672,390 0.973625,552 0.948417,594 0.455695,642 3.258125,672 3.258125,765 3.258125}
+{10 3.258125,52 3.258125,104 3.258125,283 3.258125,298 3.258125,368 3.258125,442 3.258125,552 0.948417,585 0.948417,594 0.455695,733 3.258125,876 1.42887}
+{36 3.258125,91 1.662094,312 3.258125,336 2.777672,369 1.336313,388 2.142547,390 1.543159,403 2.297219,416 3.195557,440 2.496625,448 2.297219,490 3.258125,497 3.258125,526 3.258125,549 3.258125,562 3.258125,582 3.258125,594 0.455695,676 2.777672,690 2.777672,697 3.258125,703 2.777672,709 2.297219,737 3.258125,738 3.258125,739 3.258125,752 3.258125,753 2.777672,796 3.258125,822 1.543159,829 2.016172,831 2.051402,842 3.258125,847 2.777672,876 1.42887,892 3.395857,893 3.258125,894 3.258125}
+{13 3.258125}
+{39 3.258125,40 3.258125,48 5.164005,184 3.258125,247 3.258125,391 3.258125,468 3.258125,474 3.258125,491 3.258125,585 1.503205,618 2.016172,631 5.164005,844 3.258125,902 3.258125,903 3.258125}
+{37 2.297219,56 2.297219,113 1.735125,174 2.142547,308 2.142547,445 2.496625,466 3.258125,585 0.948417,595 2.297219,681 1.816766,773 2.142547,820 2.016172,822 0.973625,825 3.258125}
+{}
+{31 3.258125,51 1.59603,97 3.258125,125 3.258125,309 3.258125,380 3.258125,388 2.142547,552 0.948417,577 3.258125,585 0.948417,624 2.297219,661 3.258125,748 3.258125,840 3.258125,880 3.258125}
+{78 1.909323,118 3.258125,161 3.258125,164 3.258125,196 3.258125,262 2.142547,266 2.777672,350 2.777672,356 2.777672,361 2.142547,590 2.496625,594 0.455695}
+{0 3.258125,20 2.777672,22 1.816766,90 2.496625,91 1.662094,313 2.777672,505 3.258125,567 2.777672,602 1.42887,637 3.258125,651 3.258125,673 3.258125,783 3.258125,831 1.294291}
+{142 3.258125,175 2.777672,231 2.777672,333 1.816766}
+{}
+{51 1.59603,88 1.816766,107 3.258125,241 2.777672,281 3.258125,291 3.258125,292 3.258125,552 0.948417,585 0.948417,594 0.455695,662 3.258125}
+{35 3.258125,369 1.336313,390 0.973625,504 2.777672,552 1.503205,592 3.258125,668 3.258125,790 3.258125,850 3.258125}
+{73 4.402505,76 4.402505,77 4.402505,81 4.402505,82 4.402505,86 2.879505,87 4.402505,88 2.879505,144 5.164005,166 5.164005,173 5.164005,290 4.402505,551 4.402505,568 4.402505,594 0.72226,680 4.402505,688 4.402505,882 6.449554}
+{34 3.258125,51 1.59603,64 3.258125,176 3.258125,229 3.258125,240 3.258125,254 3.258125,289 3.258125,296 3.258125,585 0.948417,591 2.297219,602 1.42887,663 3.258125,899 3.258125}
+{28 3.258125,42 3.258125,68 3.258125,91 2.634357,93 3.258125,94 3.258125,101 3.258125,116 3.470249,135 3.258125,155 3.258125,159 3.258125,165 3.258125,245 3.258125,262 2.142547,290 2.777672,293 3.258125,333 2.879505,369 1.336313,373 3.258125,390 1.947249,403 2.297219,429 3.258125,431 3.258125,477 5.164005,480 2.142547,484 2.777672,540 3.258125,557 1.735125,590 2.496625,594 0.455695,602 1.42887,614 3.258125,618 2.016172,619 1.735125,622 1.909323,636 3.957057,671 3.258125,690 2.777672,708 3.258125,716 5.164005,727 2.777672,760 3.258125,770 3.258125,822 2.260687,845 2.777672,865 3.258125,876 2.857739}
+{1 2.016172,7 2.142547,14 2.777672,19 2.297219,22 1.816766,29 2.496625,59 2.777672,102 2.142547,103 2.142547,109 2.297219,115 2.016172,187 1.909323,339 2.016172,341 2.777672,347 2.777672,367 2.142547,594 0.455695,602 1.42887,891 3.195557,895 3.395857}
+{44 3.258125,133 3.258125,170 3.258125,188 3.258125,252 3.258125,262 3.395857,277 3.258125,287 3.258125,299 3.258125,349 2.777672,552 0.948417,589 2.297219,594 0.455695,702 1.59603,876 1.42887}
+{56 2.297219,216 2.016172,369 1.336313,406 3.957057,422 3.258125,440 2.496625,467 3.258125,506 3.258125,518 2.777672,585 0.948417,684 2.777672,689 3.258125,695 2.777672,792 3.258125,831 1.294291,834 3.258125,856 3.258125,864 3.258125,885 1.735125,886 3.258125}
+{51 1.59603,91 1.662094,95 3.957057,112 3.258125,126 3.258125,157 3.258125,158 3.258125,168 3.258125,215 2.777672,233 3.258125,334 3.258125,345 3.258125,361 3.395857,362 3.258125,390 0.973625,585 0.948417,588 3.258125,589 2.297219,594 0.455695,665 3.258125,681 1.816766,822 0.973625,831 1.294291,901 2.297219}
+{62 2.777672,115 2.016172,152 2.777672,178 2.777672,238 2.496625,261 2.777672,262 2.142547,300 2.777672,338 2.496625,352 2.496625,357 2.496625,365 2.496625,418 2.142547,572 1.909323,594 0.455695,702 1.59603,729 2.777672,744 2.777672}
+{41 3.957057,57 2.777672,78 1.909323,91 2.634357,136 2.297219,194 3.957057,216 2.016172,235 2.496625,260 3.957057,280 2.777672,288 2.777672,301 2.496625,310 2.777672,369 1.336313,382 2.496625,390 0.973625,417 2.777672,421 2.297219,443 2.777672,447 2.496625,452 2.777672,509 2.777672,511 2.777672,552 0.948417,575 2.777672,580 2.142547,594 0.72226,622 1.909323,641 2.777672,649 2.496625,666 2.777672,702 1.59603,717 2.777672,718 2.777672,721 2.496625,771 2.777672,782 2.777672,815 2.777672,821 1.535719,822 1.543159,831 2.051402,836 2.777672,858 2.496625,866 4.402505,876 1.42887}
+{56 2.297219,174 2.142547,198 3.258125,216 2.016172,385 2.777672,395 3.258125,409 3.258125,472 3.258125,510 3.258125,520 3.258125,552 0.948417,558 3.258125,574 2.016172,585 0.948417,669 2.777672,675 2.777672,698 1.42887,814 2.777672,821 1.535719,822 0.973625,831 1.294291,889 3.258125,892 2.142547}
+{226 2.496625,273 2.777672,376 2.777672,400 2.496625,421 2.297219,461 2.777672,480 2.142547,508 2.777672,565 2.777672,594 0.455695,728 2.777672,822 1.543159,837 2.777672}
