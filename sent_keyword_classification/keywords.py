@@ -15,7 +15,6 @@ class Keywords:
             KEYWORD_NAMES.append(row[0])
             KEYWORD_CATEGORIES[row[0]] = row[1]
 
-    #KEYWORD_NAMES = ["thanks", "linux", "vim", "editor"]
 
     KW = {}
     def __init__(self):
@@ -26,13 +25,14 @@ class Keywords:
 
     def listNames(self):
         return self.KEYWORD_NAMES 
+
     def listCategories(self):
         return self.KEYWORD_CATEGORIES
 
     def containsUppercaseChar(keywordName):                     # TODO: should be used to rank the keyword matching. 
         ucCharsList = re.findall(r"([A-Z])", keywordName)
         return len(ucCharsList) > 0
-    
+
     def addOccurance(self, keywordName, keyword):
         self.KW[keywordName].append(keyword)
 

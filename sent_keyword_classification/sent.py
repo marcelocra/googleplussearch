@@ -60,16 +60,24 @@ class SentiWordNetReader:
             synset = wn._synset_from_pos_and_offset(pos, offset)
             yield SentiSynset(pos_score, neg_score, synset)
 
+    def get_score(self, word):
+        synset = self.senti_synsets(word)
+        scoreset = map (lambda syn : syn.total_score, synset)
+        return sum(scoreset)
+
+
+
+
+
 class SentiSynset:
     def __init__(self, pos_score, neg_score, synset):
         self.pos_score = pos_score
         self.neg_score = neg_score
         self.obj_score = 1.0 - (self.pos_score + self.neg_score)
+        self.total_score = pos_score - neg_score
         self.synset = synset
     def __repr__(self):
-        return "senti" + repr(self.synset)
-
-
+        return "senti " + repr(self.synset)
 
 
 #swn = SentiWordNetReader("SENTIWORDNET.txt")
