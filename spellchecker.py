@@ -1,3 +1,4 @@
+# -*- coding: cp1252 -*-
 """
 spelling check based on Ethan Lib
 date : 02 Oct 2013
@@ -26,43 +27,40 @@ import urllib
 from enchant.tokenize import get_tokenizer
 
 class spellCheck():
-	def __init__(self):
-		pass
-	def spellcheck(self,text):
-		d = enchant.Dict("en_US")
-		words = text.split()
-		text2 = ""
-		for word in words :
-		    # checking slang word
-		    if d.check(word):
-			text2 = text2 +" "+word
-		    else:
-			if self.checkslang(word) == False :
-				replword = d.suggest(word)
-				if len(replword)>0:
-					text2 = text2 +" "+ replword[0]
-				else :
-					text2 = text2 +" "+word
-			else :
-				text2 = text2+" "+word
-		return text2
-	def checkslang(self,text):
-		url_info = urllib.open('http://api.urbandictionary.com/v0/define?term=%s' text)
-		result = ""
-		for lines in url_info:
-			result = result+lines
-		decode = json.loads(result)
-		if decode['result_type'] == 'no_results':
-			return False
-		else:
-			return True
+    def __init__(self):
+        pass
+    def spellcheck(self,text):
+        d = enchant.Dict("en_US")
+        text = text.translate(None, "'`’")
+        words = text.split()
+        text2 = ""
+        for word in words :
+            # checking slang word
+            if d.check(word):
+                text2 = text2 +" "+word
+            else:
+                if self.checkslang(word) == False :
+                    replword = d.suggest(word)
+                    if len(replword)>0:
+                        text2 = text2 +" "+ replword[0]
+                    else :
+                        text2 = text2 +" "+word
+                else :
+                    text2 = text2+" "+word
+        return text2
+    def checkslang(self,text):
+        url_info = urllib.urlopen('http://api.urbandictionary.com/v0/define?term='+text)
+        result = ""
+        for lines in url_info:
+            result = result+lines
+        decode = json.loads(result)
+        if decode['result_type'] == 'no_results':
+            return False
+        else:
+            return True
 
-	def doCheck(self,jsonobj):
-		decode = json.loads(jsonobj)
-		for postobj in decode['posts']:
-			pretext = postobj['post']['value']
-			self.spellcheck(pretext)
-
-            
-
-
+    def doCheck(self,jsonobj):
+        decode = json.loads(jsonobj)
+        for postobj in decode['posts']:
+            pretext = postobj['post']['value']
+            self.spellcheck(pretext)
