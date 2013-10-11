@@ -22,6 +22,7 @@ obtained
 """
 import json
 import enchant
+import urllib
 from enchant.tokenize import get_tokenizer
 
 class spellCheck():
@@ -36,19 +37,25 @@ class spellCheck():
 		    if d.check(word):
 			text2 = text2 +" "+word
 		    else:
-			print "1"
 			if self.checkslang(word) == False :
-				print "2"
 				replword = d.suggest(word)
 				if len(replword)>0:
-					print "3"
 					text2 = text2 +" "+ replword[0]
 				else :
-					print "4"
 					text2 = text2 +" "+word
+			else :
+				text2 = text2+" "+word
 		return text2
 	def checkslang(self,text):
-		return False
+		url_info = urllib.open('http://api.urbandictionary.com/v0/define?term=%s' text)
+		result = ""
+		for lines in url_info:
+			result = result+lines
+		decode = json.loads(result)
+		if decode['result_type'] == 'no_results':
+			return False
+		else:
+			return True
 
 	def doCheck(self,jsonobj):
 		decode = json.loads(jsonobj)
