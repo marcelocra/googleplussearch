@@ -50,13 +50,13 @@ class Trigram:
     """
     length = 0
     simThreshold = 0.15
+    enSimilarity = -999
 
     def __init__(self, fn=None, fromFile=None):
         self.lut = {}
         if fn is not None and fromFile is None:
             self.parseText(fn)
         else:
-            print("Parsing from Text")
             self.parseFile(fn)
 
     def parseText(self, text):
@@ -132,8 +132,9 @@ class Trigram:
             return False
 
     def isEnglish(self):
-        en = Trigram('EnglishText.txt')
+        en = Trigram('EnglishText.txt', 'yes')
         same = self.isSameLanguage(en)
+        self.enSimilarity = self.similarity(en) * 100
         return same
 
     def __sub__(self, other):
