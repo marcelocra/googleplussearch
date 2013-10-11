@@ -36,14 +36,15 @@ class spellCheck():
             if d.check(word):
                 text2 = text2 +" "+word
             else:
-                print "err : ",word
+                """print "err : ",word""""
                 if self.checkslang(word) :
-                    print "do nothing"
+                    """print "do nothing""""
                 else:
                     replword = d.suggest(word)
-                    print replword[0]
-                    text2 = text2 +" "+ replword[0]
-        print text2
+                    """print replword[0]"""
+                    if replword == "":
+                     text2 = text2 +" "+ replword[0]
+        return text2
     def checkslang(self,text):
         return False
 
