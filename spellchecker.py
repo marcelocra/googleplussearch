@@ -25,33 +25,36 @@ import enchant
 from enchant.tokenize import get_tokenizer
 
 class spellCheck():
-    def __init__(self):
-        pass
-    def spellcheck(self,text):
-        d = enchant.Dict("en_US")
-        tknzr = get_tokenizer("en_US")
-        text2 = ""
-        for (word,pos) in tknzr(text) :
-            # checking slang word
-            if d.check(word):
-                text2 = text2 +" "+word
-            else:
-                print "err : ",word
-                if self.checkslang(word) :
-                    print "do nothing"
-                else:
-                    replword = d.suggest(word)
-                    print replword[0]
-                    text2 = text2 +" "+ replword[0]
-        return text2
-    def checkslang(self,text):
-        return False
+	def __init__(self):
+		pass
+	def spellcheck(self,text):
+		d = enchant.Dict("en_US")
+		words = text.split()
+		text2 = ""
+		for word in words :
+		    # checking slang word
+		    if d.check(word):
+			text2 = text2 +" "+word
+		    else:
+			print "1"
+			if self.checkslang(word) == False :
+				print "2"
+				replword = d.suggest(word)
+				if len(replword)>0:
+					print "3"
+					text2 = text2 +" "+ replword[0]
+				else :
+					print "4"
+					text2 = text2 +" "+word
+		return text2
+	def checkslang(self,text):
+		return False
 
-    def doCheck(self,jsonobj):
-        decode = json.loads(jsonobj)
-        for postobj in decode['posts']:
-            pretext = postobj['post']['value']
-            self.spellcheck(pretext)
+	def doCheck(self,jsonobj):
+		decode = json.loads(jsonobj)
+		for postobj in decode['posts']:
+			pretext = postobj['post']['value']
+			self.spellcheck(pretext)
 
             
 
