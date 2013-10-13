@@ -24,15 +24,17 @@ obtained
 import json
 import enchant
 import urllib
+import re
 from enchant.tokenize import get_tokenizer
+
+re_wordFind = re.compile("[a-zA-Z-]+")
 
 class spellCheck():
     def __init__(self):
         pass
     def spellcheck(self,text):
         d = enchant.Dict("en_US")
-        text = text.translate(None, "'`’")
-        words = text.split()
+        words = re_wordFind.findall(text)
         text2 = ""
         for word in words :
             # checking slang word
@@ -48,6 +50,7 @@ class spellCheck():
                 else :
                     text2 = text2+" "+word
         return text2
+        
     def checkslang(self,text):
         url_info = urllib.urlopen('http://api.urbandictionary.com/v0/define?term='+text)
         result = ""
