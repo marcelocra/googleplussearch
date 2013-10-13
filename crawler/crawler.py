@@ -7,7 +7,6 @@
 #
 ##########################################################################################
 
-#import MySQLdb
 from optparse import OptionParser
 import simplejson as json
 import urllib2, cookielib
@@ -15,11 +14,19 @@ import sys
 import re
 from nltk.util import clean_html
 import HTMLParser
+import time
 
 sys.path.append("../LanguageDetection")
+sys.path.append("../")
 from LanguageCheck import Trigram
+from spellchecker import spellCheck
 
 apiKey = "AIzaSyDZFITATgwsWzuw4JpaXbWK0BV6Yd292mg"
+spellChecker = spellCheck()
+fpp = open("output_posts.txt", "a+")
+fpu = open("output_users.txt", "a+")
+
+re_hashtag_find = re.compile("<a class=\"ot-hashtag\".*?>(.*?)</a>")
 
 #Install cookiejar
 cj = cookielib.CookieJar()
@@ -47,7 +54,7 @@ def getUserInfo(googleID):
     search_data = urllib2.urlopen(url)
     search_data = search_data.read()
     overviewData = json.JSONDecoder().decode(search_data)
-    print overviewData
+    fpu.write(json.JSONEncoder().encode(overviewData) + "\n")
 
 # Find all the comments corresponding with a given postID
 def getComments(activityID):
@@ -59,9 +66,28 @@ def getComments(activityID):
         search_data = search_data.read()
         overviewData = json.JSONDecoder().decode(search_data)
         for item in overviewData['items']:
-            print "User: %s(%s)" % (item['actor']['displayName'], item['actor']['id'])
-            content = clean_html(item['object']['content'])
-            print content
+            output = {}
+            print item['id']
+            output['postID'] = item['id']
+            output['userID'] = item['actor']['id']
+            output['userName'] = item['actor']['displayName']
+            output['content'] = clean_html(item['object']['content'])
+            
+            output['hashtags'] = re_hashtag_find.findall(item['object']['content'])
+            content = HTMLParser.HTMLParser().unescape(clean_html(item['object']['content']))
+            cleanContent = re.sub("http://.*?(?:\s+|$)", "", content)
+            output['cleanContent'] = cleanContent
+
+            print cleanContent
+            print spellChecker.spellcheck(cleanContent)
+
+            # Check if text is english
+            languageDetector = Trigram(cleanContent)
+            isEnglish = languageDetector.isEnglish()
+            print "Post is in English: %s" % isEnglish
+            if isEnglish:
+                getUserInfo(item['actor']['id'])
+                fpp.write(json.JSONEncoder().encode(output) + "\n")
 
         if len(overviewData['items']) <= 0 or 'nextPageToken' not in overviewData:
             nextPage = False
@@ -72,13 +98,14 @@ def getComments(activityID):
 def getSearchResults(searchQuery):
     nextPage = True
     pageToken = ""
-    re_hashtag_find = re.compile("<a class=\"ot-hashtag\".*?>(.*?)</a>")
+    
     while nextPage:
-        url = "https://www.googleapis.com/plus/v1/activities?query=%s&pageToken=%s&key=%s" % (searchQuery, pageToken, apiKey)
+        time.sleep(2)
+        url = "https://www.googleapis.com/plus/v1/activities?query=%s&maxResults=20&pageToken=%s&key=%s" % (searchQuery, pageToken, apiKey)
         search_data = urllib2.urlopen(url)
         search_data = search_data.read()
         overviewData = json.JSONDecoder().decode(search_data)
-        fp = open("output.txt", "a+")
+
         for item in overviewData['items']:
             output = {}
             print item['id']
@@ -87,24 +114,30 @@ def getSearchResults(searchQuery):
             output['replyCount'] = item['object']['replies']['totalItems']
             output['userName'] = item['actor']['displayName']
             output['content'] = clean_html(item['object']['content'])
-#            getUserInfo(item['actor']['id'])
 
             output['hashtags'] = re_hashtag_find.findall(item['object']['content'])
             content = HTMLParser.HTMLParser().unescape(clean_html(item['object']['content']))
-            print content
-            fp.write(json.JSONEncoder().encode(output) + "\n")
+            cleanContent = re.sub("http://.*?(?:\s+|$)", "", content)
+            output['cleanContent'] = cleanContent
+
+            print cleanContent
+            print spellChecker.spellcheck(cleanContent)
+
             # Check if text is english
-            languageDetector = Trigram(content)
+            languageDetector = Trigram(cleanContent)
             isEnglish = languageDetector.isEnglish()
             print "Post is in English: %s" % isEnglish
+            if isEnglish:
+                fpp.write(json.JSONEncoder().encode(output) + "\n")
+                getUserInfo(item['actor']['id'])
             # Iterate over comments
             print "Replies: %s" % output['replyCount']
             print "Activity ID: %s" % output['postID']
             if item['object']['replies']['totalItems'] > 0:
                 print "\nComments:"
-#                getComments(item['id'])
+                getComments(item['id'])
+
             print "---------------------------------------------------"
-        fp.close()
 
         if len(overviewData['items']) <= 0:
             nextPage = False
@@ -135,5 +168,3 @@ def getOverview(googleID):
             pageToken = overviewData['nextPageToken']
 
 getSearchResults("iPhone")
-#getUserInfo("112006633193431967926")
-#getOverview("+LadyGaga")

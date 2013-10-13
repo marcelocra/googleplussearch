@@ -1,3 +1,4 @@
+# -*- coding: cp1252 -*-
 """
 spelling check based on Ethan Lib
 date : 02 Oct 2013
@@ -22,6 +23,7 @@ obtained
 """
 import json
 import enchant
+import urllib
 from enchant.tokenize import get_tokenizer
 
 class spellCheck():
@@ -29,30 +31,36 @@ class spellCheck():
         pass
     def spellcheck(self,text):
         d = enchant.Dict("en_US")
-        tknzr = get_tokenizer("en_US")
+        text = text.translate(None, "'`’")
+        words = text.split()
         text2 = ""
-        for (word,pos) in tknzr(text) :
+        for word in words :
             # checking slang word
             if d.check(word):
                 text2 = text2 +" "+word
             else:
-                print "err : ",word
-                if self.checkslang(word) :
-                    print "do nothing"
-                else:
+                if self.checkslang(word) == False :
                     replword = d.suggest(word)
-                    print replword[0]
-                    text2 = text2 +" "+ replword[0]
-        print text2
+                    if len(replword)>0:
+                        text2 = text2 +" "+ replword[0]
+                    else :
+                        text2 = text2 +" "+word
+                else :
+                    text2 = text2+" "+word
+        return text2
     def checkslang(self,text):
-        return False
+        url_info = urllib.urlopen('http://api.urbandictionary.com/v0/define?term='+text)
+        result = ""
+        for lines in url_info:
+            result = result+lines
+        decode = json.loads(result)
+        if decode['result_type'] == 'no_results':
+            return False
+        else:
+            return True
 
     def doCheck(self,jsonobj):
         decode = json.loads(jsonobj)
         for postobj in decode['posts']:
             pretext = postobj['post']['value']
             self.spellcheck(pretext)
-
-            
-
-
