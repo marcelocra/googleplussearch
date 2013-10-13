@@ -23,3 +23,12 @@ class Smileys:
         foundEmotions = list(set(matchingEmotions))
         return foundEmotions
 
+    def removeSmileys(self, string):
+        words = string.split()
+        cleanString = " ".join(filter(lambda x:not x in self.SMILEYS_STRINGS, words))
+        return cleanString 
+
+
+
+
+
