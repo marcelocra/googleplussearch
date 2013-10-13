@@ -1,6 +1,7 @@
 from underscore import _
 import codecs
 import re
+import nltk
 #from nltk.corpus import wordnet as wn
 try:
     from nltk.corpus import wordnet as wn
@@ -64,6 +65,18 @@ class SentiWordNetReader:
         synset = self.senti_synsets(word)
         scoreset = map (lambda syn : syn.total_score, synset)
         return sum(scoreset)
+   
+    def get_sentiment(self, text):
+        words = nltk.tokenize.word_tokenize(text)
+
+        if len(words) > 0:
+            word_scores = map(lambda word : self.get_score(word), words)
+            text_score = sum(word_scores)/len(word_scores)
+        else:
+            text_score = 0
+        
+        return text_score 
+
 
 
 

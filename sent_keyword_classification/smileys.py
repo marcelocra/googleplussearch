@@ -2,11 +2,11 @@ import csv
 
 class Smileys:
 
-    def __init__(self):
+    def __init__(self, path):
         self.SMILEYS_STRINGS = []
         self.SMILEYS_CATEGORIES = {}
 
-        with open("SMILEYS.csv", "rb") as smileysFile:
+        with open(path, "rb") as smileysFile:
             smileysReader = csv.reader(smileysFile, delimiter=',', quotechar='|')
             for row in smileysReader:
                 self.SMILEYS_STRINGS.append(row[0])

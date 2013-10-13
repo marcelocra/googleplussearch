@@ -7,7 +7,7 @@
 #
 ##########################################################################################
 
-import MySQLdb
+#import MySQLdb
 from optparse import OptionParser
 import simplejson as json
 import urllib2, cookielib
