@@ -27,7 +27,7 @@ import urllib
 import re
 from enchant.tokenize import get_tokenizer
 
-re_wordFind = re.compile("[a-zA-Z-]+")
+re_wordFind = re.compile("[a-zA-Z0-9]+")
 
 class spellCheck():
     def __init__(self):
