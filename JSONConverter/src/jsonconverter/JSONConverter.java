@@ -21,23 +21,24 @@ public class JSONConverter {
     /**
      * @param args the command line arguments
      */
-   public static void main(String[] args) throws FileNotFoundException, IOException, ParseException {
-    
-	  try{
-            BufferedReader reader = new BufferedReader(new FileReader("output.txt"));
+    static FileWriter newarff;
+    static char doublequote = 34; //char "
+    static char singlequote = 39; //char '
+   public static void makearff(String inputfile,String outputfile) throws IOException, ParseException{
+   /* Build .arff files from JSON */
+       
+       	  try{
+            //Initiates variables
+            BufferedReader reader = new BufferedReader(new FileReader(inputfile));
             String line = null;
             String name = null;
             long replyCount = 0;
             String postID = null;
             String userID = null;
             String content = null;
-            char doublequote = 34; //char "
-			JSONParser parser = new JSONParser();
-			FileWriter writer = new FileWriter("output.csv");
-			
-            //Write CSV file header
-            writer.append("UserName,replyCount,postID,userID,content\n");
-            FileWriter arff = new FileWriter("output.arff");
+            JSONParser parser = new JSONParser();
+            FileWriter arff = new FileWriter(outputfile);
+            
             //Write arff file header
             arff.append("@relation output\n");
             arff.append("@attribute username string\n");
@@ -47,51 +48,96 @@ public class JSONConverter {
             arff.append("@attribute comment string\n");
             arff.append("@data\n"); 
                         while ((line = reader.readLine()) != null) {
-							//Read from JSON
-                            Object obj = parser.parse(line);
-                            JSONObject jsonObject = (JSONObject) obj;
-                            name = (String) jsonObject.get("userName");
-                            replyCount = (long) jsonObject.get("replyCount");
-                            postID = (String) jsonObject.get("postID");
-                            userID = (String) jsonObject.get("userID");
-                            content = (String) jsonObject.get("content");
-                            
-                            //Write to CSV
-                            writer.append(name);
-                            writer.append(",");
-                            writer.append(String.valueOf(replyCount));
-                            writer.append(",");
-                            writer.append(postID);
-                            writer.append(",");
-                            writer.append(userID);
-                            writer.append(",");
-                            writer.append(content);
-                            writer.append("\n");
-                                                        
-                            //Write ARFF files
-                            arff.append(doublequote);
-                            arff.append(name);
-                            arff.append(doublequote);
-                            arff.append(",");
-                            arff.append(String.valueOf(replyCount));
-                            arff.append(",");
-                            arff.append(postID);
-                            arff.append(",");
-                            arff.append(userID);
-                            arff.append(",");
-                            arff.append(doublequote);
-                            arff.append(content);
-                            arff.append(doublequote);
-                            arff.append("\n");
+                                //Read from JSON
+                                Object obj = parser.parse(line);
+                                JSONObject jsonObject = (JSONObject) obj;
+                                name = (String) jsonObject.get("userName");
+//                                replyCount = (long) jsonObject.get("replyCount");
+                                postID = (String) jsonObject.get("postID");
+                                userID = (String) jsonObject.get("userID");
+                                content = (String) jsonObject.get("content"); 
+                                
+                                //Write ARFF files
+                                 arff.append(doublequote + name + doublequote + ",");
+                                 arff.append(String.valueOf(replyCount) + ",");
+                                 arff.append(postID + ",");
+                                 arff.append(userID + ",");
+                                 arff.append(doublequote + content + doublequote + "\n");
                         }
-						
-            writer.flush();
-            writer.close();
+            // Close file
             arff.flush();
             arff.close();
 
 	} catch (FileNotFoundException e) {
         }
-}
+   
+   }
+      public static void insertdata(String inputfile,String classname) throws IOException, ParseException{
+   /* Build .arff files from JSON */
+       
+       	  try{
+            //Initiates variables
+            BufferedReader reader = new BufferedReader(new FileReader(inputfile));
+            String line = null;
+            String content = null;
+            JSONParser parser = new JSONParser();
+  
+            //Write arff file header
+            
+                        while ((line = reader.readLine()) != null) {
+                                //Read from JSON
+                               // System.out.println(line);
+                                Object obj = parser.parse(line);
+                                JSONObject jsonObject = (JSONObject) obj;
+                                content = (String) jsonObject.get("cleanContent"); 
+                                String cleancontent = content.replace(doublequote,singlequote); 
+                                //Write ARFF files
+                                newarff.append(classname + ",");
+                                newarff.append(doublequote + cleancontent + doublequote + "\n");
+                                
+                                
+                                 
+                        }
+
+	} catch (FileNotFoundException e) {
+            System.out.println("Exception at input");
+        }
+   
+   }
+      
+   public static void Initarff() throws IOException{
+       //* Making new arff file ready for data
+        // Create newarff for all post
+        newarff = new FileWriter("weka/googlepost.arff");
+        // Create New Header
+        newarff.append("@relation post\n\n");
+        newarff.append("@attribute @@class@@ {audi, bmw, driving, imdb, iphone, music, racing, television}\n");
+        newarff.append("@attribute comment string\n\n");
+        newarff.append("@data\n"); 
+    }
+   
+   public static void Closearff() throws IOException{
+        // Close file
+        newarff.flush();
+        newarff.close();
+   }
+   
+   public static void writearff() throws IOException, ParseException {
+           Initarff();
+           insertdata("post/output_audi_posts.txt","audi");
+           insertdata("post/output_bmw_posts.txt","bmw");
+           insertdata("post/output_driving_posts.txt","driving");
+           insertdata("post/output_imdb_posts.txt","imdb");
+           insertdata("post/output_music_posts.txt","music");
+           insertdata("post/output_iphone_posts.txt","iphone");
+           insertdata("post/output_racing_posts.txt","racing");
+           insertdata("post/output_television_posts.txt","television");
+           Closearff();
+   }
+   public static void main(String[] args) throws FileNotFoundException, IOException, ParseException {
+    //makearff("output_audi_posts.txt","output_audi_posts.arff");
+       writearff();
+    }
     
 }
+
