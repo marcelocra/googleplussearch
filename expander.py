@@ -2,6 +2,7 @@
 
 
 import nltk
+import sys
 from nltk.corpus import wordnet
 from synonyms import Synonyms
 
@@ -57,7 +58,8 @@ class Expander(object):
 
 if __name__ == '__main__':
     expander = Expander()
-    query = ['how', 'to', 'use', 'a', 'hammer']
+    query = sys.argv[1:]
+    query = query[0].split() 
     query_without_stopwords = expander.remove_stopwords(query)
     synonyms_list = expander.create_synonyms_list(query_without_stopwords)
     expanded_query = expander.expand_query(synonyms_list)
