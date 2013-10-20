@@ -1,0 +1,224 @@
+=== Run information ===
+
+Scheme:weka.clusterers.FilteredClusterer -F "weka.filters.MultiFilter -F \"weka.filters.unsupervised.attribute.Remove -R 1\" -F \"weka.filters.unsupervised.attribute.Remove -R 1\" -F \"weka.filters.unsupervised.attribute.Remove -R 3\" -F \"weka.filters.unsupervised.attribute.Remove -R 3\" -F \"weka.filters.unsupervised.attribute.StringToNominal -R 1\" -F \"weka.filters.unsupervised.attribute.StringToNominal -R 2\" -F \"weka.filters.unsupervised.attribute.StringToWordVector -R 3-3 -W 1000 -prune-rate -1.0 -C -T -I -N 1 -L -S -stemmer weka.core.stemmers.NullStemmer -M 1 -O -tokenizer weka.core.tokenizers.AlphabeticTokenizer\"" -W weka.clusterers.SimpleKMeans -- -N 15 -A "weka.core.EuclideanDistance -R first-last" -I 1000 -S 100
+Relation:     output
+Instances:    7273
+Attributes:   7
+              id
+              name
+              gender
+              relationshipstatus
+              placeslived
+              @@organizations@@
+              tagline
+Test mode:evaluate on training data
+
+=== Model and evaluation on training set ===
+
+FilteredClusterer using weka.clusterers.SimpleKMeans -N 15 -A "weka.core.EuclideanDistance -R first-last" -I 1000 -S 100 on data filtered through weka.filters.MultiFilter -F "weka.filters.unsupervised.attribute.Remove -R 1" -F "weka.filters.unsupervised.attribute.Remove -R 1" -F "weka.filters.unsupervised.attribute.Remove -R 3" -F "weka.filters.unsupervised.attribute.Remove -R 3" -F "weka.filters.unsupervised.attribute.StringToNominal -R 1" -F "weka.filters.unsupervised.attribute.StringToNominal -R 2" -F "weka.filters.unsupervised.attribute.StringToWordVector -R 3 -W 1000 -prune-rate -1.0 -C -T -I -N 1 -L -S -stemmer weka.core.stemmers.NullStemmer -M 1 -O -tokenizer weka.core.tokenizers.AlphabeticTokenizer"
+
+Filtered Header
+@relation 'output-weka.filters.unsupervised.attribute.Remove-R1-weka.filters.unsupervised.attribute.Remove-R1-weka.filters.unsupervised.attribute.Remove-R3-weka.filters.unsupervised.attribute.Remove-R3-weka.filters.unsupervised.attribute.StringToNominal-R1-weka.filters.unsupervised.attribute.StringToNominal-R2-weka.filters.unsupervised.attribute.StringToWordVector-R3-W1000-prune-rate-1.0-C-T-I-N1-L-S-stemmerweka.core.stemmers.NullStemmer-M1-O-tokenizerweka.core.tokenizers.AlphabeticTokenizer-weka.filters.MultiFilter-Fweka.filters.unsupervised.attribute.Remove -R 1-Fweka.filters.unsupervised.attribute.Remove -R 1-Fweka.filters.unsupervised.attribute.Remove -R 3-Fweka.filters.unsupervised.attribute.Remove -R 3-Fweka.filters.unsupervised.attribute.StringToNominal -R 1-Fweka.filters.unsupervised.attribute.StringToNominal -R 2-Fweka.filters.unsupervised.attribute.StringToWordVector -R 3 -W 1000 -prune-rate -1.0 -C -T -I -N 1 -L -S -stemmer weka.core.stemmers.NullStemmer -M 1 -O -tokenizer weka.core.tokenizers.AlphabeticTokenizer'
+
+@attribute gender {male,female,'',other}
+@attribute relationshipstatus {'',single,in_a_relationship,married,engaged,its_complicated,open_relationship,widowed,in_domestic_partnership,in_civil_union}
+@attribute amazing numeric
+@attribute analyst numeric
+@attribute apache numeric
+@attribute apple numeric
+@attribute articles numeric
+@attribute blog numeric
+@attribute blogger numeric
+@attribute business numeric
+@attribute car numeric
+@attribute cars numeric
+@attribute church numeric
+@attribute circle numeric
+@attribute circles numeric
+@attribute college numeric
+@attribute community numeric
+@attribute company numeric
+@attribute computer numeric
+@attribute consultant numeric
+@attribute degree numeric
+@attribute designer numeric
+@attribute developer numeric
+@attribute development numeric
+@attribute engineer numeric
+@attribute enthusiast numeric
+@attribute experience numeric
+@attribute expert numeric
+@attribute family numeric
+@attribute fashion numeric
+@attribute food numeric
+@attribute founder numeric
+@attribute games numeric
+@attribute geek numeric
+@attribute google numeric
+@attribute guy numeric
+@attribute information numeric
+@attribute interests numeric
+@attribute internet numeric
+@attribute law numeric
+@attribute life numeric
+@attribute love numeric
+@attribute lover numeric
+@attribute loves numeric
+@attribute man numeric
+@attribute manager numeric
+@attribute marketing numeric
+@attribute media numeric
+@attribute mom numeric
+@attribute news numeric
+@attribute online numeric
+@attribute owner numeric
+@attribute passion numeric
+@attribute photography numeric
+@attribute politics numeric
+@attribute rugby numeric
+@attribute sales numeric
+@attribute school numeric
+@attribute science numeric
+@attribute seo numeric
+@attribute services numeric
+@attribute software numeric
+@attribute solutions numeric
+@attribute specialist numeric
+@attribute staff numeric
+@attribute student numeric
+@attribute team numeric
+@attribute tech numeric
+@attribute technology numeric
+@attribute time numeric
+@attribute university numeric
+@attribute valley numeric
+@attribute vehicles numeric
+@attribute web numeric
+@attribute website numeric
+@attribute wife numeric
+@attribute work numeric
+@attribute world numeric
+@attribute writer numeric
+
+@data
+
+
+Clusterer Model
+
+kMeans
+======
+
+Number of iterations: 14
+Within cluster sum of squared errors: 1474.4184331622168
+Missing values globally replaced with mean/mode
+
+Cluster centroids:
+                                                      Cluster#
+Attribute                          Full Data                 0                 1                 2                 3                 4                 5                 6                 7                 8                 9                10                11                12                13                14
+                                      (7273)             (153)             (353)            (4674)               (7)             (341)             (275)              (50)              (20)              (35)             (842)              (53)              (31)             (114)              (90)             (235)
+==========================================================================================================================================================================================================================================================================================================================
+gender                                  male             other              male              male              male              male              male              male              male              male            female            female            female              male              male                  
+relationshipstatus                                                        single                   in_a_relationship           married                                               married                                                single in_a_relationship in_a_relationship                                    
+amazing                               0.0047             0.195            0.0027            0.0002                 0            0.0014             0.003                 0                 0                 0            0.0014                 0                 0                 0                 0                 0
+analyst                               0.0014                 0                 0                 0                 0            0.0041             0.013                 0                 0                 0            0.0008            0.0855                 0                 0                 0                 0
+apache                                 0.001                 0                 0            0.0015                 0                 0                 0                 0                 0                 0                 0                 0                 0                 0                 0                 0
+apple                                 0.0024                 0            0.0033            0.0009                 0            0.0039            0.0147            0.0287                 0                 0             0.002                 0                 0            0.0108                 0            0.0095
+articles                              0.0024                 0            0.0032            0.0012                 0             0.002            0.0164                 0            0.0216                 0            0.0033                 0                 0                 0            0.0296                 0
+blog                                  0.0041                 0            0.0046            0.0008                 0            0.0086            0.0262            0.0119                 0                 0            0.0042            0.0182            0.0106            0.0093            0.0139            0.0264
+blogger                               0.0042                 0            0.0117            0.0007                 0            0.0091            0.0396            0.0292                 0                 0            0.0032            0.0239            0.0111            0.0167            0.0127            0.0018
+business                              0.0086            0.0061            0.0086                 0            0.2573             0.034             0.115                 0            0.0339                 0            0.0065                 0            0.0336            0.0171            0.0117            0.0131
+car                                    0.004            0.0094            0.0012            0.0017                 0            0.0062            0.0062                 0                 0                 0             0.013                 0                 0                 0                 0             0.018
+cars                                  0.0041            0.0327            0.0024            0.0034                 0                 0            0.0054            0.0423            0.0551             0.049            0.0009                 0                 0                 0            0.0127                 0
+church                                0.0019                 0            0.0113            0.0009                 0             0.004            0.0069                 0                 0                 0                 0                 0                 0                 0                 0            0.0103
+circle                                0.0037                 0            0.0144            0.0002                 0             0.008            0.0127            0.0174              0.09                 0            0.0005                 0            0.0915            0.0212                 0            0.0277
+circles                               0.0069                 0            0.0124            0.0017                 0            0.0172            0.0315                 0            0.0595            0.3211            0.0036                 0            0.0291            0.0124            0.0055            0.0203
+college                               0.0043                 0            0.0052            0.0005                 0            0.0136            0.0201                 0                 0            0.3728             0.003            0.0196            0.0089            0.0018                 0                 0
+community                             0.0049            0.0345            0.0112             0.001                 0            0.0309            0.0252                 0                 0                 0            0.0032            0.0083                 0            0.0018            0.0064            0.0018
+company                               0.0037            0.0033            0.0047            0.0009                 0            0.0199            0.0198                 0                 0                 0            0.0032             0.022            0.0537                 0                 0            0.0126
+computer                              0.0076                 0             0.059            0.0032                 0             0.021            0.0209                 0                 0                 0            0.0004                 0                 0            0.0329            0.0139            0.0065
+consultant                            0.0016                 0                 0            0.0005            0.3887            0.0022            0.0145            0.0294                 0                 0                 0                 0                 0            0.0046                 0                 0
+degree                                0.0024                 0            0.0062                 0                 0            0.0205            0.0206                 0                 0                 0            0.0005                 0                 0            0.0168                 0                 0
+designer                              0.0019                 0                 0            0.0003                 0            0.0083            0.0197                 0                 0                 0            0.0005                 0                 0            0.0151            0.0177            0.0017
+developer                             0.0041                 0            0.0091            0.0015                 0            0.0316            0.0162                 0            0.0247                 0                 0                 0                 0            0.0147            0.0062            0.0058
+development                           0.0055                 0            0.0048            0.0006            0.2895            0.0135            0.0492            0.0075                 0            0.3145            0.0022            0.0139            0.0207                 0                 0            0.0041
+engineer                              0.0024                 0            0.0019            0.0018            0.3664            0.0049            0.0059                 0                 0                 0                 0                 0                 0            0.0021            0.0098            0.0075
+enthusiast                            0.0025            0.0037            0.0119             0.001                 0            0.0062            0.0095            0.0097            0.0274                 0            0.0011                 0            0.0106            0.0095                 0            0.0013
+experience                            0.0055            0.0077            0.0024            0.0008            0.2989            0.0138            0.0576            0.0079                 0                 0            0.0059            0.0065                 0            0.0196             0.032            0.0021
+expert                                0.0032                 0            0.0017            0.0003             0.339            0.0051            0.0044            0.0104            0.0315                 0            0.0138            0.0158                 0                 0                 0            0.0087
+family                                0.0067                 0                 0            0.0021                 0             0.003            0.0238            0.0225            0.6481                 0            0.0084            0.0289            0.1484             0.011            0.0165            0.0064
+fashion                               0.0017                 0                 0            0.0001                 0                 0            0.0038            0.0379                 0                 0            0.0024            0.1302                 0                 0                 0                 0
+food                                  0.0034                 0            0.0015            0.0012                 0            0.0154            0.0073                 0            0.0229                 0            0.0058            0.0938                 0            0.0059                 0             0.002
+founder                               0.0028                 0            0.0055            0.0003                 0            0.0077            0.0315            0.0395                 0                 0            0.0017            0.0093            0.0111                 0                 0            0.0051
+games                                 0.0065                 0            0.0366            0.0013                 0            0.0021            0.0396            0.0659                 0                 0            0.0049            0.0431            0.0415            0.0214            0.0154            0.0071
+geek                                  0.0061            0.0104            0.0083            0.0001                 0            0.0125            0.0231            0.3057            0.0442                 0            0.0018                 0             0.031            0.0695            0.0149            0.0036
+google                                0.0046                 0            0.0119            0.0009                 0            0.0191             0.033             0.015            0.0179                 0            0.0012            0.0197            0.0531            0.0209            0.0079            0.0047
+guy                                   0.0058                 0             0.017            0.0033                 0            0.0226            0.0236                 0            0.0775                 0            0.0006                 0                 0            0.0116            0.0281            0.0019
+information                           0.0039                 0            0.0093            0.0005                 0            0.0129            0.0248                 0            0.0193                 0            0.0018                 0            0.0101            0.0394            0.0052            0.0182
+interests                             0.0031                 0            0.0069            0.0007                 0            0.0114            0.0251             0.009                 0                 0            0.0012            0.0199                 0            0.0093             0.025                 0
+internet                              0.0046                 0            0.0127                 0                 0            0.0116            0.0529                 0                 0                 0            0.0042                 0                 0            0.0157             0.005            0.0187
+law                                   0.0022                 0             0.006            0.0011                 0            0.0069            0.0184                 0                 0                 0            0.0009                 0                 0                 0                 0            0.0014
+life                                  0.0145                 0            0.0166                 0                 0            0.0374            0.0236                 0            0.1429                 0            0.0169                 0            0.0325            0.0231            0.6292            0.0116
+love                                  0.0071                 0            0.0161            0.0029                 0            0.0179            0.0194            0.0895            0.0439                 0            0.0051            0.1012                 0             0.009            0.0465            0.0038
+lover                                 0.0022                 0            0.0044            0.0002                 0            0.0033            0.0272            0.0146                 0                 0            0.0038                 0                 0            0.0066                 0                 0
+loves                                 0.0029                 0            0.0095            0.0017                 0            0.0021            0.0129             0.013            0.0262                 0            0.0029                 0                 0            0.0123            0.0076                 0
+man                                   0.0042                 0            0.0157            0.0019                 0            0.0073            0.0095                 0            0.0941                 0            0.0019                 0                 0                 0            0.0789            0.0037
+manager                               0.0028                 0            0.0009            0.0008            0.3434            0.0019            0.0261                 0                 0                 0            0.0045                 0            0.0341                 0                 0            0.0044
+marketing                             0.0075            0.0058            0.0114                 0                 0             0.036            0.1006            0.0083                 0                 0            0.0065            0.0172            0.0354            0.0048                 0            0.0071
+media                                 0.0087                 0            0.0254                 0                 0            0.0259            0.0947            0.0099            0.0344                 0            0.0125            0.0291            0.0428            0.0082                 0            0.0163
+mom                                    0.002                 0                 0            0.0002                 0                 0                 0                 0                 0                 0            0.0077            0.0311            0.1134            0.0022                 0            0.0055
+news                                  0.0046                 0            0.0249            0.0006                 0            0.0108            0.0215            0.0491                 0                 0            0.0036            0.0278                 0            0.0053            0.0378            0.0059
+online                                0.0067            0.0145            0.0169            0.0002                 0            0.0236            0.0646             0.011                 0                 0            0.0117                 0            0.0366            0.0062                 0            0.0059
+owner                                  0.002                 0            0.0041            0.0009                 0            0.0041            0.0042                 0                 0                 0            0.0028                 0                 0            0.0101             0.008            0.0094
+passion                               0.0041                 0             0.008            0.0007                 0            0.0107            0.0202            0.0089                 0            0.0162            0.0045                 0            0.1566            0.0112            0.0319             0.003
+photography                           0.0036                 0            0.0124            0.0008                 0            0.0106            0.0339            0.0223                 0                 0            0.0019            0.0143            0.0097            0.0044                 0            0.0043
+politics                              0.0042                 0            0.0208            0.0011                 0            0.0208            0.0239                 0                 0                 0            0.0011            0.0208                 0                 0            0.0235            0.0021
+rugby                                 0.0012                 0                 0            0.0015                 0                 0            0.0022                 0                 0                 0                 0                 0                 0                 0                 0            0.0035
+sales                                 0.0048            0.0432            0.0008            0.0007                 0            0.0031            0.0175            0.0086                 0                 0            0.0134             0.007                 0            0.0018            0.0366             0.013
+school                                0.0082                 0            0.0369             0.002                 0            0.0089            0.0441            0.0209                 0            0.3666            0.0045                 0            0.0082            0.0201            0.0056            0.0069
+science                               0.0064                 0            0.0461            0.0005                 0            0.0223            0.0328            0.0211                 0                 0                 0            0.0188            0.0311                 0            0.0325            0.0215
+seo                                   0.0031                 0             0.005            0.0003                 0            0.0206             0.033                 0                 0                 0            0.0026                 0            0.0199            0.0019                 0            0.0015
+services                              0.0034                 0            0.0043            0.0002                 0            0.0126            0.0362                 0            0.0186                 0            0.0056                 0             0.032            0.0123                 0            0.0017
+software                              0.0051                 0            0.0071            0.0018            0.3098            0.0294            0.0391             0.008                 0                 0             0.001                 0                 0            0.0093                 0            0.0045
+solutions                             0.0024                 0            0.0103                 0            0.3548             0.002            0.0288                 0            0.0467                 0                 0                 0            0.0111                 0                 0            0.0069
+specialist                            0.0011                 0                 0                 0                 0            0.0031            0.0191                 0                 0                 0                 0             0.009                 0            0.0049                 0            0.0018
+staff                                 0.0025            0.0123                 0                 0                 0                 0                 0                 0                 0                 0            0.0147                 0                 0                 0            0.0415            0.0019
+student                               0.0044                 0            0.0073            0.0016                 0            0.0062            0.0092                 0                 0            0.3902            0.0004            0.0093                 0            0.0156            0.0062            0.0011
+team                                  0.0028                 0            0.0009            0.0021                 0             0.005            0.0217                 0                 0                 0            0.0014            0.0092            0.0101             0.002                 0            0.0016
+tech                                  0.0094            0.0091            0.0283                 0                 0            0.0219            0.0064            0.5386                 0            0.2925            0.0003                 0                 0            0.0356            0.0497            0.0066
+technology                            0.0128                 0            0.0282                 0            0.2344            0.0307             0.125            0.0572            0.1432            0.2993            0.0032            0.0217            0.0346             0.039            0.0715            0.0204
+time                                   0.014            0.0069             0.039                 0                 0            0.0452             0.122            0.0081            0.0964            0.2889            0.0113            0.0172            0.0303            0.0244            0.0777            0.0197
+university                            0.0036                 0            0.0064                 0                 0            0.0285            0.0492                 0                 0                 0                 0                 0                 0                 0                 0            0.0018
+valley                                0.0016                 0                 0            0.0002                 0            0.0238            0.0052            0.0123                 0                 0                 0                 0                 0                 0                 0            0.0019
+vehicles                              0.0056            0.1926                 0            0.0014                 0                 0             0.004                 0                 0                 0                 0                 0                 0                 0                 0            0.0149
+web                                   0.0071            0.0028            0.0198            0.0011                 0            0.0212            0.0416            0.0202                 0            0.2994            0.0016            0.0072            0.0161            0.0016             0.018            0.0212
+website                               0.0027                 0            0.0038            0.0016                 0            0.0037            0.0161                 0                 0                 0            0.0037                 0             0.011            0.0089                 0            0.0028
+wife                                  0.0046                 0                 0            0.0007                 0            0.0403            0.0216            0.0107            0.0539                 0            0.0035                 0            0.0109                 0            0.0518            0.0038
+work                                  0.0065                 0            0.0011            0.0019            0.2849            0.0355            0.0484                 0            0.0334                 0            0.0093                 0                 0            0.0016             0.013            0.0031
+world                                 0.0094            0.0028            0.0194            0.0003                 0            0.0293            0.0686            0.0221            0.0524                 0            0.0053                 0            0.0079            0.0502            0.1437             0.022
+writer                                0.0037                 0            0.0066            0.0006                 0             0.008            0.0313            0.0552            0.0255                 0            0.0051                 0            0.0727                 0                 0            0.0018
+
+
+
+
+Time taken to build model (full training data) : 18.12 seconds
+
+=== Model and evaluation on training set ===
+
+Clustered Instances
+
+ 0       153 (  2%)
+ 1       353 (  5%)
+ 2      4674 ( 64%)
+ 3         7 (  0%)
+ 4       341 (  5%)
+ 5       275 (  4%)
+ 6        50 (  1%)
+ 7        20 (  0%)
+ 8        35 (  0%)
+ 9       842 ( 12%)
+10        53 (  1%)
+11        31 (  0%)
+12       114 (  2%)
+13        90 (  1%)
+14       235 (  3%)
+
