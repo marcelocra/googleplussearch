@@ -71,6 +71,9 @@ class SentiWordNetReader:
 
         if len(words) > 0:
             word_scores = map(lambda word : self.get_score(word), words)
+            for word in words:
+                print word, self.get_score(word)
+
             text_score = sum(word_scores)/len(word_scores)
         else:
             text_score = 0
