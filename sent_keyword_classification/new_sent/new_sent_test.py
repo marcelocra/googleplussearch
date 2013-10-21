@@ -24,6 +24,7 @@ class Post:
 
     def getWords(self):
         filteredWords = filter(lambda w :  not w in stopwords.words("english"), self.words)
+        filteredWords = self.words 
         return filteredWords
 
     def tagWords(self):
@@ -71,31 +72,69 @@ else:
 #for testfeat in testfeats:
     #print('{s} => {c}'.format(s = testfeat, c = classifier.classify(testfeat)))
 
-print "testing positives"
+print "\n testing positives"
 testfeats = [word_feats(post.getWords()) for post in TEST_POS_POSTS]
+
+falseNeg = 0
+truePos = 0
+trueNeg = 0
+total = 0
+
 wrongs = 0
+rights = 0
+nb_positives_retrieved = 0
+nb_positives_actual = 0
+nb_negatives_retrieved = 0
+nb_negatives_actual = 0
 for test in TEST_POS_POSTS:
     post = test
     feat = word_feats(post.getWords())
     classif = classifier.classify(feat)
     if classif == "neg":
         wrongs = wrongs + 1
+        nb_negatives_retrieved +=1
+    else:
+        rights += 1
+        nb_positives_retrieved += 1
     #print('{s} => {c}'.format(s = post.content, c = classif))
+nb_positives_actual = len(TEST_POS_POSTS)
 print "wrongs: ", wrongs, " over ", len(TEST_POS_POSTS)
 print "error rate: ", float(wrongs)/len(TEST_POS_POSTS)
 
+falseNeg += wrongs 
+truePos += rights
+total += len(TEST_POS_POSTS)
 
-print "testing negatives"
+print "\ntesting negatives"
 testfeats = [word_feats(post.getWords()) for post in TEST_NEG_POSTS]
 wrongs = 0
+rights = 0
 for test in TEST_NEG_POSTS:
     post = test
     feat = word_feats(post.getWords())
     classif = classifier.classify(feat)
     if classif == "pos":
         wrongs = wrongs + 1
+        nb_positives_retrieved += 1
+    else:
+        nb_negatives_retrieved +=1
+        rights += 1
     #print('{s} => {c}'.format(s = post.content, c = classif))
 print "wrongs: ", wrongs, " over ", len(TEST_NEG_POSTS)
 print "error rate: ", float(wrongs)/len(TEST_NEG_POSTS)
+nb_negatives_actual = len(TEST_NEG_POSTS)
+trueNeg += rights 
 
+falseNeg += wrongs 
+total += len(TEST_NEG_POSTS)
 
+#print "falseNeg ", falseNeg, falseNeg/float(total)
+#print "truePos ", truePos, truePos/float(total)
+print "test set ", total, " posts"
+print "\nfor positive posts"
+#print "precision ", nb_positives_retrieved/float(nb_positives_actual)
+print "precision ", truePos/float(nb_positives_retrieved)
+print "recall ", truePos/float(nb_positives_actual)
+print "\nfor negative posts"
+print "precision ", trueNeg/float(nb_negatives_retrieved)
+print "recall ", trueNeg/float(nb_negatives_actual)
