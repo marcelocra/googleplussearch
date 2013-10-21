@@ -1,0 +1,79 @@
+\documentclass[a4paper,twoside,11pt]{article}
+\usepackage{a4wide,graphicx,caption,subcaption,fancyhdr,amsmath,amssymb,tabularx,array,cite,tabto,float}
+\usepackage[linesnumbered]{algorithm2e}
+
+%----------------------- Macros and Definitions --------------------------
+
+\setlength\headheight{20pt}
+\addtolength\topmargin{-10pt}
+\addtolength\footskip{20pt}
+
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\ch}{\mathcal{CH}}
+
+\fancypagestyle{plain}{%
+\fancyhf{}
+\fancyhead[LO,RE]{\bfseries\large Eindhoven University of Technology}
+\fancyhead[RO,LE]{\bfseries\large 2ID26 Web Information Retrieval}
+\fancyfoot[LO,RE]{\bfseries\large Department of mathematics and computer science}
+\fancyfoot[RO,LE]{\bfseries\thepage}
+\renewcommand{\headrulewidth}{1pt}
+\renewcommand{\footrulewidth}{1pt}
+}
+
+\pagestyle{fancy}{%
+\fancyhf{}
+\fancyhead[RO,LE]{\bfseries\large Eindhoven University of Technology}
+\fancyhead[LO,RE]{\bfseries\large 2ID26 Web Inforamtion Retrieval}
+\fancyfoot[LO,RE]{\bfseries\large Department of mathematics and computer science}
+\fancyfoot[RO,LE]{\bfseries\thepage}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+}
+
+%-------------------------------- Title ----------------------------------
+
+\title{\vspace{-\baselineskip}\bfseries Google+ Search Engine}
+\author{
+    Alexander Nieuwenhuijse (0744933) \and
+    Christian Stevandy (0870945) \and
+    Fakhri Affif (0857457)\and
+    Joelian Samuel (0872415)\and
+    Marcelo Almeida (0877394)\and
+    Youcef Mammar (0873972)
+}
+\date{\today}
+
+%--------------------------------- Text ----------------------------------
+
+\begin{document}
+\maketitle
+\raggedbottom
+\input{section_introduction}
+\input{section_architecture}
+
+%--------------------------------- IR ----------------------------------
+\section{Information Retrieval Tasks}
+\input{section_IR_crawler}
+\input{section_IR_queryexpansion}
+\input{section_IR_spellingchecker}
+\input{section_IR_datalabeling}
+\input{section_IR_buildingindex}
+% TODO XXX ADD A TASK
+
+%--------------------------------- DM ----------------------------------
+\section{Data Mining Tasks}
+\input{section_DM_naivebayes}
+\input{section_DM_supportvector}
+\input{section_DM_nearestneighbor}
+\input{section_DM_userclustering}
+
+% TODO XXX ADD A TASK
+
+%--------------------------------- Conclusion ----------------------------------
+\input{section_conclusion}
+
+%\bibliographystyle{unsrt}
+%\bibliography{experimental_project_bib}
+
+\end{document}
