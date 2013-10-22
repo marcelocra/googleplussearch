@@ -111,7 +111,7 @@ public class JSONConverter {
         newarff = new FileWriter("weka/googlepost.arff");
         // Create New Header
         newarff.append("@relation post\n\n");
-        newarff.append("@attribute @@class@@ {audi, bmw, driving, imdb, iphone, music, racing, television}\n");
+        newarff.append("@attribute @@class@@ {technology, automotive}\n");
         newarff.append("@attribute comment string\n\n");
         newarff.append("@data\n"); 
     }
@@ -124,20 +124,18 @@ public class JSONConverter {
    
    public static void writearff() throws IOException, ParseException {
            Initarff();
-           insertdata("post/output_audi_posts.txt","audi");
-           insertdata("post/output_bmw_posts.txt","bmw");
-           insertdata("post/output_driving_posts.txt","driving");
-           insertdata("post/output_imdb_posts.txt","imdb");
-           insertdata("post/output_music_posts.txt","music");
-           insertdata("post/output_iphone_posts.txt","iphone");
-           insertdata("post/output_racing_posts.txt","racing");
-           insertdata("post/output_television_posts.txt","television");
+           insertdata("post/training.txt","technology");
+           insertdata("post/output_audi_posts.txt","automotive");
+           insertdata("post/output_bmw_posts.txt","automotive");
+           insertdata("post/output_driving_posts.txt","automotive");
+           insertdata("post/output_racing_posts.txt","automotive");
            Closearff();
    }
    public static void main(String[] args) throws FileNotFoundException, IOException, ParseException {
     //makearff("output_audi_posts.txt","output_audi_posts.arff");
        writearff();
     }
+
     
 }
 

@@ -1,5 +1,5 @@
 \documentclass[a4paper,twoside,11pt]{article}
-\usepackage{a4wide,graphicx,caption,subcaption,fancyhdr,amsmath,amssymb,tabularx,array,cite,tabto,float, url,hyperref }
+\usepackage{a4wide,graphicx,caption,subcaption,fancyhdr,amsmath,amssymb,tabularx,array,cite,tabto,float}
 \usepackage[linesnumbered]{algorithm2e}
 
 %----------------------- Macros and Definitions --------------------------
@@ -24,7 +24,7 @@
 \pagestyle{fancy}{%
 \fancyhf{}
 \fancyhead[RO,LE]{\bfseries\large Eindhoven University of Technology}
-\fancyhead[LO,RE]{\bfseries\large 2ID26 Web Inforamtion Retrieval}
+\fancyhead[LO,RE]{\bfseries\large 2ID26 Web Information Retrieval}
 \fancyfoot[LO,RE]{\bfseries\large Department of mathematics and computer science}
 \fancyfoot[RO,LE]{\bfseries\thepage}
 \renewcommand{\headrulewidth}{0pt}
@@ -52,7 +52,6 @@
 \input{section_introduction}
 \input{section_architecture}
 
-
 %--------------------------------- IR ----------------------------------
 \section{Information Retrieval Tasks}
 \input{section_IR_crawler}
@@ -60,25 +59,28 @@
 \input{section_IR_spellingchecker}
 \input{section_IR_datalabeling}
 \input{section_IR_buildingindex}
+\input{section_IR_languagedetection}
 % TODO XXX ADD A TASK
 
 %--------------------------------- DM ----------------------------------
-\section{Data Mining Tasks}
+\section{\label{data_mining}Data Mining Tasks}
 \input{section_DM_naivebayes}
 \input{section_DM_supportvector}
 \input{section_DM_nearestneighbor}
 \input{section_DM_userclustering}
 \input{section_DM_sentiment_analysis}
+\input{section_DM_patternmining}
 
 % TODO XXX ADD A TASK
 
 %--------------------------------- Conclusion ----------------------------------
 \input{section_conclusion}
 
-%\bibliographystyle{unsrt}
-%\bibliography{experimental_project_bib}
-
 %--------------------------------- Appendix ----------------------------------
 \input{section_appendix}
+\bibliographystyle{plain}
+\bibliography{bibfile}
+%\bibliographystyle{unsrt}
+%\bibliography{experimental_project_bib}
 
 \end{document}
