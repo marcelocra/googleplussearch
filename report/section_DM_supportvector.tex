@@ -1,9 +1,43 @@
-\subsection{Support Vector Machine Classifier}
-\textbf{Student Name: }Name \textbf{Student ID:} number\\
-Introduction
+\subsection{Text classification using Support Vector Machines}
+\textbf{Student Name: }Marcelo Almeida \textbf{Student ID:} 0877394 \\
+
 \subsubsection*{Motivation}
-motivation
+With a lot of text information downloaded from Google+ by the crawler it is interesting to classify this data automatically, without the need of a human. The Support Vector Machine (SVM) classification technique is well known to be rather good for the particular task of text classification and we want to evaluate it.
+
+
 \subsubsection*{Problem formulation}
-problem formulation
+We have several documents retrieved from Google and we have labels associated with them (based on the content of the posts). We want to use these documents to build a model for the classifier and we want to evaluate if the model classify our data properly or not.
+
+
 \subsubsection*{Approach}
-approach
+Support Vector Machines (SVMs) are based on vector space model and use a decision boundary to do the classification. The distance between the boundary and the closer point is called the margin. We are always looking for the boundary with the biggest margin, and that is because with a big margin the classifier is not likely to make many mistakes. The usual algebraic approach is to use a decision hyperplane in order to separate the classes.
+$$ f(\vec{x}) = sign(\vec{w}^{T} \vec{x} + b) $$
+In this expression $\vec{w}$ is a weight vector, $ \vec{x}$ is a point and $b$ is a value that fixes where the hyperplane is located. This function returns +1 or -1. Our objective here is to use the training data to find values for both $\vec{w}$ and $b$ such that we classify the test data correctly. This problem is usually stated as a minimization problem (here in its most basic version) as follows:
+$$ minimize: \dfrac{1}{2} \vec{w}^{T} \vec{w} $$
+$$ subject \; to: y_{i}(\vec{w}^{T} \vec{x} + b) \geq 1 \text{, for all }(\vec{x_{i}},y_{i}) \in \mathbb{D} $$
+$(\vec{x}_{i}, y_{i})$ is one ‘point’ in the training set $\mathbb{D}$.
+ 
+The multi-class classification problem with SVMs (as in this project) is solved using pairwise classification, meaning that the problem is converted on a series of two-class problems. Besides, kernel functions usually are used to deal with non-linear datasets (normally the case in text classification).
+To apply those concepts we used the Sequential Minimal Optimization algorithm of the Weka Data Mining Toolkit. Below follows the steps to do the classification and a brief explanation for each of them.
+
+\begin{table}[ht]
+	\label{weka_steps}
+	\centering
+	\caption{Steps (explained) for the classification.}
+    \begin{tabular}{| p{5cm} | p{5cm} |}
+    	\hline
+		\textbf{Step} & \textbf{Explanation} \\ \hline
+		Load the dataset in the Weka Toolkit. & Basic step.  \\ \hline
+		Convert our database text file to a vector space representation (using TF-IDF). & The loaded file is composed of raw text and the SVM operates over vector space.   \\ \hline
+		Apply feature selection with information gain filter and ranking. & There are too much features to built a classifier before this step. Doing this we can improve running time without affecting the results too much.  \\ \hline
+		Train the classifier with the data from previous step choosing the SMO algorithm. & The algorithm is already implemented in the Weka Toolkit, but it is possible to choose several of the parameters. \\ \hline
+		Use the classifier to classify out test data. & That is part of the evaluation. \\
+	\hline
+    \end{tabular}
+\end{table}
+
+The first three steps are used to prepare the data and the other two steps to train and test the classifier. With this we are able to have a good classifier and use it to classify all posts from our database.
+
+
+\subsubsection*{Evaluation}
+The same method described in table 1 was applied to our previously labeled Google+ dataset and we achieved $ 94.3\% $ of correct classified instances. Besides that, we also evaluated our classifier with a known train dataset (Reuters 50x50 \cite{reuters50x50}) and the respective test dataset with $ 99\% $ of success. Both success rates are high. The explanation for achieving higher success rate in a benchmark than with our data is that we didn’t choose the best possible labels for our documents.
