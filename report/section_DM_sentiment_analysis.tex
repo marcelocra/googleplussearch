@@ -67,15 +67,14 @@ We trained the classifier on 80\% of our labeled data set and tested it on the o
 If for example we want to query for positive posts, we reach then an accuracy of 75\%. 
 
 It is safe to say that the \href{http://www.webmetricsguru.com/archives/2010/04/sentiment-analysis-best-done-by-humans/}{best sentiment analysis is done by humans}. However, according to a recent 
-study conducted at the University of Pittsburgh on 
-\href{http://people.cs.pitt.edu/~wiebe/pubs/papers/emnlp05polarity.pdf}{Recognizing Contextual Polarity in Phrase-Level Sentiment Analysis}, 
+study conducted at the University of Pittsburgh on \textit{\href{http://people.cs.pitt.edu/~wiebe/pubs/papers/emnlp05polarity.pdf}{Recognizing Contextual Polarity in Phrase-Level Sentiment Analysis}}, 
 humans agree on sentiment only 80\% of the time.
 
 
 \begin{figure}[h]
 \centering
 \includegraphics[scale=.5]{images/sent1.png}
-\caption{This table is from the ``Recognizing Contextual Polarity in Phrase-Level Sentiment Analysis''}
+\caption{This table is from the \textit{``Recognizing Contextual Polarity in Phrase-Level Sentiment Analysis''}}
 \end{figure}
 
 If we look now at the precision and the recall, we find
@@ -95,17 +94,17 @@ If we look now at the precision and the recall, we find
 \end{description}
 
 We can see how precision for negative queries is lower than positive’s. We can explain it by looking at some of the negative posts. 
-Negations are often expressed using the word “not” but by basing our classifier only on words, we often miss this forms of negation. 
-For this reason, a sentence like “I’m really not happy with the new iPhone, it could be improved” could be evaluated to positive and be 
+Negativity are often expressed using the word \textit{“not”} or \textit{``could''} but by basing our classifier only on words, we often miss this forms of negation. 
+For this reason, a sentence like \textit{“I’m really not happy with the new iPhone, it could be improved”} could be evaluated to positive and be 
 ignored by the query. When a classifier doesn’t catch as much relevant content as it should, we say it has a low recall.
 
-The same way, a sentence like “Trying out the nexus 5: not bad!” and other euphemisms which are very common in social talking, would be 
+The same way, a sentence like \textit{“Trying out the nexus 5: not bad!”} and other euphemisms which are very common in social talking, would be 
 evaluated to negative while it’s positive, leading to a low precision.
 
 \begin{figure}[h]
 \centering
 \includegraphics[scale=.4]{images/sent2.png}
-\caption{This is the output of the test carried on 23 957 short text samples. It show the error rate and other performance figures}
+\caption{This is the output of the test carried on 23 957 short text samples. It shows the error rate and a other performance figures}
 \end{figure}
 
 
