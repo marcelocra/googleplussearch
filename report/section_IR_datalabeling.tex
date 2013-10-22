@@ -1,9 +1,33 @@
 \subsection{Data labeling and cleansing}
-\textbf{Student Name: }Name \textbf{Student ID:} number\\
-Introduction
+\textbf{Student Name: }Youcef Mammar \textbf{Student ID:} number\\
+
+On Google+ users can label their posts explicitly through \#hashtags to make it easy to retrieve 
+all the posts related to an event, topic or tv program. And when they don’t use hashtags, 
+scanning the keywords inside each post can return precious information about its subject.
+
 \subsubsection*{Motivation}
-motivation
+The motivation is to use the hashtags and some keywords to label the posts into normalized categories 
+in order to allow searching and classification based on a subject.
+
 \subsubsection*{Problem formulation}
-problem formulation
+
 \subsubsection*{Approach}
-approach
+We create categories and give each a set of related keywords. A keyword can be either a regular word of 
+the post, or a hashtagged word. Then we use a quite straight forward boolean retrieval technique to 
+feed a dictionary of categories which for each category, indexes the related posts. \\
+The categories and their related keywords are store in a csv file of this architecture:
+
+\begin{verbatim}
+ iphone|technology
+ android|technology
+ bmw|automotive
+ ...
+\end{verbatim}
+
+The detection relies on the spell checking as a preprocessing step. As we deal with social content, it is 
+best to lowercase everything, ignoring acronyms and proper nouns. We think that users are usually careless 
+about conserving the case of such words on social media.
+
+\subsubsection{Evalutation}
+
+
