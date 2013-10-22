@@ -41,7 +41,7 @@ class spellCheck():
             if d.check(word):
                 text2 = text2 +" "+word
             else:
-                if self.checkslang(word) == False :
+                if True :
                     replword = d.suggest(word)
                     if len(replword)>0:
                         text2 = text2 +" "+ replword[0]

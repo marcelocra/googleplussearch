@@ -15,7 +15,7 @@
 		\caption{Post Index\label{NN1}}
 		\end{center}
 	\end{figure}
-		Algorithm in \ref{NN1} will find similarity the nearest distance between each instance and classify based on the distance. The similarity in this algorithm is a Euclidean distance.\\\\
+		With the algorithm in \ref{NN1} we can find similarity which are the nearest distance between between each instance and classify based on the distance. The similarity in this algorithm is a Euclidean distance.\\\\
 	\textbf{b. Simple Vote Ensemble Learning} \\
 		Ensemble learning is used to combine every classifier we used in this project. Ensemble learning that implemented in this task are based on Leo Breiman (1996). Bagging predictors. Machine Learning. 24(2):123-140		\\\\Our Ensemble Learning is using a simple majority vote for every trained instance.\\\\
 		Algorithm:\\
@@ -31,15 +31,23 @@
 	\end{figure}
 	\\Labeled user posts are used in training set. In order for Weka to use the user posts that are generated from crawler, json file that consist of user posts is converted to .arff. And then it is used for trains classifier. After the nearest neighbor classifier is trained, it generates model that will be used along with other classifier models to classify a post in an ensemble learning.\
 \subsubsection*{Evaluation}
-	The training set data can be used for training and evaluating a classifier using cross-validation. The evaluation for ensemble learning is done manually.\\\\\\\\\\\\\\\\\\\\\\\\\
-	Result of 10 folds cross-validation using one sample training set:
-	\begin{figure}[h]
-		\begin{center}
-			\includegraphics[scale=1]{images/nneval.png}
-		\caption{Post Index\label{nneval}}
-		\end{center}
-	\end{figure}
-	\\From the result of cross-validation and manual evaluation the classifier is good to be used.\\
+	The training set data can be used for training and evaluating a classifier using cross-validation. The evaluation for ensemble learning is done manually.\\\\
+	Result of 10 folds cross-validation using one sample training set:\\\\\\\\\\\\\\\
+\begin{table}
+\centering
+    \begin{tabular}{|l|l|} \hline
+    Correctly Classified Instances   & 1120(87.5684 \%) \\ \hline
+    Incorrectly Classified Instances & 159(12.4316 \%)  \\ \hline
+    Kappa statistic                  & 0.7987          \\ \hline
+    Mean absolute error              & 0.0869          \\ \hline
+    Root mean squared error          & 0.268           \\ \hline
+    Relative absolute error          & 21.04\%          \\ \hline
+    Root relative squared error      & 58.98\%s          \\ \hline
+    Total Number of Instances        & 1279            \\ \hline
+    \end{tabular}
+	\caption{Nearest Neighbor Evaluation\label{nn_table}}
+\end{table}
+	\\From the table~\ref{nn_table} of cross-validation and manual evaluation the classifier is good to be used.\\
 
 	
 	
