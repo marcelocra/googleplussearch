@@ -1,0 +1,4 @@
+This would make sense. It seems like a lot of what is coming to KitKat is proprietary stuff to Google, like Hangouts with SMS. They could release KitKat as a preview (certainly not tomorrow though. I think that's a bit too soon) and then have a full "Google Experience" event devoted to all their proprietary goodies.
++ Sahil Chaturvedi I'd say Halloween as a max, but I would not be surprised if it launched any point in that week. My guess from "stay tuned" is 1-2 weeks.
+Meh. That's nice but Downloads UI isn't that interesting
+Here's my question. On my Nexus 7, there is SMS integration with Voice. That is, when I click on a phone number it opens in Voice. If Hangouts uses some default android api to get SMS messages, does that mean voice is integrated?

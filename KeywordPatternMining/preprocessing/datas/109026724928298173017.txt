@@ -1,0 +1,6 @@
+The header has the full price and not just the last digit? #fixed ?
+It's the $ sign which does it... $34 is obviously interpreted as a variable.
+The header has the full price and not just the last digit? #fixed ?
+It's the $ sign which does it... $34 is obviously interpreted as a variable.
+The header has the full price and not just the last digit? #fixed ?
+It's the $ sign which does it... $34 is obviously interpreted as a variable.

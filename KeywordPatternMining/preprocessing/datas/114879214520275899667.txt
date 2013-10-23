@@ -1,0 +1,1 @@
+Would be nice to compare performace. UI responsiveness, buffer and card reader IO speed

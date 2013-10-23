@@ -1,0 +1,1 @@
+Exactly what happen to me. Clearing the cache of Google framework make a big mess with play store. No more update without error message. I had to delete my Google account, clearing cache of framework and play store, stopping both services, reboot the phone and reentry my Google account.

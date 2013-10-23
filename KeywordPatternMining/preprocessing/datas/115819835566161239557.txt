@@ -1,0 +1,1 @@
+We use a similar setup with a client. It allows us to record quick training videos and almost instantly share them to other computers via dropbox for editing, review, etc. Something you can't do with a regular camera. In other words, "What David said."

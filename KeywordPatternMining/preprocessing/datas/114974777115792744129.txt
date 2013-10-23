@@ -1,0 +1,1 @@
++ Roberto Mezquia Jr is correct + Alexander Maxham . But, i suspect the the slight hit in the benchmarks also comes from the OS rendering at WQXGA (2560×1600), which is more taxing than the note 3's 1920*1080. higher the resoltion taxes hardware more. now the true test would be if the resoltions were both exactly the same, then that test would be a little more even.

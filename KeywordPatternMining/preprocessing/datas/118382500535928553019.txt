@@ -1,0 +1,48 @@
+New firmware for Sony Xperia Z1 now rolling out. Beware that no rooting method has yet been devised for it so if you wanna retain root wait for developers to get their hands on it. Here is a link if you want to flash the new firmware: https://mega.co.nz/#!VI1jDChC!SDiOGUdeSJBr6gdao09g8DkuGXQXZ2V4YyIJcOY4BtU
+New firmware for Sony Xperia Z1 now rolling out. Beware that no rooting method has yet been devised for it so if you wanna retain root wait for developers to get their hands on it. Here is a link if you want to flash the new firmware: https://mega.co.nz/#!VI1jDChC!SDiOGUdeSJBr6gdao09g8DkuGXQXZ2V4YyIJcOY4BtU
+Can someone please figure out a way for those 3 to merge and bring us Android 4.4 on Sony Xperia z1
+Great developers at xda managed to get a dual recovery working on locked bootloader Sony Xperia Z1. Now you can backup your phone, flash MODs and stock based ROMS easily. The first stock ROM by monx is already available:
+Once you have rooted your device you might wanna unlock the bootloader but first backup you TA. Here is a guide and all the info on the subject that you may need
+Anyone interested in increasing the volume of their speakers in Xperia Z1. If you have rooted your device, here is a MOD that will allow just that. If you have not rooted yet follow the video:
+Latest rumors state that Android 4.4 Kitkat is coming to Xperia Z1 in November
+Here is a video answering the most commonly asked questions about bootloader, rooting etc etc. Mostly just the basics for newbies. So ignore if you are an android veteran
++ Anas Benal You should have seen some of the other rooting methods for different phones :P This one is pretty much as easy as it gets a couple of clicks and its done.
+First stock based custom Rom for Xperia Z1 now available on xda-developers forums. More features to come soon #XperiaZ1 #SonyXperiaZ1
+Rumour has it a smaller Xperia Z1 might soon hit the market with a 4.3" display and specs of its bigger sister.
+A few more photo and video samples. This time from Android Central
+Battery life, call and sound quality review on Z1
+Here is a detailed camera walkthrough with over 100 shots taken using every function possible: #XperiaZ1 #xperiaz1 #smartphonephotography
+New 4th 14.1.G.2.213 update rolling out to some users in UK. That's the 4th update for #SonyXperiaZ1 in just a week. Let's just hope #Sony keeps improving the device at this pace
+Looks like the Xperia Z1 fans in the US can now get their hands on unlocked devices with LTE
+I just received my IMAK Slim Crystal Clear case for Sony Xperia Z1 from China. It was delivered to Europe in just 11 days with free Economy shipping that was provided on this auction: Here is my review of the case:
+For those of you who experience a yellow tint (hue) problem on their Sony Xperia Z1 it looks like an app called Screen Adjuster may solve it for now. In the app settings increase the blue color to +3 or +4 (depending on your liking) and the whites on your device will look like they should.
+For those of you who experience a yellow tint (hue) problem on their Sony Xperia Z1 it looks like an app Screen Adjuster may solve it for now. In the app settings increase the blue color to +3 or +4 (depending on your liking) and the whites on your device will look like they should. It looks like it is not in fact the screen's fault but just a poor calibration from Sony
+.534 update fixes #MH1c headphone bug, so you can use the remote on #SonyXperiaZ1 . Don't wait use flashtool and update your Xperia Z1 right now:
+What are the features you love/ hate most about your #sonyxperiaz1 ?
+How to #root #sonyxperiaz1 bootloader unlock and more:
+10 reasons why you may consider upgrading your Sony Xperia Z to Sony Xperia z1
+A community for all Sony Xperia Z1 owners or soon to be ones. Here you will find all the info you need. Videos, reviews, sample pictures and whatever you ask for
+Can someone please figure out a way for those 3 to merge and bring us Android 4.4 on Sony Xperia z1
+New firmware for Sony Xperia Z1 now rolling out. Beware that no rooting method has yet been devised for it so if you wanna retain root wait for developers to get their hands on it. Here is a link if you want to flash the new firmware: https://mega.co.nz/#!VI1jDChC!SDiOGUdeSJBr6gdao09g8DkuGXQXZ2V4YyIJcOY4BtU
+Can someone please figure out a way for those 3 to merge and bring us Android 4.4 on Sony Xperia z1
+Great developers at xda managed to get a dual recovery working on locked bootloader Sony Xperia Z1. Now you can backup your phone, flash MODs and stock based ROMS easily. The first stock ROM by monx is already available:
+Once you have rooted your device you might wanna unlock the bootloader but first backup you TA. Here is a guide and all the info on the subject that you may need
+Anyone interested in increasing the volume of their speakers in Xperia Z1. If you have rooted your device, here is a MOD that will allow just that. If you have not rooted yet follow the video:
+Latest rumors state that Android 4.4 Kitkat is coming to Xperia Z1 in November
+Here is a video answering the most commonly asked questions about bootloader, rooting etc etc. Mostly just the basics for newbies. So ignore if you are an android veteran
++ Anas Benal You should have seen some of the other rooting methods for different phones :P This one is pretty much as easy as it gets a couple of clicks and its done.
+First stock based custom Rom for Xperia Z1 now available on xda-developers forums. More features to come soon #XperiaZ1 #SonyXperiaZ1
+Rumour has it a smaller Xperia Z1 might soon hit the market with a 4.3" display and specs of its bigger sister.
+A few more photo and video samples. This time from Android Central
+Battery life, call and sound quality review on Z1
+Here is a detailed camera walkthrough with over 100 shots taken using every function possible: #XperiaZ1 #xperiaz1 #smartphonephotography
+New 4th 14.1.G.2.213 update rolling out to some users in UK. That's the 4th update for #SonyXperiaZ1 in just a week. Let's just hope #Sony keeps improving the device at this pace
+Looks like the Xperia Z1 fans in the US can now get their hands on unlocked devices with LTE
+I just received my IMAK Slim Crystal Clear case for Sony Xperia Z1 from China. It was delivered to Europe in just 11 days with free Economy shipping that was provided on this auction: Here is my review of the case:
+For those of you who experience a yellow tint (hue) problem on their Sony Xperia Z1 it looks like an app called Screen Adjuster may solve it for now. In the app settings increase the blue color to +3 or +4 (depending on your liking) and the whites on your device will look like they should.
+For those of you who experience a yellow tint (hue) problem on their Sony Xperia Z1 it looks like an app Screen Adjuster may solve it for now. In the app settings increase the blue color to +3 or +4 (depending on your liking) and the whites on your device will look like they should. It looks like it is not in fact the screen's fault but just a poor calibration from Sony
+.534 update fixes #MH1c headphone bug, so you can use the remote on #SonyXperiaZ1 . Don't wait use flashtool and update your Xperia Z1 right now:
+What are the features you love/ hate most about your #sonyxperiaz1 ?
+How to #root #sonyxperiaz1 bootloader unlock and more:
+10 reasons why you may consider upgrading your Sony Xperia Z to Sony Xperia z1
+A community for all Sony Xperia Z1 owners or soon to be ones. Here you will find all the info you need. Videos, reviews, sample pictures and whatever you ask for

@@ -1,0 +1,1 @@
++ Artem Russakovskii Do you have any information on whether apps like Downloads and Calculator (i.e. the non-Google-branded AOSP apps) will also be shifted onto the Play Store? There was a rumour that suggested Google intends to put everything on there. Does that include this?

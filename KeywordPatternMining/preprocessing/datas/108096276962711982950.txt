@@ -1,0 +1,2 @@
+I didn't see a link. I just clicked on the picture. I figured it probably wouldn't work very well with 3rd party apps. I'm not sure that's going to be easy for anyone to do unless the make some APIs that developers can develop for.
+Hmm. I wonder if there is a solution to this.

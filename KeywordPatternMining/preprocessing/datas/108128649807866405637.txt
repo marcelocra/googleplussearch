@@ -1,0 +1,1 @@
+So, you all know that mobile benchmarks are highly unreliable and that all companies include code in their systems to game to benchmarking programs, right?

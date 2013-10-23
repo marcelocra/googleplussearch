@@ -1,0 +1,1 @@
+I imagine Microsoft wanted this out the door fast, given that Chrome Remote Desktop for Android is being worked upon.

@@ -1,0 +1,5 @@
+I've gone through all of the troubleshooting steps but my Nexus 4 still does not show up under "My Devices" in the Play Store desktop site. Can anyone help me?
++ Alexandre Kasakewitch yes, I cleared the data and cache on the play store, services framework, and play services
++ Alexandre Kasakewitch + Germano Lisboa still no luck, is there anything else you can think of that I could try? Maybe once I get the 4.3 update it will fix the issue?
++ Germano Lisboa + Alexandre Kasakewitch my Nexus 4 just showed up again on the desktop site (I'm still on 4.2.2). Thanks for the help. I'll try to be patient now and wait for the OTA.
++ Germano Lisboa I didn't try anything else, just kept refreshing the My Devices page and eventually it reappeared.

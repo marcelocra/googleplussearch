@@ -1,0 +1,1 @@
+Not true for me.... at most, a phone restart and re-authentication with your google password will re-register the services. I've been doing this since 4.1 with no trouble.

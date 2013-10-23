@@ -1,0 +1,1 @@
++ AppsAndroid.dk har installeret Paranoid Android på den, da jeg er mest til ren Android. Og så er det et plus at man i PA kan sætte dpi og layout per app. Så man fx kan bruge nogle apps i deres tablet interface i stedet, hvilket er ret godt når skærmen er så stor!

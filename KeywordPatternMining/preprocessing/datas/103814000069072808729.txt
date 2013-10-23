@@ -1,0 +1,1 @@
+I personally do it manually, unless there is a strong case for using a film noir preset in Silver Effex 4. (like the need for blacking out the background). Otherwise, I start with Lightroom, play with sliders, go to Silver Effex, play with sliders, finish up - add some contrast through color effex

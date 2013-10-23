@@ -1,0 +1,1 @@
+I have had great success with the intel I-7 chip and Ati rage combination. w 16gig ram and depending on what format you render to... cpu cycling up to 80 % with ram usage running 40 %. The only thing you need to be concerened with is setting up your bios for extended memory use with the additional video card. that's important.

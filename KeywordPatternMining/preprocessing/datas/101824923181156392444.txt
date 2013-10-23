@@ -1,0 +1,2 @@
+Use the flash command, you'll find it in Alert group of tasks
+Not a problem. I have a task that displays my current profile (a variable) every time I turn the display on, so the flash command is great for that.

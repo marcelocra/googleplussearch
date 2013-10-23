@@ -1,0 +1,54 @@
+As much as I was avoiding Sony stuff in recent years ... I think I need $2300
+Washday Decided to wash the glider after flying at Cape Cod. Sand dust is not really visible on the glider, but everything else was covered in it...
+The Biggest Scam in the History of Mankind So I watched this very well done video by Mike Maloney. He explains how currency works in the United States on a level that almost anyone can understand. Sounds like the #Banksters are robbing the country blind. Yesterday the video had 10,000 views now it is over 70,000 looks like America is waking up! #Banking #Fed #FederalReserve #BoomBustCycles #Economics
+As much as I was avoiding Sony stuff in recent years ... I think I need $2300
+Sure, I will. East wind is needed to fly at the cape. And for a hang glider to fly there it needs to be 15+mph. I probably won't be able to handle more than 25mph wind in my hang glider either. Anyway, forecast for the next 10 days doesn't look good.
+Nice day to play at the beach! 2 hours of flying. My longest flight yet.
+Does CM Account locate feature works for anyone? Each time I try it, I get "Authentication Failure! The password you entered was invalid or your session has expired". And yes, I tested my password and it works on both, the webpage and Nexus4. Google's Android Device Manager works without a problem.
+Thank you guys. I deleted my device from the account and re-registered it. It fixed the problem.
+I am Nothing but a Trace in the Sand
+16:9 crop vs the one posted in TLB + Tonya Comer + Nev Nels
+LavaBit was ordered by the US government to allow interception of all data and turn over their private encryption keys. Incredible. Also, now might be a good time to bring up how terribly broken SSL is.
++ Sam Elliot Certificate Authority system is broken . SSL relies on it to work. If I get a signed certificate from CA a standard man in the middle attack works just fine and I can decrypt the traffic. Example that this is happening : Listen to this BlackHat USA 2011: SSL And The Future Of Authenticity It is quite enlightening if you like technical details
++ Sam Elliot they are broken because you have to trust them to be unique. MITM works with those even better than with CA. Your ssh client ask you if you want to trust that key the first time you access the host. If someone hijacked your connection - you might be trusting someone else. Actually, some companies implement policy like this for connecting to ssh port outside. Government agency sitting in a service provider's network, can do as much. The problem with CA is that you put all your trust in a single authority and they can control your security. If they are hacked, your CA cert is useless and you would not even know about it. ﻿In NSA case, they are the ultimate hacker.
+If you cannot trust technology to work - it is a technology problem. Have you listened to Moxie's talk about the alternative to CA? It exists today, we just have to start using it.
+I guess, that depends what you mean by weak. If I cannot guarantee the technology protecting whatever I am trying to keep secret, then technology is not adequate for the task. There is always someone that would try to exploit what is exploitable - in this case CA. Government, Anonymous or whoever. It doesn't matter what methods they employ to break it. A single CA simply doesn't guarantee that your connection is not being decrypted by someone else. A distributed CA can fix this problem. In any case, if there is a better technology, I want to use it and not just stay with "why bother. I trust SSL works fine as it is".
+funny that but the whole thing is pretty upsetting.
+He shutdown the service some time ago. What do they need it for now?
+In one hour, AMC's story of a small businessman struggling under the Obama administration draws to a close.
+I tried to get eyes in focus, + Richard Kimbrough I let the nose suffer some blur as it was inevitable at f2.8
++ Nev Nels don't worry about deletes. I appreciate your POV + Jay Gould The cat was moving constantly. I was taking shots while playing with him trying to keep him interested enough. The original image is a bit wider and I have that round thing (tractor wheel) all in frame, but I felt it was competing with the main subject too much, so I cropped it, making it less obvious what it was. I have several other shots as well, but this one had more things going for it.
++ Nev Nels well, I wanted some farm equipment in the BG, so this was on purpose. The execution didn't match my vision, I guess
+What's wrong with the paw, + Matt Austin ?
+Thank you, + Nev Nels You are right. I didn't pay attention to all little things on that one.
++ Pierre Albert I didn't. Why? It is morning fog, in 5 minutes it would be a different scene.
++ Nev Nels the bottom part is not the subject. It is there to provide context. If I brighten it, it would take some attention away from the main subject and also make this fog less visible/mysterious, changing the mood of the shot.
++ David Watson they are still there. The photo has been taken at a small farm. I have not seen them using this particular tractor but it definitely runs.
+Shot more powerfully, + Nev Nels ? like a lower perspective? I have another shot of this tractor where it is more inline with the environment, but then you can't see as many details of that old machine.
++ Alex Galiano dynamic range of this photo is already pretty high as there is no high contrast between shadows and highlights. Combining different exposures wouldn't do much IMHO.
+Turns out E-Z Pass is tracking you everywhere in New York, not just tollbooths.
+technology makes it easier to violate privacy because often it is not even known to average person that violation happens. It is a brave new world out there
+A New Chapter If you haven't noticed, the pace and scope of the new + CyanogenMod features has really increased over the past few months. Here's why: I've been an indie developer for the past 2 years, and swore I would never work for a company again. Six month ago, + Steve Kondik made me an offer I couldn't refuse. We founded Cyanogen Inc to take + CyanogenMod to the next level. I'm incredibly excited to take all crazy ideas that pop into my head and execute them with a crack team and deliver them to an even larger audience. We'll be doing an AMA on reddit at 11:30AM Pacific, so feel free to ask us questions there! Also, now would be a good time to mention I am hiring engineers and designers. Contact me
++ Volodymyr Bohomolov can you elaborate a bit on the sharpness? Where should it be sharp?
++ Jay Gould it was taken with 1.7 aperture, DOF is very shallow, but mid flower is very sharp as far as I can tell. What part can be a bit sharper?
++ Jay Gould I would say it was slightly lower than the center dot. More on the edge on that central thing (stigma?)
++ Oleg Perejogin I wanted to catch light going through the petals at the top. Shooting from the top might be an interesting photo but it wouldn't have that effect.
+I actually reduced saturation on the flower to draw more attention to the bee...
+I started looking for a lens flare :-)... What can I say, I like shots against the sun...
+to what side + Raphael Drobot ? It looks perfectly symmetrical to me. I couldn't correct last 2 deg on both sides without cropping into the building but the building is not leaning to one side or another as far as I can tell.
++ Jay Gould Since I like to shoot against the sun, I am looking for lens flare when I compose. If I like how it works with the composition, I leave it. I don't add lens flare in post, if that's what you mean, but I am not against lens flare by itself. As to this image, the blank portion of the sky was small enough that it didn't bother me. It didn't create too much of dead space. But I see why you wouldn't like it.
+But there is no lens flare in this image + Jay Gould
+Ok, that was totally intentional. It has exactly the look I was going for...
+That was quick I managed to step on an anti-sepia audience this time.
++ Simon Osbaldeston I spent some straightening it. It looks pretty straight to me, but with this perspective it will always have some lines not being parallel. Grain is there on purpose. If you look at this photo in full screen it is more apparent. It's ok if some people don't find grain appealing (just like sepia or selective coloring). IMHO, it works well for this photo
++ Simon Osbaldeston the pole has not so slight lean to the left. Not everything has to be straight as it is not in real life I was considering removing the pole, but I actually liked it not being straight. Added to the overall "old house" feeling for me.
+There is no horizon in that photo + Stacey Lodge-Rittberg ﻿... Oh, and it's been deleted already ;-)
+Thank you Michael. I tend to go heavy on black slider in my images. I like them dark and contrasty So I decided to go the other direction with this one. As far as saturation goes... almost went with BW but I like rusty old things too much to get rid of the color.
++ Nev Nels I did use photomatix although I don't use presets. I just tweak the sliders until I like the result. The colors and few other things were then adjusted in lightroom and photoshop. For example, I desaturated colors and played with clarity which adds to a slightly surreal look but that's what I was after. Can you elaborate on what you mean by haze and color shift and maybe suggest how you would fix it? TIA
+Thank you + Nev Nels I got it. I've done this layering fix before and found it to be a quite involved process... I guess, I have to get better at it
+I can see the image. This one also has halos though
+I speak NO ze German and few other languages + Andrew Webb
++ Jennifer Adkins little white specks are indeed bugs with light reflected from them. I considered removing them but changed my mind. I actually like those little specks of light. And as + Jay Gould said, the pole is straight. That's where my straightening inner-jay went
+Is a flare necessary a bad thing?
+SE Linux - The Perfect Trojan Horse This article predates the Snowden revelations. Given that the NSA has a storied history of sabotaging secure solutions and algorithms with mathematical backdoors and "bugs"... should SE Linux really be a part of AOSP?
+A very good critique everyone! I hope it helps me to improve my compositional skills next time I shoot something similar. I did want to capture as much of that empty (no people) square as possible with a street going from it into the sunset, but I failed to realize that all those interesting elements in the square would compete for viewer's attention. ... and nothing to be sorry about +Zoltan Acs ;-) we all have different way to see and enjoy things. I obviously posted this photo because I thought it was good. It would make me interested in seeing that square in person.

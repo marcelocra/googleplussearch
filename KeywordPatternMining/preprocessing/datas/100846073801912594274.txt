@@ -1,0 +1,1 @@
+duel booting, where the OS that loads is decided by competition! That would be an intriguing display... watch <any given Linux distro> literally beat Windows on every boot

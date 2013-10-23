@@ -1,0 +1,1 @@
++ Marcus Schuff this is mainly a restriction of the chipset. And more USB 3.0 ports would also exceed the available bandwidth, I suppose. Or otherwise would restrict other interfaces like SATA or the number of available PCI-E lanes.

@@ -1,0 +1,1 @@
+If your on the preview, you need to edit your build number in order to use the upgrade feature to save programs and user docs. if you are on any other version of Windows 8, you can upgrade anytime. I did it with the RTM last month.

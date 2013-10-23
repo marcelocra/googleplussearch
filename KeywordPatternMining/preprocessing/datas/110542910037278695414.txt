@@ -1,0 +1,1 @@
+MX Player is fantastic, though I've found Dice Player to be a bit more stable and fast in some cases, especially streaming over network. I still use MX but fall back to Dice when something doesn't seem to work.

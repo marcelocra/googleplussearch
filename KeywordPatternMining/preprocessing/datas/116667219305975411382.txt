@@ -1,0 +1,1 @@
+Make android an APP and launch it in iStore and Windows Store :P

@@ -1,0 +1,2 @@
++ Alexander Maxham _Android needs battery optimization badly. Battery on stock Android is terrible compared to CM or another AOSP ROM on the same device._ While Android does need better battery optimization, you're statement is a little misleading. You don't get better battery by instantly flashing CM or AOKP, etc. You get better battery by running an undervolted kernel, which most of these custom ROMs come with.
+that's awesome man.

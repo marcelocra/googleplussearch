@@ -1,0 +1,1 @@
++ Marzio Massari , go to Play and look for Notification Toggle. It has different toggles and ability to add app icons, well, in the notification bar.

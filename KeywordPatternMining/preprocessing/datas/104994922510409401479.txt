@@ -1,0 +1,1 @@
+What is the output per port, and the total output. Many of these "active" hubs will only let you charge a total of 2A.

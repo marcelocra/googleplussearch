@@ -1,0 +1,1 @@
++ Artem Russakovskii So the front facing user experience will look like stock Google but all the settings menus, notifications panel, etc will still be Touchwiz or Optimus style? Or is it your understanding that the settings and such will be in the Google style as well?

@@ -1,0 +1,2 @@
++ Will Hayward I expect my Verizon Gnex to have it by days end
++ Eli Fonseca In not sure, I don't have any BT devices here to test. I'm pretty sure the change log says BT LE but I don't know about the 4.0 part.

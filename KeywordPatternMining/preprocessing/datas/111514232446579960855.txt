@@ -1,0 +1,1 @@
+Your battery issues seem to be some Google services wake lock which isn't that helpful because it touches everything. I had the same thing yesterday on my droid dna and it was resolved by me removing my Google account and readding it. It's annoying but idk how else it can be resolved other than turning off sync an app at a time to figure out which Google app is causing it.

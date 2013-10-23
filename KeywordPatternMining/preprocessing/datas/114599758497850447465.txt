@@ -1,0 +1,2 @@
+"TellSpec is a three-part system which includes: (1) a spectrometer scanner (2) an algorithm that exists in the cloud; and (3) an easy-to-understand interface on your smart phone." An algorithm?! In the cloud ?! WELL NOW I'M CONVINCED.
+On a more serious note, I think "Raman spectroscopy" is the "magic".

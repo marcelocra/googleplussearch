@@ -1,0 +1,2 @@
+other than T-Mobile, is there a carrier in the US that can make buying an off contract phone worth it?
++ Dave Altavilla would a OpenDNS filter on the wireless router help with the android devices? I guess if they have a data plan they can get around your wi-fi. There is a way to use openDNS on a rooted Android phone though.

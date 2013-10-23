@@ -1,0 +1,4 @@
+The comments are not disabled. How do you disable them?
+I want that blender!
+Did u receive the stability update?
+Change the 3 scales to 0.5 or 0 and run it again.

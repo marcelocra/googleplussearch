@@ -1,0 +1,3 @@
++ Felix Berthelmann Try double-clicking on any street to make a little flag, then click it and select street view.
++ Felix Berthelmann I don't understand what you mean, you can drive through as if you are on ground once you select the first road. Or did you mean you want to be able to see which roads are available to look at?
++ Felix Berthelmann Ah I see, I have seen the yellow lines showing which street you can go on, but I wasn't aware of this large map overlay.

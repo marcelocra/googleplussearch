@@ -1,0 +1,6 @@
+Are you getting a puppy?
++ Steve Kluver nailed it. This is just another form of the drug dealer's mantra "first hit's free". The first cheeseburger's free. Fatty Arubuckle here has to buy the next 5.
++ Tyler Bell except obesity takes a long time to kill someone and in the mean time they have multiple heart attacks, diabetes, strokes, etc., and they go to the emergency room and doctors save them, but they probably don't have health insurance, so everyone else gets to foot the bill.
+Did anyone else not get their free 10 GB of storage yet (for setting up Quickoffice and signing into your Google Drive account)?
+Thanks + Connor Shea , looks like my promotional 10 GB was applied recently too. (I should have checked again first... pardon the noise).
+How did the NSA get address books from Google in bulk, especially in 2012? From a quick search it looks like SSL with PFS was on by default starting in 2011, so sniffing Gmail users' web traffic at the backbone wouldn't work. Then again, 30,000 in a year isn't a lot given the number of daily active Gmail users. I guess these could be harvested from undetected man-in-the-middle attacks. I'm not sure how third-party clients interact with Gmail conctact data, but that seems like a potential weak-spot as well. (Picking on Google because I know it best).

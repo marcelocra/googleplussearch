@@ -1,0 +1,15 @@
+Yeah, uninstalled as well - wasn't running it full time yet as I haven't had a chance to really play with it yet... hopefully they fix this up asap as it really looked like an app with potential!
+Hmmm, that original link is gone now (the Waza_Be one).
+Weird, I can get to it sometimes, not others - stupid computer :P
+I've run into the same. You shouldn't have to but I've rooted mine, installed Lagfix and Franco Kernel. Noticed improvements for sure. Mine seems to lag most when I first turn it on/wake it up from sleep... I've just become used to turning it on, running Lagfix then everything seems to run o.k. I've also noticed that if it's updating apps from the Play Store it REALLY lags out... so I just don't do anything while it's updating.
+Also, and I think it's related a bit to Lagfix - there is (used to be?) an issue on some of the N7s where if you have less than 3GB of available space it really chugs.
+I've been having similar problems actually come to think of it now that you mentioned sound. I've had a couple times the sound just cuts right out and I can crank it to max and I have no sound. A reboot fixed that though and haven't seen it since... I wonder if one of the latest updates did something? I was just talking to a buddy and he mentioned that the latest update took care of the low disk space lagginess for him.
++ Mark Lastiwka quick question - if you turn wifi off, does it perform better? I just grabbed mine and I don't have wifi at work and it is seriously running just fine, sitting at 1.6GB of free space as well.... at home I've got it connected to my wifi and that's where I seem to notice most issues.
++ Mark Lastiwka True enough, it's just the one thing I know for a fact that is different for me between home and work... and granted, it could just be pulling the Jekyll & Hyde right now as well. Just curious to see if it's reproducible on another device having issues.
++ Shawn Blais yeah, that was supposedly rectified in 4.3 (and I do have others saying it was rectified for them in 4.3). I've freed up some so now I have 5.9GB free, going to run it for a couple days and see if the lag goes away, if not I'll try a factory reset and go from there.
++ Shawn Blais so the TRIM on 4.3 runs nightly then?
++ Rabid Rotty + Shawn Blais thanks for the info!
+Yeah, uninstalled as well - wasn't running it full time yet as I haven't had a chance to really play with it yet... hopefully they fix this up asap as it really looked like an app with potential!
+Hmmm, that original link is gone now (the Waza_Be one).
+Weird, I can get to it sometimes, not others - stupid computer :P
+I don't think it's bad etiquette to share the same link multiple times to RELEVANT communities. In that persons case though, I'd probably hide the community posting from my profile as it does look a bit odd. I post regularly to a couple Xbox communities and it bugs me seeing the post even twice on my profile page.

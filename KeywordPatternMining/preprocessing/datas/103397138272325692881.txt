@@ -1,0 +1,4 @@
+The apps should tell you how much data has been used ,,, YouTube is the biggest on mine so I try not watching YouTube videos while using data / 3G
+If you move the white sliders along it should just pull up those apps in that section ,, might be able to pinpoint the app easier.
+Just been looking online at the problem , the main one that keeps coming back is that an app is being , or has been downloaded but the download was cancelled but Android OS is still trying to download it in the background
+Still trying to find out more about this. It sounds like Android is calling home it could be backing up data to Googles servers ,,,, Settings / Backup & Reset untick the backup data part then see if that helps Also check Google apps ,, G+ instant upload switched off , Google Currents , sync switched off those sorts of things. Also could you check your Ram usage see if any apps are using an excessive amount of Ram. might give us a clue to what may be going on.

@@ -1,0 +1,1 @@
+I believe each user has to select 1 default app that manages sms (stock messaging app / hangouts / ...) only that app will receive the sms messages (to avoid duplicates)

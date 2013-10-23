@@ -1,0 +1,3 @@
+It's because HP and Microsoft are no longer friends.
+Yes the data show the PC market is shrinking -- both PC and mac desktops. People are moving to tablets and phones, i.e., mobile devices. Apparently on Amazon the 'hottest' device is the Chromebook: very low powered but sufficient for most things and only in the $300 range. The flipside is that all that computing power is shifting back to the server side after moving to the client side or the past few decades. Hence the interest in "clouds" and "big data". The sweet spot right now is the Haswell based macbook air (crazy long battery life and powerful enough for most things) or similar ultrabooks on the PC side. But not desktops.
+On the PC side we find Asus better than HP. YMMV

@@ -1,0 +1,2 @@
+TRUE THAT! Exactly what happened to me yesterday and it freaked the hell out of me! I cleared data from frameworks, download manager and playstore several times with no result, then I removed my google account cleared the above mentioned apps again, added my account again and now I got rid of the bug.
++ James King it gives you an error EVERYTIME you try to download/update an app from Google Play. A lot of people (like myself) are encountering this problem since yesterday.

@@ -1,0 +1,2 @@
+I've been doing this for at least a year now and recommending my family do the same, it is going to be one of those things that it takes people time to get accustomed to doing though.
+What if google did a pass-keep sort of thing? If you're using chrome, allow you to create a password profile that would allow you to auth to other sites utilizing the 2nd step?

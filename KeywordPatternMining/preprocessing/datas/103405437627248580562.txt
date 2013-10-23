@@ -1,0 +1,6 @@
+Actually I don't even see a reason why KitKat and the Nexus 5 should be released on the same day.
++ Artem Russakovskii I'm pretty sure you're proud being mentioned on that list ;-)
++ Artem Russakovskii As far as I understand the article apps can still send SMS even when not being the default app. However, they can not write into the database. Also it seems that this change has not security in mind but rather giving a well-defined way to create an app which fully replaces the preinstalled SMS app. You know, like Hangouts might do ;-)
++ Artem Russakovskii The security problem could be solved by AppOps (or even better, an improved version of AppOps which has certain permissions disabled on default and an iOS-like prompt when used the first time). The problems I see here is that this "new" API comes quite late. Will Hangout support SMS on Android versions prior to 4.4? Seems quite unlikely now.
+I only realized yesterday that this feature is missing. Nice!
+Now we only need an interface to include arbitrary instant messenger in Hangouts and the glory moments of webOS are back.

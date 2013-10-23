@@ -1,0 +1,1 @@
+...but the app currently set as the default SMS app is always responsible to write to the SMS Provider itself when it sends a message.

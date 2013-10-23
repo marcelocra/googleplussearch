@@ -1,0 +1,2 @@
+I have a box for a hardware store that states the contents are "M Tee Wall"
++ Marc Memphis I already tried looking up the UPC code. The only digit I could not read is the last one, so I tried all digits 0 - 9. It is not a valid UPC code.

@@ -1,0 +1,1 @@
+We have SMS \ Hangouts integration already working for a few months now here in Israel, but only for one carrier. It works really nice, I get SMS whenever I don't have data connection and I can even answer to hangouts messages through SMS.

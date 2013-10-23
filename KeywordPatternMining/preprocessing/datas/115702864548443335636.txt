@@ -1,0 +1,10 @@
+I think they want to build up inventory, to avoid repeating the shortage of last time. Waiting for the initial announcement is less frustrating than being unable to buy a phone you know you want, and less likely to end in recrimination and a sale lost to a concurrent. Also, offering the phone almost immediately for sale after the announcement is smart (and, credit where it's due, something Apple pioneered and delivered consistently, and that I think is appropriate). That means that if they have even slight production problems, it will delay the release.
++ Artem Russakovskii + David Ruddock I'd like to be nexusier, can you help? Where can I apply for a nexusification? [Awesome first paragraph. + Android Police has the best writers.]
+Dammit, America. The only places in the world where I would fear fake cops are all third-world shitholes. And now the USA.
+Yeah, technically speaking, how deep can Play Services modify a device? Has it "a kind of root" access? How does that work with the security systems put in place by manufacturers to check the integrity of the ROM?
++ Thomas Butter + Daniel Gray The website is in "SFR.fr" top domain because the leaker's website is hosted on the free hosting space offered by his internet provider. Most French internet providers do that. It is not affiliated in any way with SFR.
+I am left wondering what AOSP will become... I am not complaining, it won't disappear, modularity is a good thing, but what will it become? How much will the ROM makers have to build upon "pure" AOSP to shop something usable? Interesting times ahead.
+Interesting. And the kind of attention to details that will take Android from "nice" to "effortlessly enjoyable". When real designers take care of a project, it shows.
+Thank you so much for the tip.
+The only question worth asking is will we be able to cancel a download from the notification pane now?
+How will it work with my SMS history? Will it sync them? I have several devices (I move all the time across a border, and I kept my old Galaxy S as backup), each with a fraction of the SMSes I sent all those years.

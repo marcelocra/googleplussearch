@@ -1,0 +1,1 @@
+"you can continue listening for that broadcast if your app needs only to read special SMS messages". The way I read it, SMS_RECEIVED_ACTION was the old (unofficial) broadcast intent, and will still act in the same way, i.e. the receiving app to see the contents of the message.

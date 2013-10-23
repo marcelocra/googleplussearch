@@ -1,0 +1,2 @@
+Streaming is only capable through a computer. You would be able to download files to your tablet, smart phone, etc from your Central, but streaming is not capable through mobile devices.
+Yes you will be able to stream content remotely via a computer, through a remote access service that comes with the Seagate Central NAS.

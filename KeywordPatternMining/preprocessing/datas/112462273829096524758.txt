@@ -1,0 +1,2 @@
+Because PDAF on-sensor still doesn't perform as well as a dedicated AF sensor.. that's my guess.
+There is one thing that they missed - body-IS. If it had that, I'd seriously consider switching from my A99, getting the LA-EA4 and slowly transitioning from A-mount to E-mount. But no body-IS is a big deal to me.

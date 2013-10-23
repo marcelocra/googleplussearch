@@ -1,0 +1,2 @@
+I understand that the Aviate app needs to know this (to give you the information you need at an exact moment). But accessible to everyone online, I am not amused!
+I think that as long as Norway depend on Java (or Google finds a way to go around it) for BankID there won't be any official norwegian launch. Bit if you buy one in Sweden (where they are available) you do get norwegian/Scandinavian keyboard layout ;-)

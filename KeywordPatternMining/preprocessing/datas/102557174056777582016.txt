@@ -1,0 +1,1 @@
+This happened to my mother a couple of days ago. It said: keep a copy long time ago but we disabled it. Old fw account is dead and emails were being delivered to /dev/null with no local copy at all!

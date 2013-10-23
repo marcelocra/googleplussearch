@@ -1,0 +1,2 @@
++ Eric Schuetz They're working on fixing it, they've already revoked web access, as updated in the androidcentral article you posted.
+It's the 4.4 SDK update

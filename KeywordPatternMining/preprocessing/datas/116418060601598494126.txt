@@ -1,0 +1,1 @@
+Ahhh, kernel is still based on 3.0 I thought google will move Galaxy nexus to 3.8! Anyway, it does not really matter. I don't think I'm gonna update tp 4.3 untill Cyanogenmod will migrate to it. I can't use vanilla after CM. How it feels? Any noticeble difference in behavior/smoothness/battery life??

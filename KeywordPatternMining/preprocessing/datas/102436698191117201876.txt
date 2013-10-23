@@ -1,0 +1,1 @@
+Is this an unlocked version? If it is from the OS itself, maybe there is an error with the installation and it is sending diagnostics to Google? But I can't imagine it to be this big. Can you try turning off 3G for a day and see what happens?

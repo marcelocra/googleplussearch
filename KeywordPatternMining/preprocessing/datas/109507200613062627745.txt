@@ -1,0 +1,3 @@
+Great if you rely on built-in utilities. CCleaner serves most of my needs (mainly clearing browser caches-- 'sup Chrome?), but it's nice to have an easier way of killing off WinSxS safely.
++ Chris Lee That's correct. The question is "with what." Browsers don't just suck down random amounts of data on startup. The caches populate with pages in your session history and with images/media from the same. Cleaning every so often both keeps cache sizes down and is also rather fun. That's a bonus though, since browser caches have caused me no end of headache in the past.
+Not uncommon with Winsxs. Still not as silly as some of Lenovo's junk in their SW folders, but great on the whole.

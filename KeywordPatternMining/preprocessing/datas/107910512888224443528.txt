@@ -1,0 +1,4 @@
+try to set your sync to wifi only.. maybe its the google backupor something like that..
+..ordisable sync and look what happens ;-)
++ Germano Lisboa ..ok, try this, and look what the heck needs so much data!!!!: https://play.google.com/store/apps/details?id=jp.co.taosoftware.android.packetcapture&feature=search_result
+..or your google backup maybe, would explain, why after your factory reset it downloaded again!?

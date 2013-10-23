@@ -1,0 +1,6 @@
+have you tried to disable the backup on google servers... that's a serious draining anyway... I use to have 60/70% after 8 hours
++ Mark Lastiwka in general there is something wrong with the backup or media server (maybe a corrupted file?)
++ Mark Lastiwka try to install battery mix it gives you a more specific list of apps that drain your battery
+have you tried to disable the backup on google servers... that's a serious draining anyway... I use to have 60/70% after 8 hours
++ Mark Lastiwka in general there is something wrong with the backup or media server (maybe a corrupted file?)
++ Mark Lastiwka try to install battery mix it gives you a more specific list of apps that drain your battery

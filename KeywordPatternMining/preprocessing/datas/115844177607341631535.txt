@@ -1,0 +1,3 @@
++ Nick Felker it means within your voice setting its set to use voice all the time as the default, not that anything is integrated as of yet.. Settings>General>Making calls (4 options, yours being the 1st)
++ Nick Felker Actually, I'm an idiot.. thats for calls. The text settings are under Synchronization and notifications.. under Notifications, which only has 2 settings: GV app or Messaging app. Sorry for the initial mix up.
+With all the problems I've read about iMessage, I'm not mad at that at all. If that is in fact the case when it's released.

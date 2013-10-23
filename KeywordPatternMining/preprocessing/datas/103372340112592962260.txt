@@ -1,0 +1,1 @@
+Means that SMS scheduling apps will not be able to write to the database. Which is always good when you want to be sure the scheduled messages are actually sending.

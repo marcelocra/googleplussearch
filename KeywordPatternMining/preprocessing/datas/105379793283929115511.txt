@@ -1,0 +1,3 @@
+This is the best answer that Google can give to the claims of fragmentation. By doing this, Google can push updates to key parts of Android, regardless of the manufacturers whims.
++ Artem Russakovskii Do you believe that they'll do the same with other core apps like the phone app?
++ Jake Weisz TBH, I think that this might actually be a good thing for AOSP.

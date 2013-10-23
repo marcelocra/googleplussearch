@@ -1,0 +1,2 @@
+For people who's device doesn't show up in the web play store, If you go to Google dash using a devices browser it re registers the device ;p
+I haven't even bothered updating my n4 I will wait for cm, The playstore error that's happening happened to me when trying to update the playstore by clearing the cache

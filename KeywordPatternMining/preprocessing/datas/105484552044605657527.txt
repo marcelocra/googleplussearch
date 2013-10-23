@@ -1,0 +1,1 @@
+It would be cool if, for "endless loop", it said "Did you mean 'infinite loop'?"; and for, "infinite loop", it said "Did you mean 'endless loop'?"

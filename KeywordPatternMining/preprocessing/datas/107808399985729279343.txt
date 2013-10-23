@@ -1,0 +1,2 @@
+" Other apps that are interested in new messages can instead receive the SMS_RECEIVED_ACTION broadcast intent when a new SMS arrives. However, only the app that receives the SMS_DELIVER_ACTION broadcast (the user-specified default SMS app) is able to write to the SMS Provider"
+Sounds to me like they are saying you can read but not write using the second permissions set is read only, which is nice

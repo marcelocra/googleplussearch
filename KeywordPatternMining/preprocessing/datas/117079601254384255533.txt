@@ -1,0 +1,4 @@
++ Artem Russakovskii was AP invited to the Google Play event? Do you guys normally get invited to events?
+I just read a comment on /r/Android where someone said that there would be a new 2013 LTE Nexus 4 and a Nexus 5. Where the hell do these rumors come from?!
++ Artem Russakovskii if they are making previously hidden APIs public to use for Hangouts what is stopping them from using those hidden APIs in to enable SMS in Hangouts in Android are 4.4? Google uses their own hidden APIs all the time.
+I like how they use the Nexus One in their logo.

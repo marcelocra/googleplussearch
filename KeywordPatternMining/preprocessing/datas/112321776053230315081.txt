@@ -1,0 +1,2 @@
++ Artem Russakovskii As they're just publishing the (already existing) apis, Hangouts should be able to run sms in current android versions. But they wrote that devs should stop listening for the SMS_RECEIVED_ACTION, which seems to be the way of receiving sms right now. So it's pretty much impossible to say if Hangouts will support current versions but it's definitely possible ;)
++ David Loring I'd like the opt-in option. Give it to those who want it and those who don't care won't even notice. Seems like the perfect solution to me

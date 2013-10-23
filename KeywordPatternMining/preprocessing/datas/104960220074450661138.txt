@@ -1,0 +1,3 @@
++ Miha Kukovec the guy knows how to used the phone but was just careful enough not to leak the device owner or email... That's why he didn't touch g+, Gmail etc
+This is a prototype... So expect the final version a little different
+I watched it 3 times and found out that he was careful enough not to click on apps with signed in account, and anyway that build is an early build and very buggy.... And who h*ll are you to tell me what I shouldn't do?

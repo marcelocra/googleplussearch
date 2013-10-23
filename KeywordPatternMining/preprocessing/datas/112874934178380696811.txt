@@ -1,0 +1,1 @@
+Hey Kris! Thank you for reviewing Edge! I will investigate the issue you mentioned. Would you be able to replicate the bug?

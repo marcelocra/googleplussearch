@@ -1,0 +1,2 @@
+silly question: your not automatically downloading the latest CM roms are you?
+Time for some network sniffing? do you have a terminal you can run "netstat -tlp" on? (will that even run on android linux?)

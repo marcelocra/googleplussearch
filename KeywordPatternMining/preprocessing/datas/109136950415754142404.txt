@@ -1,0 +1,2 @@
+I had a HP z800 here for development work, tricked out with 96 gig of ram, 4 sata 10k drives in raid 5 with on-board raid and dual cpu 6 core Intel chips. Boy WHAT A DOG of a machine. I was hoping for a raid card, but the project ended to see if that would of improved the i/o performance.
+Just to add a positive note, it was a design dream on the inside of the machine, no tools necessary at all for anything!

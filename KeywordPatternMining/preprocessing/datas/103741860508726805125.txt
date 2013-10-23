@@ -1,0 +1,2 @@
+Other apps are still allowed to read the SMS database (if they have that permission in their manifest.)
++ Artem Russakovskii We've updated the blog post with some clarification that should address your question. Other apps with the appropriate permission can still send SMS messages, and if they do the system will write the messages they send on their behalf.

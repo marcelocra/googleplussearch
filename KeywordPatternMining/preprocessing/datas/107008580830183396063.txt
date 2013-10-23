@@ -1,0 +1,1 @@
+As far as I know, not, but it's based on public files in the Unicode standard. I use them to calculate the confusables in codepoints.net : https://github.com/Boldewyn/Codepoints.net/blob/master/codepoints.net/lib/codepoint.class.php#L214

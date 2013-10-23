@@ -1,0 +1,1 @@
++ Artem Russakovskii Is that supposed to be the HBO opening scene from GoT? Also, the missing codec might be a simple issue with the firmware, maybe someone forgot to uncomment a line before pressing the big red 'BUILD' button?

@@ -1,0 +1,2 @@
+Whoa. Too many awesome cameras coming out at once!
++ George Kalogeris confirmed on a7r: Full HD Movie at 24p/60i/60p with Uncompressed HDMI Output The a7R supports in-camera AVCHD codec frames rates in super-smooth 60p, standard 60i or cinematic 24p. MP4 codec is also available for smaller files for easier upload to the web. Also, it is possible to capture Full 1080 HD uncompressed clean-screen video files to external recording devices via an HDMI connection in 60p and 60i frame-rates.

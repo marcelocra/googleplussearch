@@ -1,0 +1,1 @@
++ Pavel Sikun It doesn't matter so much which version of the kernel you have. Code optimizations are more important. As they said 4.3 is a lot better. I think of it as x2 Butter.

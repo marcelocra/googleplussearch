@@ -1,0 +1,2 @@
+There is an option in the GV app to receive messages via the current stock Message app, so integration may be available sooner than we think. In fact, if you send GV texts to the Message app and retrieve voicemail through the dialer (which the current GV app supports too), there would be no need to interact with the GV app except for set up. And that could be integrated into settings.
+Oops, didn't get that far down, but if we've hit on this, integration into Hangouts looks entirely possible. Maybe that's why they've let the app languish aside from occasional bug fixes.

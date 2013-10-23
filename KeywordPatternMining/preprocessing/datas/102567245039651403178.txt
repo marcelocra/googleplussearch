@@ -1,0 +1,81 @@
++ Sony PlayStation has just announced the price for the ps4 in brazil, and it's a ridiculous R$3999 (about U$1830), they've given no explanation of why it's so expensive, It's almost 2x the price of the xbox one here, that's just sad So, I'll not be playing knack and killzone next month, but maybe I'll be playing ryse and titanfall, or maybe something on a new gaming pc
++ Sony PlayStation has just announced the price for the ps4 in brazil, and it's a ridiculous R$3999 (about U$1830), they've given no explanation of why it's so expensive, It's almost 2x the price of the xbox one here, that's just sad So, I'll not be playing knack and killzone next month, but maybe I'll be playing ryse and titanfall, or maybe something on a new gaming pc
++ Ryan B the taxes for videogames here is of 72% over the total price, Which would account for something around 680 us dollars
++ Darryl Sokoloski good ideia! I just saw that buying from amazon UK and paying the import taxes would actually be over 50% cheaper than the nacional price. (almost 1000 us dollars, but a lot cheaper nonetheless)
++ Nick King the taxes are very high, that's why the xbox one costs R$2200 here, which is U$1003 as of today. But microsoft is paying the same taxes as sony, and their console is a 100 dollars more expensive. There's no reason for why the ps4 is 800 dollars more expensive than the xbox one, other than the simple fact that sony doesn't give a crap about the gamers community they've praised so much
+Just got it, can't wait to get started!!
+I'm between this and the last of us for GOTY
+I didn't preorder the ps4, only because it still doesn't have a final price here in Brazil, although there is a confirmed release date. But I'm not abandoning my ps3 once I get the ps4, I'll keep playing both, until ps3 exclusive games stop appealing to me
++ Thomas Wagner I stopped in the beggining of the desert yesterday, gonna keep playing it today!
+I noticed this today. I get different results when I search for my own stuff on my phone or tablet, I looked at the settings on both, and they are exaclty alike, I tryed everything I knew and got nothing. Does anyone have a suggestion? ps: search results on my pc come exactly as they do on the phone
+The same version as the phone
+The only thing I can't seem to get is when I ask for my own pictures, all other queries have returned the same as the phone
+I have just tryed a soft reset, and the results are still the same O.o
+also, prior to the reset I had the "ok google" hotword, now it reverted back to just "google"
++ Holger Jakobs , personalised results are not the problem, they are consistent across different devices (phone and pc). The problem is that, for some reason, my tablet doesn't show the same results as the other devices when I ask for my personal stuff, I thought it was a google now issue, but it extends to chrome as well
+I won candy on the #googlebirthday doodle! Score: 166
+I recently tried those "new" google now commands, like "where am I" or to show my personal pictures, and while all of them worked just fine on my n4, most did not work on my n10, where it just returned common search results. Both are running stock 4.3, the latest version of google search app, and have the exact same settings. Does anyone have a suggestion?
+But they should work on any device, right?
+The curious part is that these commands are working on my phone
+I'm loving it! Add me if you want to play Diablo or bf3 Hellfenstens
++ Marlon Pancho Mancia the gameplay and menus are very good, I liked it better than the PC version (I'm not a big fan of mouse+keyboard unless it's a fps)
+I would wait if it was a launch title for ps4
+Blizzard has announced it for 2014, with no exact date
+My morning playing it was magical, it's definitely worth the 60 dollars (imo)
+Hey, everyone Just a heads up If someone tells you to clear data or cache on Google framework services in order to get the OTA. DO NOT LISTEM!! clearing it will get you in a nasty bug that won't allow you to download or update anything from Google play I've seen a lot of people doing it since yesterday, and if you're one of those, you need to go to settings, remove your Google account and add it again in order to fix it
++ James Bricknell me too, but now it does give you that nasty bug, and isn't guaranteed you get the OTA
++ Denis Lehane I've used it before as well, but we didn't have the same frameworks and play services then
++ James King it shows a error message every time you try to download or update something from google play
++ James King I have tried it yesterday, not only I didn't get the update, I was unable to download from the play store
++ Alexandre Kasakewitch + Mark Lessans I just noticed my n4 doesn't show on desktop play store too, but my n10 does
++ Mark Lessans i'm just gonna wait for 4.3, if that doesn't fix, then I'll do a factory reset (I hate doing that)
+Going through my old pictures, I've found this gif google+ created for me
+The naked truth
+Hey guys, I've been having an issue with dasclock widget and the feedly extension. Instead of showing my unread count on the widget, it says "Configure this extension with a valid account". I've tryed reinstalling both apps, logout and login again several times on feedly, but I wasn't able to make it work. It used to work just fine, and then it just stopped! I'd appreciate if someone could share a thought here
+Beautiful city with great pizza, what else could a man ask for?
+Hey, guys, I've been having an issue with my n4's screen. The glass scratches too easily!! New scratches appear almost every week, from hairline thin to very deep ones I've had 5 android phones before it, and this is the first one to have a scratch on the screen, despite being the one that I treated most carefully. Is anyone else noticing this, or my phone came from a bad batch?
+I know about sand, but I'm never near sand! I have no idea how these scratches keep coming
++ Omar Sa'd I know it's not that hard to scratch it, I've had phones with GG before, I also hate screen protectors and take extremely good care of my phones, that's why I find it weird that my n4 is too much scratched on both front and back glasses, I can count more than 10 lines on each side, from very thin to very deep
++ Michael Ruocco in my defense, that picture was before buying the phone, and 6 thousand miles away from home, I don't live, work, study anywhere near sand
+I forgot about that
+Hey guys, I already own a nexus 4, and now I'm going to buy a tablet, but I'm not sure if I should get the nexus 7 or the 10. Can someone who's got both of them share some thoughts here?
++ James Crenshaw my main use for the tab will be home browsing/gaming and some books, and I also intend to use it for college stuff, mostly reading and taking notes
++ christopher rizzo how long does the 7" battery last?
++ Adam Truelove + Kevin Daniel I won't the able to buy the new 7", both tablets can't be bought here in Brazil, and I'm going to be in the US for a week in may, that's when I'll buy it
+And thank you all for helping me decide, I'm going to get the 10". Is it for sale on any physical store or just on Google play?
+Is it just on my phone, or did Google now stop showing an answer card when you search for an actor's bacon number, just showing search results instead?
+Hey guys, I'm having a issue with data consumption on my n4, the " android os" is using mobile data like there's no tomorrow, I've even tried a full factory reset and couldn't solve this, if I leave 3g on it consumes as much as 200mb per hour. It just started a few weeks after I got the phone. Android os used to consume as little as 1mb/day before that If anyone's had been through this before, I'd really appreciate any suggestion
++ Jason Playne I reverted back to stock unrooted Android to try to fix + Burk Manson , after the factory reset it stopped for a few days, but it's back on today and I haven't installed any new app
+Just one Google account, both music and currents set to sync via WiFi only. And a dropbox account that I barely use
+Also turned off, I do not have access to magazines in my country
++ Jason Playne I don't have the skills to do it, I'm a beginner on the Linux world, I'm just a user yet
++ Haydn Jones I'm trying onavo counter now, all I got is that it's not the android os that's sucking data, it's the core apps
+No, I'm not tethering anything. I've read a thread on xda and someone suggested it's related to the Google backup, so I turned it off yesterday and my data consumption didn't increase since, my battery also seems to be lasting longer
+My android os has been consuming data like a black hole, both 3g and WiFi, and I have no idea what may he causing this. Does anyone have the same problem?
+They do tell me where my data is going, (YouTube, chrome etc...) But the "android os" label is consuming far more data than everything else
+On the last 2 days, android os consumed almost 200mb of mobile data, while google+ (the 2nd biggest data transfer) used less than 4mb
+Looks like instant upload sync is stuck, I'm starting to think about a factory reset
+I just noticed that my instant upload is set to WiFi only, there's gotta be another reason for the mobile data consumption
+yes, currents sync is turned off for about 15 days now
+I did a factory reset on saturday, it was going great so far, but today android os just ate 150mb of mobile data in less than 2 hours!! I don't know what else to do now
+I'm gonna try this packet capturer, my music sync is set to Wi-Fi only
+I've read on forums some people also saying it's the Google backup that causes this ridiculous data consumption, I'm gonna try turning it off and wait to see if it helps
+I've turned Google backup off and back on for about an hour now, and android os did not download a single mb so far, it's too soon to say for sure, but it seems that turning it off and on again may have reset whatever was eating my data
+Aaaaand no, it's not fixed, android os just got another 20mb of data in 30 minutes. Thank you all for your help. I'm gonna try to contact + Google + Nexus over this, I'm done trying to figure it out
+hey guys, I've just started the 12 week program today. I'm gonna take a picture everyday and share them all at once when I'm done
+I've been having a problem with the contacts sync, as you can see from the screen shot, my contacts just won't sync anymore since December 22, I've tried everything except a full reset. This lead my phone "android os" to spend more than 1gb of mobile data, and almost 3gb over wifi on the last month, because it keeps unsuccessfully trying to sync. Does anyone have a suggestion? I'm running stock, unrooted, android 4.2.1
+thank you + Alfonso Rocha , it syncs now, but the little circle with the arrows doesn't disappear, it just stays static after the sync is completed
+Why does it only appear for the contacts?
+When I turn it off and on again it circles a few times, show the sync as completed and stays there, static
+I use haxsync to get my contacts their facebook profile photo, tried unistalling it but it didn't help. I have deleted my google account from the phone and synced everything again from scratch. The circles is still visible after syncing the contatcs (it disappears after syncing on every other option)
+Since the nexus 7 isn't for sale in Brazil, I gave my brother this unique + Google + Nexus "fridge tablet"
+I would've taken a better picture, but all I had with me was my phone at the time
+I've had the gnex, and now I use a nexus 4, but I'm yet to own a nexus tablet
+Here it is, if you want to download
+I took it with my n4 The small white line on the left is the international space station
+I haven't, but I'll take a look, thanks!
+Taken with my nexus 4. The iss (small horizontal white line on the left) over Brasília's sunset
+I've got my nexus 4 for about a month now, it's really a incredible phone, but the front screen scratches too easily! Is it just me, or has anyone had the same problem? My old Motorola RAZR has suffered quite a few drops, and I never used any kind of case or screen protector on it, and it's screen is without any mark. I fell like there's a new scratch on the nexus every day
++ Ryan B the taxes for videogames here is of 72% over the total price, Which would account for something around 680 us dollars
++ Darryl Sokoloski good ideia! I just saw that buying from amazon UK and paying the import taxes would actually be over 50% cheaper than the nacional price. (almost 1000 us dollars, but a lot cheaper nonetheless)
++ Nick King the taxes are very high, that's why the xbox one costs R$2200 here, which is U$1003 as of today. But microsoft is paying the same taxes as sony, and their console is a 100 dollars more expensive. There's no reason for why the ps4 is 800 dollars more expensive than the xbox one, other than the simple fact that sony doesn't give a crap about the gamers community they've praised so much

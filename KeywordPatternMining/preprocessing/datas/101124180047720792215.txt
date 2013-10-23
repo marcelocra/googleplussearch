@@ -1,0 +1,3 @@
+The work around for the inability to download from the Play Store is to then remove your Google account from the settings menu and immediately re-sign in again. Hey presto all is good again. Doing the cache clear does and has worked for people, so you should try it, but follow my details about the Google account.
+Ok + Germano Lisboa try what I said and get back to me.
+No + Jesus Bryant you haven't lost anything.

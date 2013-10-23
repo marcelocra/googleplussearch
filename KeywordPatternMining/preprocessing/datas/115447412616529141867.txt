@@ -1,0 +1,4 @@
+If Google waits too much for unveiling the Nexus 5, they may miss part of the holiday season.
+The device seems not that responsive at times.
+Here is the second part of the report: https://plus.google.com/+SamanthaCristoforetti/posts/KJ6n9HojWiL
+Is it technically possible for the new Hangouts to correctly dispatch incoming SMS/MMS to specific matching conversations they may be replies to?
