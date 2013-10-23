@@ -63,8 +63,9 @@ else:
     #print('{s} => {c}'.format(s = testfeat, c = classifier.classify(testfeat)))
 
 
-outputfiles = [ "output_audi_posts.txt", "output_bmw_posts.txt", "output_driving_posts.txt", "output_imdb_posts.txt", "output_iphone_posts.txt", "output_music_posts.txt", "output_posts.txt", "output_racing_posts.txt", "output_randomposts.txt", "output_technology_posts.txt", "output_television_posts.txt"]
+#outputfiles = [ "output_audi_posts.txt", "output_bmw_posts.txt", "output_driving_posts.txt", "output_imdb_posts.txt", "output_iphone_posts.txt", "output_music_posts.txt", "output_posts.txt", "output_racing_posts.txt", "output_randomposts.txt", "output_technology_posts.txt", "output_television_posts.txt"]
 
+outputfiles = ["output_audi_posts.txt", "output_bmw_posts.txt", "output_driving_posts.txt", "output_imdb_posts.txt", "output_iphone_posts.txt", "output_microsoft_posts.txt", "output_music_posts.txt", "output_posts.txt", "output_racing_posts.txt", "output_randomposts.txt", "output_sony_posts.txt", "output_technology_posts.txt", "output_television_posts.txt"]
 
 
 for f in outputfiles:
@@ -73,7 +74,7 @@ for f in outputfiles:
     testPosts = t.readlines()
 
     newf = "new_" + f
-    n = codecs.open("outputs/" + newf, "a+", "utf-8")
+    n = codecs.open("new_outputs/" + f, "a+", "utf-8")
     newPosts = n.readlines()
 
     for line in testPosts:
