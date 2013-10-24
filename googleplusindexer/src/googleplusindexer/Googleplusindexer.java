@@ -29,7 +29,10 @@ import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+import java.util.Random;
 import org.apache.lucene.document.DoubleField;
+import org.apache.lucene.search.BooleanClause.Occur;
+import org.apache.lucene.search.BooleanQuery;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 
@@ -39,16 +42,17 @@ private static String indexPath = "index";
 static char doublequote = 34; //char "
 static char singlequote = 39; //char '
 
-  private static void addDoc(IndexWriter w, String postfile) throws IOException, org.json.simple.parser.ParseException, Exception {
+  private void addDoc(IndexWriter w, String postfile) throws IOException, org.json.simple.parser.ParseException, Exception {
       
 	try{
         //Initiates variables
         BufferedReader reader = new BufferedReader(new FileReader(postfile));
         String line = null;
         String text = null;
-        double number = 0;
         JSONParser parser = new JSONParser();
 	int i=0;
+        Postclassifier classifier= new Postclassifier();
+        classifier.initclassifier();
         //Add Document
 		while ((line = reader.readLine()) != null) {
                     System.out.println("Adding and classifying post #" + i + " ...");
@@ -62,22 +66,16 @@ static char singlequote = 39; //char '
                     doc.add(new TextField("userName", text, Field.Store.YES));
                     text = (String) jsonObject.get("userID"); 
                     doc.add(new StringField("userID", text, Field.Store.YES));
-                    number = (double) jsonObject.get("sentiment_score"); 
-                    doc.add(new DoubleField("sentiment_score", number, Field.Store.YES));
+                    text = (String) jsonObject.get("sentiment_polarity"); 
+                    doc.add(new StringField("sentiment_polarity", text, Field.Store.YES));
                     text = (String) jsonObject.get("postID"); 
                     doc.add(new StringField("postID", text, Field.Store.YES));
                     text = (String) jsonObject.get("cleanContent"); 
                     doc.add(new TextField("cleanContent", text, Field.Store.YES));
-                    
-                    //Classify post and put it on field : NaiveBayes,IBK,SMO
+                    //Classify post and put it on field
                     String post = text.replace(doublequote,singlequote);
-                    Postclassifier classifier= new Postclassifier();
-                    text = classifier.classifypost(post,"model/postNaiveBayes.model");
-                    doc.add(new StringField("NaiveBayes", text, Field.Store.YES));
-                    text = classifier.classifypost(post,"model/postIBk.model");
-                    doc.add(new StringField("IBk", text, Field.Store.YES));
-                    text = classifier.classifypost(post,"model/postSMO.model");
-                    doc.add(new StringField("SMO", text, Field.Store.YES));
+                    text = classifier.GetClass(post);
+                    doc.add(new StringField("Class", text, Field.Store.YES));
                     w.addDocument(doc);
                     i++;
          }
@@ -86,7 +84,7 @@ static char singlequote = 39; //char '
 	}
   }
   
-  public static void createIndex(boolean update,String postfile) throws IOException, org.json.simple.parser.ParseException, Exception
+  public void createIndex(boolean update,String postfile) throws IOException, org.json.simple.parser.ParseException, Exception
   {
     System.out.println("Building Indexes...." );
     //Create Analyzer
@@ -108,47 +106,72 @@ static char singlequote = 39; //char '
     addDoc(w,postfile);
     w.close();
     System.out.println("Build/Update Indexes from " + postfile + " is completed with field:");
-    System.out.println("userName,userID,sentiment_score,postID,cleanContent,Label1,Label2,Label3");
+    System.out.println("userName,userID,sentiment_polarity,postID,cleanContent,Class");
     
   }
   
-  public static void queryparser(String args) {
+  public void Search(String userquery,String Field) throws ParseException, IOException {
 	/* HANDLE THE QUERY */
+    Analyzer analyzer = new StandardAnalyzer(Version.LUCENE_40);
+    //Testing simple QUERY with user Name
+    Query q = new QueryParser(Version.LUCENE_40,Field, analyzer).parse(userquery);
+    //Search Index
+    searchIndex(q);
   }
   
-  public static void searchIndex(Query q) throws IOException,ParseException {
+    public void SearchwithTopic(String userquery,String Field,String Topic) throws ParseException, IOException {
+	/* HANDLE THE QUERY */
+    Analyzer analyzer = new StandardAnalyzer(Version.LUCENE_40);
+    //Testing simple QUERY with user Name
+    Query q = new QueryParser(Version.LUCENE_40,Field, analyzer).parse(userquery);
+    Query q2 = new QueryParser(Version.LUCENE_40,"Class", analyzer).parse(Topic);
+    BooleanQuery finalQuery = new BooleanQuery();
+    finalQuery.add(q, Occur.MUST); // MUST implies that the keyword must occur.
+    finalQuery.add(q2, Occur.MUST); // Using all "MUST" occurs is equivalent to "AND" operator.
+    //Search Index
+    searchIndex(finalQuery);
+  }
+  
+  public void searchIndex(Query q) throws IOException,ParseException {
     //search
     int hitsPerPage = 100;
     Directory index = FSDirectory.open(new File(indexPath));
-    IndexReader reader = DirectoryReader.open(index);
-    IndexSearcher searcher = new IndexSearcher(reader);
-    TopScoreDocCollector collector = TopScoreDocCollector.create(hitsPerPage, true);
-    searcher.search(q, collector);
-    ScoreDoc[] hits = collector.topDocs().scoreDocs;
-    
-    //display results
-    System.out.println("Found " + hits.length + " hits.");
-    for(int i=0;i<hits.length;++i) {
-      int docId = hits[i].doc;
-      Document d = searcher.doc(docId);
-      System.out.println((i + 1) + ". " + d.get("userName") + ", " + d.get("cleanContent")+", "+ d.get("SMO")+", "+ d.get("NaiveBayes")+", "+ d.get("IBk"));
+    try (IndexReader reader = DirectoryReader.open(index)) {
+        IndexSearcher searcher = new IndexSearcher(reader);
+        TopScoreDocCollector collector = TopScoreDocCollector.create(hitsPerPage, true);
+        searcher.search(q, collector);
+        ScoreDoc[] hits = collector.topDocs().scoreDocs;
+        
+        //display results
+        System.out.println("Found " + hits.length + " hits.");
+        for(int i=0;i<hits.length;++i) {
+          int docId = hits[i].doc;
+          Document d = searcher.doc(docId);
+          System.out.println((i + 1) + ". " + d.get("userName") + ", " + d.get("cleanContent")+", "+ d.get("Class"));
+        }
     }
-    reader.close();
   }
   
   public static void main(String[] args) throws IOException, ParseException, org.json.simple.parser.ParseException, Exception {
     
     //Build Index
-    createIndex(false,"post/output_randomposts.txt");  
-    Analyzer analyzer = new StandardAnalyzer(Version.LUCENE_40);
-    
-    //Testing simple QUERY with user Name
-    String querystr = "Jenny Sheen";
-    Query q = new QueryParser(Version.LUCENE_40, "userName", analyzer).parse(querystr);
-    
-    System.out.println("Testing Simple Query\nQuery Result:\n");
-    //Search Index
-    searchIndex(q);
-
+    Googleplusindexer GG = new Googleplusindexer();
+    /*
+    GG.createIndex(false,"post/output_randomposts.txt");
+    GG.createIndex(true,"post/output_television_posts.txt");
+    GG.createIndex(true,"post/output_audi_posts.txt");
+    GG.createIndex(true,"post/output_bmw_posts.txt");
+    GG.createIndex(true,"post/output_driving_posts.txt");
+    GG.createIndex(true,"post/output_imdb_posts.txt");
+    GG.createIndex(true,"post/output_iphone_posts.txt");
+    GG.createIndex(true,"post/output_microsoft_posts.txt");
+    GG.createIndex(true,"post/output_music_posts.txt");
+    GG.createIndex(true,"post/output_racing_posts.txt");
+    GG.createIndex(true,"post/output_posts.txt");
+    */
+    String myquery = "Apple";
+    String Field = "cleanContent";
+    GG.Search(myquery,Field);  
+    GG.SearchwithTopic(myquery, Field, "technology");
   }
 }
